@@ -1,0 +1,7 @@
+Links:
+https://www.virtualbox.org/wiki/Downloads?replytocom=98578
+https://www.ubuntu.com/download/desktop
+
+Download Desktop Ubuntu - Current version is 16.04
+
+Download VirtualBox - Current version 5.1
