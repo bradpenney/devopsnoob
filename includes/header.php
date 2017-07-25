@@ -56,7 +56,7 @@
                       <ul class="dropdown-menu">
                         <li><a href="<?= $siteRoot; ?>programming/python.php">Python</a></li>
                         <li><a href="<?= $siteRoot; ?>programming/java.php">Java</a></li>
-                        <li><a href="<?= $siteRoot; ?>programming/php.php">PHP</a></li>
+                        <li><a href="<?= $siteRoot; ?>programming/php.php">PHP &amp; MySQL</a></li>
                         <li><a href="<?= $siteRoot; ?>programming/frontEndWeb.php">Front-End Web Dev</a></li>
                       </ul>
                     </li>
