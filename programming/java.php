@@ -27,7 +27,7 @@
                                 Book Recommendation
                             </h4>
   							<ul class="noDecoration">
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/Book-Recommendations/Herbert-Schildt" target="_blank">Herbert Schildt's <em>Java: A Beginner's Guide</em>, 6th ed.</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/Book-Recommendations/Herbert-Schildt" target="_blank">Herbert Schildt's <em>Java: A Beginner's Guide</em>, 6th ed.</a></li>
   							</ul>
   						</li>
   						<li class="list-group-item">
@@ -35,9 +35,9 @@
                                 Introductory Programs
                             </h4>
   							<ul class="noDecoration">
-  								<li><a href="https://github.com/bradpenney/javaLearning/blob/master/HelloWorld.java" target="_blank">Obligatory First Program: Hello World</a></li>
-  								<li><a href="https://github.com/bradpenney/javaLearning/blob/master/ArrayAverager.java" target="_blank">Averaging the Values of An Array</a></li>
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/SwapMethodDemo" target="_blank">Swapping the Values of Objects via a Method</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/blob/master/HelloWorld.java" target="_blank">Obligatory First Program: Hello World</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/blob/master/ArrayAverager.java" target="_blank">Averaging the Values of An Array</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/SwapMethodDemo" target="_blank">Swapping the Values of Objects via a Method</a></li>
   							</ul>
   						</li>
   						<li class="list-group-item">
@@ -45,9 +45,9 @@
                                 Sorting Algorithms
                             </h4>
   							<ul class="noDecoration">
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/BubbleSort" target="_blank">Bubble Sort</a></li>
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/BubbleSortString" target="_blank">Bubble Sort for Strings</a></li>
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/QuickSort" target="_blank">QuickSort: A Recursive Sorting Algorithm</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/BubbleSort" target="_blank">Bubble Sort</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/BubbleSortString" target="_blank">Bubble Sort for Strings</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/QuickSort" target="_blank">QuickSort: A Recursive Sorting Algorithm</a></li>
   							</ul>
   						</li>
   						<li class="list-group-item">
@@ -55,10 +55,10 @@
                                 Computer Science Concepts &amp; Data Structures
                             </h4>
   							<ul class="noDecoration">
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/QueueDemonstration" target="_blank">Data Structure: Queue Demonstration</a></li>
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/StackDemo" target="_blank">Data Structure: Stack Demonstration</a></li>
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/RecursionDemo" target="_blank">Recursion Demonstration</a></li>
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/StringCipher" target="_blank">Cryptography: Cipher that Uses a String as a Key</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/QueueDemonstration" target="_blank">Data Structure: Queue Demonstration</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/StackDemo" target="_blank">Data Structure: Stack Demonstration</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/RecursionDemo" target="_blank">Recursion Demonstration</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/StringCipher" target="_blank">Cryptography: Cipher that Uses a String as a Key</a></li>
   							</ul>
   						</li>
   						<li class="list-group-item">
@@ -66,9 +66,9 @@
                                 Java Specific Elements
                             </h4>
   							<ul class="noDecoration">
-  								<li><a href="https://github.com/bradpenney/javaLearning/blob/master/VarargsDemo.java" target="_blank">Varargs Demonstration</a></li>
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/PackagesDemonstration" target="_blank">Packages Demonstration</a></li>
-  								<li><a href="https://github.com/bradpenney/javaLearning/tree/master/InterfaceDemo" target="_blank">Interface Demonstration</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/blob/master/VarargsDemo.java" target="_blank">Varargs Demonstration</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/PackagesDemonstration" target="_blank">Packages Demonstration</a></li>
+  								<li><a href="https://github.com/bradpenney/learningJava/tree/master/InterfaceDemo" target="_blank">Interface Demonstration</a></li>
   							</ul>
   						</li>
   					</ul>

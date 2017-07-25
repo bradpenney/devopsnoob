@@ -14,8 +14,13 @@ body {
      height: 100%;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     font-family: 'Aladin', cursive;
+}
+
+.navbar-brand {
+  font-family: 'Aladin', cursive;
+  font-size: 1.75em;
 }
 
 h4 {
@@ -90,7 +95,7 @@ td {
     list-style: none;
     margin-left: 0px;
     padding-left: 0px;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .cleanList li {

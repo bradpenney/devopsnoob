@@ -31,6 +31,16 @@
             							</ul>
                         </li>
                         <li class="list-group-item">
+                          <h4>Video Playlist: Django Tutorials for Beginners</h4>
+                          <iframe class="wideVideo" src="https://www.youtube.com/embed/qgGIqRFvFFk?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK" allowfullscreen></iframe>
+                          <p>
+                            This is an excellent beginner tutorial series on how to create a simple Django project.  As always, Bucky is concise and to the point about what needs to be done.  A word of caution: Bucky assumes you know the basics of Python and Bootstrap in this series.
+                          </p>
+                          <ul class="noDecoration">
+            								<li><a href="https://github.com/buckyroberts/Viberr" target="_blank">Bucky's Source Code (via GitHub)</a></li>
+            							</ul>
+                        </li>
+                        <li class="list-group-item">
                             <h4><a href="https://docs.python.org/3/" target="_blank">Python 3.6 Official Documentation</a></h4>
                         </li>
             						<li class="list-group-item">
