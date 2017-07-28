@@ -1,4 +1,4 @@
-<?php $title = 'Learn PHP & MySQL @ DevOpsNoob.com'; ?>
+<?php $title = 'Learn PHP @ DevOpsNoob.com'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
@@ -13,7 +13,7 @@
                       <ol class="breadcrumb">
                           <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>index.php">Home</a></li>
                           <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>programming.php">Learn Programming</a></li>
-                          <li class="breadcrumb-item active">Learn PHP &amp; MSQL</li>
+                          <li class="breadcrumb-item active">Learn PHP </li>
                       </ol>
                       <p>
                           PHP is a server-side scripting language which allows websites to be dynamic and interact with databases.  Unlike a static front-end HTML5 and CSS3 page, a PHP page uses the power of the webserver to process user requests and update the information displayed on a website.  PHP is used massively thoughout the web-programming industry, giants like Facebook and Google have used PHP extensively.  There are lots of PHP resources available and as I find good resources I'll post links to them below.  Also, I'll be developing some small sample scripts and posting them here as I explore the language.  Enjoy!

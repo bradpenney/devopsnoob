@@ -41,25 +41,26 @@
                   <ul class="nav navbar-nav">
                     <li class="active"><a href="<?= $siteRoot; ?>index.php">Home</a></li>
                     <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Systems Administration<span class="caret"></span></a>
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programming<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="<?= $siteRoot; ?>programming/python.php">Python</a></li>
+                        <li><a href="<?= $siteRoot; ?>programming/java.php">Java</a></li>
+                        <li><a href="<?= $siteRoot; ?>programming/php.php">PHP</a></li>
+                        <li><a href="<?= $siteRoot; ?>programming/frontEndWeb.php">Front-End Web Dev</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Systems Admin<span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="<?= $siteRoot; ?>sysAdmin/linux.php">Linux</a></li>
                         <li><a href="<?= $siteRoot; ?>sysAdmin/windows.php">Windows</a></li>
                         <li><a href="<?= $siteRoot; ?>sysAdmin.php">Resources</a></li>
                       </ul>
                     </li>
+                    <li><a href="<?= $siteRoot; ?>dbadmin.php">Database Admin</a></li>
                     <li><a href="<?= $siteRoot; ?>hardware.php">Hardware</a></li>
                     <li><a href="<?= $siteRoot; ?>networking.php">Networking</a></li>
                     <li><a href="<?= $siteRoot; ?>security.php">Security</a></li>
-                    <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programming<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="<?= $siteRoot; ?>programming/python.php">Python</a></li>
-                        <li><a href="<?= $siteRoot; ?>programming/java.php">Java</a></li>
-                        <li><a href="<?= $siteRoot; ?>programming/php.php">PHP &amp; MySQL</a></li>
-                        <li><a href="<?= $siteRoot; ?>programming/frontEndWeb.php">Front-End Web Dev</a></li>
-                      </ul>
-                    </li>
                   </ul>
                 </div>
               </div>
