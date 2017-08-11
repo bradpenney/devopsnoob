@@ -20,7 +20,7 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                         <p>
-                          <a href="hardware/PCAssemblyGuide.pdf" target="_blank"><img class="thumbnail centered" src="./images/hardware/PCAssemblyGuideScreenshot.png"></a>
+                          <a href="hardware/PCAssemblyGuide.pdf" target="_blank"><img class="thumbnail centered img-responsive" src="./images/hardware/PCAssemblyGuideScreenshot.png"></a>
                         </p>
                         <p>
                           Above is an assignment I completed for a course in Hardware.  I was tasked with creating a PC Assembly Guide, aimed at non-technical colleagues who would receive PC parts and have to assemble them into a working computer.
@@ -28,7 +28,7 @@
                       </li>
                       <li class="list-group-item">
                         <p>
-                          <a href="hardware/thousandDollarGamingComputer.pdf" target="_blank"><img class="thumbnail centered" src="./images/hardware/thousandDollarGamingComputerScreenshot.png"></a>
+                          <a href="hardware/thousandDollarGamingComputer.pdf" target="_blank"><img class="thumbnail centered img-responsive" src="./images/hardware/thousandDollarGamingComputerScreenshot.png"></a>
                         </p>
                         <p>
                           Above is an assignment I completed for a course in Hardware.  I was tasked with creating a $1000 gaming computer, including monitor.  The build outlines the best I could do under such an extremely limited budget!

@@ -31,7 +31,7 @@
                       </li>
                       <li class="list-group-item">
                         <p>
-                          <a href="windows/pdfs/activeDirectory.pdf" target="_blank"><img class="thumbnail centered" src="../images/sysAdmin/windows/activeDirectory.jpg"></a>
+                          <a href="windows/pdfs/activeDirectory.pdf" target="_blank"><img class="thumbnail centered img-responsive" src="../images/sysAdmin/windows/activeDirectory.jpg"></a>
                         </p>
                         <p>
                           Above is an assignment about Active Directory that I completed for a course in Windows Server Administration.  The questions about Active Directory and its role in Windows Servers were specifically provided by the instructor.
