@@ -1,8 +1,8 @@
-<?php $title = 'Learn Front-End Web Development @ DevOpsNoob.com'; ?>
+<?php $title = 'Learn HTML5 & CSS3 @ DevOpsNoob.com'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn Front-End Web Development @ DevOpsNoob.com</h1>
+        		<h1>Learn HTML5 &amp; CSS3 @ DevOpsNoob.com</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">
@@ -13,22 +13,12 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>index.php">Home</a></li>
                         <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>programming.php">Learn Programming</a></li>
-                        <li class="breadcrumb-item active">Learn Front-End Web Development</li>
+                        <li class="breadcrumb-item active">Learn HTML5 &amp CSS3</li>
                     </ol>
                     <p>
                        Front-end web development is absolutely ubiquitous in the computer industry.  There is no more basic skill that a DevOps professional should have.  However, DevOps professionals do not need to master <i>web design</i> (an entirely different field which requires artistic creativity).  A clear understanding of how <i>web development</i> works is adequate (knowledge of how to implement a web design).  This section will concentrate on HTML5, CSS3, and JavaScript.
                     </p>
                     <ul class="list-group">
-                      <li class="list-group-item">
-                        <h4>Video: Create Particle Effects With Particles.js</h4>
-                        <iframe class="wideVideo" src="https://www.youtube.com/embed/qK3cgD09Qf0" allowfullscreen></iframe>
-                        <p>
-                          Adding a little zing with JavaScript isn't new to the web.  However, this ParticlesJS is a fairly fresh library that you can add to a site relatively easily.  I followed the stellar tutorial offered by Traversy Media and incorporated the effect into my personal portfolio website:
-                        </p>
-                        <ul class="noDecoration">
-                          <li><a href="http://www.bradpenney.ca" target="_blank">BradPenney.ca</a></li>
-                        </ul>
-                      </li>
                       <li class="list-group-item">
                         <h4>Video: Basic Parallax Website With HTML &amp; CSS </h4>
                         <iframe class="wideVideo" src="https://www.youtube.com/embed/JttTcnidSdQ" allowfullscreen></iframe>

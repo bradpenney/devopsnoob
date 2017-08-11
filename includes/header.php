@@ -1,6 +1,6 @@
 <?php
     //  path should be '/' in production and '/devopsnoob/' in testing
-    $siteRoot = '/devopsnoob/';
+    $siteRoot = '/';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,7 +27,7 @@
 
     <body>
         <div id="wrap">
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
               <div class="container-fluid">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -46,7 +46,8 @@
                         <li><a href="<?= $siteRoot; ?>programming/python.php">Python</a></li>
                         <li><a href="<?= $siteRoot; ?>programming/java.php">Java</a></li>
                         <li><a href="<?= $siteRoot; ?>programming/php.php">PHP</a></li>
-                        <li><a href="<?= $siteRoot; ?>programming/frontEndWeb.php">Front-End Web Dev</a></li>
+                        <li><a href="<?= $siteRoot; ?>programming/javascript.php">JavaScript</a></li>
+                        <li><a href="<?= $siteRoot; ?>programming/frontEndWeb.php">HTML5 &amp; CSS3</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">

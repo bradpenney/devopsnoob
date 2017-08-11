@@ -20,6 +20,14 @@
                       </p>
                       <ul class="list-group">
                         <li class="list-group-item">
+                          <p>
+                            <a href="https://nbviewer.jupyter.org/github/bradpenney/jupyterNotebooks/blob/master/Introduction%20to%20Python%20-%20Jupyter%20Notebook.ipynb" target="_blank">Jupyter Notebook - Introduction to Python</a>
+                          </p>
+                          <p>
+                            Check out my Jupyter notebook which introduces Python.  It's an evergrowing resource for the absolute beginner to Python.
+                          </p>
+                        </li>
+                        <li class="list-group-item">
                           <h4>Video: 7 Simple Tricks To Write Better Python Code</h4>
                           <iframe class="wideVideo" src="https://www.youtube.com/embed/VBokjWj_cEA" allowfullscreen></iframe>
                           <p>
