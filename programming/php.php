@@ -2,7 +2,7 @@
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn PHP &amp; SQL @ DevOpsNoob.com</h1>
+        		<h1>Learn PHP @ DevOpsNoob.com</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">
@@ -22,12 +22,18 @@
                         <li class="list-group-item">
                             <p>
                                 <a href="https://github.com/bradpenney/dataDropDatabasePublic" target="_blank">Data Drop Database</a>
+
                                 <a href="https://github.com/bradpenney/dataDropDatabasePublic" target="_blank"><img class="thumbnail centered" src="../images/programming/dataDropDatabaseScreenshot.png"></a>
                             </p>
                             <p>
                               I've created a simple network drop database tool that is essentially a MySQL database that runs off a PHP website.  In essence, a website queries a simple database that holds information about data drops in a building.  Users can search by data drop number, VLAN, room number, rack, switch, and other parameters.  Users can also insert, update and delete information within the GUI.  This is all published under an open-source software license (<a href="https://choosealicense.com/licenses/gpl-3.0/" target="_blank">GPL v3.0</a>), so anyone can freely use it as long as they share any improvements they make!
                             </p>
                         </li>
+                        <!--<li class="list-group-item">
+                          <p>
+                            <a href="<?= $siteRoot; ?>programming/php/introToPHP.php">Intro to PHP</a>
+                          </p>
+                        </li>-->
                         <li class="list-group-item">
                             <p>
                                 <a href="https://secure.php.net/manual/en/" target="_blank">Official PHP Documentation</a>
