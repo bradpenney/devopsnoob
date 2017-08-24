@@ -160,4 +160,18 @@ td {
 #accordion h4 {
   font-size: 1.25em;
 }
+
+/***** MEDIA QUERIES *****/
+
+@media(max-width:925px) and (min-width: 771px){
+  .jumbotron {
+    margin-top: 60px;
+  }
+}
+
+@media(max-width:770px) and (min-width: 768px){
+  .jumbotron {
+    margin-top: 100px;
+  }
+}
 /************************************/
