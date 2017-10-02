@@ -1,6 +1,6 @@
 <?php
     //  path should be '/' in production and '/devopsnoob/' in testing
-    $siteRoot = '/';
+    $siteRoot = '/devopsnoob/';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -58,7 +58,15 @@
                         <li><a href="<?= $siteRoot; ?>sysAdmin.php">Resources</a></li>
                       </ul>
                     </li>
-                    <li><a href="<?= $siteRoot; ?>dbadmin.php">Database Admin</a></li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Database Admin<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="<?= $siteRoot; ?>database/dbAdmin.php">DB Admin Theory</a></li>
+                        <li><a href="<?= $siteRoot; ?>database/dbDev.php">DB Development</a></li>
+                        <li><a href="<?= $siteRoot; ?>database/SQL.php">SQL</a></li>
+                        <li><a href="<?= $siteRoot; ?>db.php">Resources</a></li>
+                      </ul>
+                    </li>
                     <li><a href="<?= $siteRoot; ?>hardware.php">Hardware</a></li>
                     <li><a href="<?= $siteRoot; ?>networking.php">Networking</a></li>
                     <li><a href="<?= $siteRoot; ?>security.php">Security</a></li>

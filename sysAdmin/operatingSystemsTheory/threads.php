@@ -34,10 +34,7 @@
 					</p>
 					<h3>Processes vs Threads</h3>
 					<p>
-						Threads and processes are different but similar.  A process defines the address space, text, resources, and so on needed to complete some unit of work for a computer complete.  A thread defines a single sequential execution stream within a process.  So a thread can be thought of as a unit within a process (assuming that the programmer has designated threads). There can be many threads within a process, and many processes within a computer.  Threads are bound to a single process and cannot go outside the process. Within each process, the address space is shared and no system calls are required to cooperate amongst threads.  This is much more simple and efficient than message passing or shared memory among processes (<a href="https://intro2operatingsystems.wordpress.com/2016/04/07/operating-systems-process-management/">cooperating processes discussion</a>).
-					</p>
-					<p>
-						All modern operating systems support multithreading.  This means that all modern OS's can support one or many address spaces, with one or many threads per address space.  Even Windows 95 supported multithreading!
+						Threads and processes are different but similar.  A process defines the address space, text, resources, and so on needed to complete some unit of work for a computer complete.  A thread defines a single sequential execution stream within a process.  So a thread can be thought of as a unit within a process (assuming that the programmer has designated threads). There can be many threads within a process, and many processes within a computer.  Threads are bound to a single process and cannot go outside the process. Within each process, the address space is shared and no system calls are required to cooperate amongst threads.  This is much more simple and efficient than message passing or shared memory among processes (<a href="https://intro2operatingsystems.wordpress.com/2016/04/07/operating-systems-process-management/" target="_blank">cooperating processes discussion</a>).  All modern operating systems support multithreading.  This means that all modern OS's can support one or many address spaces, with one or many threads per address space.  Even Windows 95 supported multithreading!
 					<p>
 					<h3>Kernel Threads</h3>
 					<p>
@@ -84,9 +81,10 @@
 					</p>
 					<h3>Further Resources</h3>
 					<p>
-						<a href="http://www.cs.iit.edu/~cs561/cs450/ChilkuriDineshThreads/dinesh's%20files/User%20and%20Kernel%20Level%20Threads.html">User and Kernel Level Threads</a>
+						<a href="http://www.cs.iit.edu/~cs561/cs450/ChilkuriDineshThreads/dinesh's%20files/User%20and%20Kernel%20Level%20Threads.html" target="_blank">User and Kernel Level Threads</a>
 					</p>
 				</article>
+        <br />
 			</div>
 			<div class="col-md-2">
 			</div>

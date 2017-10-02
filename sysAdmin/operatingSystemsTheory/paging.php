@@ -106,8 +106,8 @@
 					<p>
 						The major drawback of segmented paging is the additional computing overhead is generates; context switches are slower because they have to update segment tables, page tables and possibly the TLB.  Overall, however, segmented paging is a preferred choice for most operating system designers as the benefits usually outweigh the costs.
 					</p>
-
 				</article>
+        <br />
 			</div>
 			<div class="col-md-2">
 			</div>

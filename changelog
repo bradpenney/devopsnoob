@@ -1,14 +1,7 @@
-May 9, 2017
-1.) Added PCAssemblyGuide to /devopsnoob/hardware
-2.) Created a Screenshot of PCAssemblyGuide and added it /devopsnoob/images/hardware
-3.) Added link in /devopsnoob/hardware.php to PCAssemblyGuide pdf.  Ensure link works as well as picture.
-4.) Added a link to /devopsnoob/sysAdmin/windows to a link about Windows Image Mass Deployment.  Check format/link
+September 19th, 2017
+Started new page on Securing Cisco Switches
+needs to be fully populated and then linked.
 
-May 11th, 2017
-1.) Changed all article tags to <h4> instead of <p> to make site consistent
-2.) Added a link to an article about Dell Switch CLI to /devopsnoob/networking.php
+Check out the resources that Chris has on his D2L.  Dan's Courses in particular.
 
-XXXXXXXXXXXXXXXX Changes Uploaded XXXXXXXXXXXXXXXXXXXXXXx
-
-May 18th, 2017
-1.) Added sections to /devopsnoob/sysAdmin/linux/BASHCommands.  Check format.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxx

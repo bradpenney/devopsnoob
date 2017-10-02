@@ -17,7 +17,17 @@
                     <p>
                         Databases are ubiquitous in computing.  From the behemoth databases of Facebook and Google, down to the tiny databases that a small business might maintain, users interact with databases on a daily basis.  This page outlines some of the open-soucre database projects I've worked on, some of the resources I use and find to be excellent:
                     </p>
+                    <br />
                     <ul class="list-group">
+                      <li class="list-group-item">
+                        <h4><a href="<?= $siteRoot; ?>database/dbAdmin.php">Learn Database Administration Theory</a></h4>
+                      </li>
+                      <li class="list-group-item">
+                        <h4><a href="<?= $siteRoot; ?>database/dbDev.php">Learn Database Development</a></h4>
+                      </li>
+                      <li class="list-group-item">
+                        <h4><a href="<?= $siteRoot; ?>database/SQL.php">Learn SQL</a></h4>
+                      </li>
                       <li class="list-group-item">
                         <h4>Video: NoSQL vs SQL: a Database Tutorial - Differences and advantages of NoSQL and SQL </h4>
                         <iframe class="wideVideo" src="https://www.youtube.com/embed/Jt_w2swkXAk" allowfullscreen></iframe>
@@ -40,14 +50,6 @@
                           <p>
                             I've created a simple network drop database tool that is essentially a MySQL database that runs off a PHP website.  In essence, a website queries a simple database that holds information about data drops in a building.  Users can search by data drop number, VLAN, room number, rack, switch, and other parameters.  Users can also insert, update and delete information within the GUI.  This is all published under an open-source software license (<a href="https://choosealicense.com/licenses/gpl-3.0/" target="_blank">GPL v3.0</a>), so anyone can freely use it as long as they share any improvements they make!
                           </p>
-                      </li>
-                      <li class="list-group-item">
-                        <p>
-                          <a href="https://www.w3schools.com/sql/default.asp" target="_blank">W3Schools.com SQL Tutorial</a>
-                        </p>
-                        <p>
-                          The W3Schools SQL tutorial is super useful and a go-to resource for anyone wishing to become a competent Database Administrator.
-                        </p>
                       </li>
                     </ul>
                   </div>

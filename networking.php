@@ -25,6 +25,12 @@
                         </p>
                       </li>
                       <li class="list-group-item">
+                        <h4><a href="./networking/ciscoRouterCommands.php">Cisco Router Commands</a></h4>
+                        <p>
+                          A quick reference to really common Cisco router configuration commands.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
                         <h4><a href="http://en.community.dell.com/support-forums/network-switches/f/866/t/19445143" target="_blank">Example Dell Switch Commands</a></h4>
                         <p>
                           Dell switches, although less used than Cisco switches, are still often encountered in the IT industry.  Here are a few examples of Dell switch commands (CLI) in case you encounter and need some help getting started.

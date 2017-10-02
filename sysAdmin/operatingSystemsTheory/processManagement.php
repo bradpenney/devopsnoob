@@ -136,6 +136,7 @@
 						A process is the unit of execution in a computer. Processes are represented as Process Control Blocks in the operating system. PCBs contain process state, scheduling, and memory management information for each process.  A process is either <em>new</em>, <em>ready</em>, <em>waiting</em>, <em>running</em>, or <em>terminated</em>.  On a uniprocessor (old), there is at most one process <em>running</em> at a time.  Modern multicore computers will <em>run</em> at least one process per core (quad-core is most common in 2016) but often are handling hundreds of processes in various states.  The program currently executing on the CPU is changed by performing a context switch.  Processes communicate either with message passing or shared memory.
 					</p>
 				</article>
+        <br />
 			</div>
 			<div class="col-md-2">
 			</div>

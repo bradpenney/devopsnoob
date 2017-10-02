@@ -27,7 +27,7 @@
 					</p>
 					<h3>Secondary Storage</h3>
 					<p>
-						For a brief overview of storage device form factors, check out the article <a href="https://aplusjourney.wordpress.com/2016/05/10/storage-devices/">Storage Devices from A+ Journey</a>.  The amount of time it takes to access a hard disk is known as Disk I/O Time.  It is a combination of these factors:
+						For a brief overview of storage device form factors, check out the article <a href="https://aplusjourney.wordpress.com/2016/05/10/storage-devices/" target="_blank">Storage Devices from A+ Journey</a>.  The amount of time it takes to access a hard disk is known as Disk I/O Time.  It is a combination of these factors:
 					<ol>
 						<li><strong>Seek Time</strong> - the position of the read/write head over the platter (cylinder).  The faster the head moves to its new position, the faster the data can be read.</li>
 						<li><strong>Rotational Delay</strong> - the cylinder will usually need to rotate to get the data under the read-write head.  The amount of time it takes for the rotation to occur is its latency.  The faster the disk rotates, the less latency.</li>
@@ -51,7 +51,7 @@
 					</p>
 					<h3>Disk Head Scheduling</h3>
 					<p>
-						Similar to <a href="https://intro2operatingsystems.wordpress.com/2016/04/12/operating-systems-cpu-scheduling/">CPU Scheduling</a>, the operating system employs the hard disk controller to schedule access to the hard disk.  As disk requests arrive from the user, the disk scheduler rearranges the requests with the goal of minimizing Disk I/O time.  Some disk head scheduling algorithms include:
+						Similar to <a href="https://intro2operatingsystems.wordpress.com/2016/04/12/operating-systems-cpu-scheduling/" target="_blank">CPU Scheduling</a>, the operating system employs the hard disk controller to schedule access to the hard disk.  As disk requests arrive from the user, the disk scheduler rearranges the requests with the goal of minimizing Disk I/O time.  Some disk head scheduling algorithms include:
 					<ol>
 						<li>First-Come, First-Served (FCFS)</li>
 						<li>Shortest-Seek Time First (SSTF)</li>
@@ -89,14 +89,14 @@
 					</p>
 					<h3>Solid State Disks</h3>
 					<p>
-						For another discussion of Solid-State drives, consult <a href="https://aplusjourney.wordpress.com#ssd">Solid-State Drives from A+ Journey</a>.  SSDs use flash storage for random access to their data, there are no moving parts within an SSD.  This translates to very fast reads, but writes are slower because instead of overwriting data, data is written to a new empty block.  The old block is marked for garbage collection is eventually erased (in the background).  Each block only has a certain number of writes over its lifetime, so SSDs eventually wear out.  Of course, traditional hard drives often fail over time as well due to the moving parts inside.
+						For another discussion of Solid-State drives, consult <a href="https://aplusjourney.wordpress.com#ssd" target="_blank">Solid-State Drives from A+ Journey</a>.  SSDs use flash storage for random access to their data, there are no moving parts within an SSD.  This translates to very fast reads, but writes are slower because instead of overwriting data, data is written to a new empty block.  The old block is marked for garbage collection is eventually erased (in the background).  Each block only has a certain number of writes over its lifetime, so SSDs eventually wear out.  Of course, traditional hard drives often fail over time as well due to the moving parts inside.
 					</p>
 					<p>
 						SSDs have much faster access times and are becoming commonplace in modern desktops, laptops, and tablets.  It is very common for a computer to store its operating system and user applications on an SSD, and have a traditional hard drive for storage of user files.
 					</p>
 					<h3>Tertiary Storage</h3>
 					<p>
-						For a discussion of tape drives and optical drives, consult <a href="https://aplusjourney.wordpress.com#opticalMedia">Optical Media from A+ Journey </a>and <a href="https://aplusjourney.wordpress.com#tapeDrive">Tape Drives from A+ Journey</a>.  The falling cost of tertiary storage means that backing up data, even in several versions, should be done regularly.
+						For a discussion of tape drives and optical drives, consult <a href="https://aplusjourney.wordpress.com#opticalMedia" target="_blank">Optical Media from A+ Journey </a>and <a href="https://aplusjourney.wordpress.com#tapeDrive" target="_blank">Tape Drives from A+ Journey</a>.  The falling cost of tertiary storage means that backing up data, even in several versions, should be done regularly.
 					</p>
 					<h3>RAID Storage</h3>
 					<p>
@@ -107,6 +107,7 @@
 						Storage devices are slow compared to the internal workings of a computer; the CPU and main memory interact at a much faster rate than data can be read from or written to storage devices.  Operating system designers are very concerned about increasing the efficiency of accessing data found on a storage device overcome the "weakest link in the chain".  A good operating system design can help to overcome slow disk I/O, and thereby create an overall faster, more efficient operating system.
 					</p>
 				</article>
+        <br />
 			</div>
 			<div class="col-md-2">
 			</div>
