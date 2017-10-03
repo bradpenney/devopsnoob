@@ -37,7 +37,10 @@
                         <img class="img-responsive centered noFigure" alt="Devops" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Devops.svg/512px-Devops.svg.png"/></a>
                 </div>
                 <div class="col-md-2">
+<<<<<<< HEAD
                   <?php include './includes/googleAdsSidebar.php'; ?>
+=======
+>>>>>>> 1fb24e3ec3cae09c46a79d60276c773ac32196d0
                 </div>
             </div>
           </div>

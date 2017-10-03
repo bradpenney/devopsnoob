@@ -68,7 +68,7 @@
 					</p>
 					<h3>Layered Operating System Design</h3>
 					<p>
-						Another approach to operating system design is the layered approach.  Each layer of the kernel uses the layer below it to build the overall structure, with each layer providing new functionality to the kernel.  Central to the design of this approach is that each layer will only talk to the layer above and below it.
+						Another approach to operating system design is the layered approach.  Each layer of the kernel uses the layer below it to build the overall structure, with each layer providing new functionality to the kernel.  Central to the design of this approach is that each layer will only talk to the layer above and below it.                      <br />
 					</p>
 					<p>
 						The advantages of the layered approach are that it is simple and modular - there are only two (2) possible communications points.  This makes it easier to debug for the designer, as there is only one layer to debug at a time.
@@ -101,6 +101,7 @@
 						The design and implementation of an operating system involves constant tradeoffs between <em>simplicity</em> and <em>performance</em>.  As a general rule, designers strive for simplicity except when there is a strong reason to make a particular component more complicated in order to achieve acceptable performance.
 					</p>
 				</article>
+        <br />
 			</div>
 			<div class="col-md-2">
 			</div>

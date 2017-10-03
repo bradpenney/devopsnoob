@@ -189,6 +189,7 @@
 						It is important to remember that we have not factored context switching into this discussion, which is actually an important factor in real-world models.
 					</p>
 				</article>
+        <br />
 			</div>
 			<div class="col-md-2">
 			</div>

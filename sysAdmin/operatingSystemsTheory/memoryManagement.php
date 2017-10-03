@@ -160,6 +160,7 @@
 						Paging is a form of dynamic relocation, where each virtual address is bound by the paging hardware to a physical address.  It may be easier to think of the page table as a set of relocation registers, one for each frame.  Mapping is invisible to the process; the operating system maintains the mapping and the hardware will perform the translation.  Protection is provided with the same mechanisms as used in dynamic relocation.
 					</p>
 				</article>
+        <br />
 			</div>
 			<div class="col-md-2">
 			</div>

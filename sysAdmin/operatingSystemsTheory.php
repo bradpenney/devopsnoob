@@ -18,6 +18,7 @@
                       <p>
                           All Operating Systems, whether they be Windows, Mac or Linux begin from the same place: create a piece of software that allows applications to interact with hardware.  To act as a "middle-man" between the two.  In this section, we'll spend some time learning what an operating system is, from a fundamental (theoretical) perspective.  The lessons herein are not specific to Linux, Windows or Mac, but rather to understand how an operating system handles the needs of the prgram and the needs of the hardware.
                       </p>
+                      <br />
                       <ul class="list-group">
                           <li class="list-group-item">
                             <h4>
@@ -26,32 +27,32 @@
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="operatingSystemsTheory/processManagement.php">Article: Process Management</a>
+                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/processManagement.php">Article: Process Management</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="operatingSystemsTheory/cpuScheduling.php">Article: CPU Scheduling</a>
+                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/cpuScheduling.php">Article: CPU Scheduling</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="operatingSystemsTheory/threads.php">Article: Threads</a>
+                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/threads.php">Article: Threads</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="operatingSystemsTheory/memoryManagement.php">Article: Memory Management</a>
+                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/memoryManagement.php">Article: Memory Management</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="operatingSystemsTheory/paging.php">Article: Paging and Segmentation</a>
+                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/paging.php">Article: Paging and Segmentation</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="operatingSystemsTheory/massStorage.php">Article: Mass Storage and Disk Scheduling</a>
+                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/massStorage.php">Article: Mass Storage and Disk Scheduling</a>
                             </h4>
                           </li>
                       </ul>
