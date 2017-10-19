@@ -23,7 +23,7 @@
                       <p>
                       </p>
                       <p>
-                        <strong><span class="glyphicon glyphicon-arrow-right"></span> Next Up: <a href="<?= $siteRoot; ?>/projectManagement/qualityManagement.php">Project Quality Management</a></strong>
+                        <strong><span class="glyphicon glyphicon-arrow-right"></span> Next Up: <a href="<?= $siteRoot; ?>projectManagement/qualityManagement.php">Project Quality Management</a></strong>
                       </p>
                     </div>
                   </div>

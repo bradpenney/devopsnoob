@@ -46,7 +46,7 @@
                       <h3>What is Project Management?</h3>
                       <p>
                         Project Management is categorized into five (5) process groups, which essentially translate into five phases of a project:
-                        <ol>
+                        <ol class="textList">
                           <li>Initiating</li>
                           <li>Planning</li>
                           <li>Executing</li>
@@ -76,7 +76,7 @@
                         A project manager is the leader of the team that is attempting to fulfill the requirements of a project.  The project manager is ultimately responsible for the project's success or failure.  Successful project managers have knowledge in the project area, are highly motivated and able to manage a wide variety of responsiblities.  They are also personally effective at "achieving project objectives and balancing the project constraints" through excellent attitudes and leadership abilities.<sup><a href="#fn5" id="ref5">5</a></sup>  Obviously, excellent interpersonal skills are critical to the sucess of project manager.  The ability to empathize with others while still achieving goals is a difficult balance, but project managers must master this skill in order to succeed.
                       </p>
                       <p>
-                        <strong><span class="glyphicon glyphicon-arrow-right"></span> Next Up: <a href="<?= $siteRoot; ?>/projectManagement/organizationalInfluencesLifeCycle.php">Organizational Influences and Project Management Life Cycle</a></strong>
+                        <strong><span class="glyphicon glyphicon-arrow-right"></span> Next Up: <a href="<?= $siteRoot; ?>projectManagement/organizationalInfluencesLifeCycle.php">Organizational Influences and Project Management Life Cycle</a></strong>
                       </p>
                       <hr />
                       <div class="footnote">

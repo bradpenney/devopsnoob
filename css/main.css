@@ -78,6 +78,7 @@ td {
   padding: 5px;
 }
 
+
 /***** CLASSES *****?
 
 /* Remove the navbar's default margin-bottom and rounded borders - from original template */
@@ -138,6 +139,10 @@ td {
 
 .col2 {
   text-align: left;
+}
+
+.textList {
+  font-size: 1.2em;
 }
 
 /***** IDs *****/

@@ -1,6 +1,6 @@
 <?php
     //  path should be '/' in production and '/devopsnoob/' in testing
-    $siteRoot = '/devopsnoob/';
+    $siteRoot = '/';
 ?>
 <!DOCTYPE html>
 <html lang="en">
