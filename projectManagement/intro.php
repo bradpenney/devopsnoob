@@ -40,7 +40,7 @@
                         It is sometimes unclear as to where a project fits within the hierarchy of a business.  It is unlikely that an entire business would be based on only one project.  Rather, most successful businesses are based at least on a <em>program</em> - a collection of projects.  Large businesses are usually based on a <em>portfolio</em> - a collection of programs.  This is illustrated below:
                       </p>
                       <figure>
-                        <img class="img-responsive centered" src="<?= $siteRoot; ?>images/projectManagement/portfolioProgramProjects.png">
+                        <img class="img-responsive centered noShadow" src="<?= $siteRoot; ?>images/projectManagement/portfolioProgramProjects.png">
                         <figcaption>A Porfolio contains Programs, which contain Projects</figcaption>
                       </figure>
                       <h3>What is Project Management?</h3>
