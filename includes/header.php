@@ -31,7 +31,7 @@
               <div class="container-fluid">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
+                    <span  class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
@@ -86,9 +86,9 @@
                         <li><a href="<?= $siteRoot; ?>projectManagement.php">Project Management Resources</a></li>
                       </ul>
                     </li>
-                    <li><a class="topbar" href="<?= $siteRoot; ?>hardware.php">Hardware</a></li>
+                    <!--<li><a class="topbar" href="<?= $siteRoot; ?>hardware.php">Hardware</a></li>-->
                     <li><a class="topbar" href="<?= $siteRoot; ?>networking.php">Networking</a></li>
-                    <li><a class="topbar" href="<?= $siteRoot; ?>security.php">Security</a></li>
+                    <!--<li><a class="topbar" href="<?= $siteRoot; ?>security.php">Security</a></li>-->
                   </ul>
                 </div>
               </div>

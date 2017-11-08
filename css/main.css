@@ -37,9 +37,17 @@ h1, h2, h3 {
   background-color: #39587F;
 }
 
+ul .nav .navbar-default .navbar-nav {
+  background-color: #39587F;
+}
+
 .topbar {
   background-color: #39587F !important;
   color: #fff !important;
+ }
+
+ .navbar-header .navbar-toggle .icon-bar {
+     background-color: #fff;
  }
 
  .dropdown-menu a {
@@ -49,6 +57,7 @@ h1, h2, h3 {
  .nav.navbar-nav li a {
     color: #fff;
   }
+
 
 h4 {
     font-weight: bold;
@@ -195,13 +204,13 @@ td {
 }
 
 /***** MEDIA QUERIES *****/
-
+/*
 @media(max-width:1115px) and (min-width: 771px){
   .jumbotron {
     margin-top: 100px;
   }
 }
-
+*/
 @media(max-width:770px) and (min-width: 768px){
   .jumbotron {
     margin-top: 100px;
