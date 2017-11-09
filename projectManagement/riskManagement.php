@@ -21,10 +21,21 @@
                           This information is based in large part on the PMBOK&reg; Guide, 5th ed.  The eleventh chapter of this guide is "Project Risk Management" and the following is a brief synopsis of that chapter.
                       </p>
                       <p>
+                        <blockquote>
+                          Project Risk Management includes the processes of conducting risk management planning, identification, analysis, response planning, and controlling risk on a project.<sup><a href="#fn1" id="ref1">1</a></sup>
+                        </blockquote>
                       </p>
+                      <figure>
+                        <img class="img-responsive centered noShadow" src="<?= $siteRoot; ?>images/projectManagement/riskManagement.png">
+                        <figcaption>Project Risk Management Processes</figcaption>
+                      </figure>
                       <p>
                         <strong><span class="glyphicon glyphicon-arrow-right"></span> Next Up: <a href="<?= $siteRoot; ?>projectManagement/procurementManagement.php">Project Procurement Management</a></strong>
                       </p>
+                      <div class="footnote">
+                        <sup id="fn1">1. A Guide to the Project Management Body of Knowledge: (PMBOK<sup>&reg;</sup> Guide). (2013). Pennsylvania: Project Management Institute. pp. 309<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup><br />
+                      </div>
+                      <br />
                     </div>
                   </div>
                   <div class="col-md-2">
