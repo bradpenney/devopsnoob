@@ -37,20 +37,6 @@
                         </p>
                       </li>
                       <li class="list-group-item">
-                        <h4>Video: Introduction to Basic Networking</h4>
-                        <iframe class="wideVideo" src="https://www.youtube.com/embed/jqdzHSsBbOU" allowfullscreen></iframe>
-                        <p>
-                          An introduction to the most basic computer network imaginable.  Two workstations connected by a cross-over cable.
-                        </p>
-                      </li>
-                      <li class="list-group-item">
-                        <h4>Video: Basic Network with a Switch</h4>
-                        <iframe class="wideVideo" src="https://www.youtube.com/embed/_3dERnMxX2k" allowfullscreen></iframe>
-                        <p>
-                          Introducing the use of a switch to connect more than two computers.
-                        </p>
-                      </li>
-                      <li class="list-group-item">
                         <h4><a href="./networking/osiModel.php">OSI Model Introduction</a></h4>
                         <p>
                           The OSI Model is incredibly important in networking.  This extra-brief intro (which will likely grow over time!) will introduce the concept.
