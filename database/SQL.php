@@ -12,7 +12,7 @@
                   <div class="col-md-8">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>index.php">Home</a></li>
-                        <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>db.php">Database Administration</a></li>
+                        <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>db.php">Databases</a></li>
                         <li class="breadcrumb-item active">Learn SQL</li>
                     </ol>
                     <ul class="list-group">

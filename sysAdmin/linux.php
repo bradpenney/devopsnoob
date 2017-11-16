@@ -20,13 +20,12 @@
                     </p>
                     <ul class="list-group">
                       <li class="list-group-item">
-                        <h4>
-                          <a href="linux/linuxBasicCommandsPlaylist.php">Video Playlist: Basic Linux Terminal Commands</a>
-                        </h4>
-                        <iframe class="wideVideo" src="https://www.youtube.com/embed/videoseries?list=PLcxLLSRAf0X1WlZCnAVwa7sazO8pMrF0C" allowfullscreen></iframe>
-                        <p>
-                          A listing of a YouTube playlist developed by this site, which begins exploring the basic commands that can be used in the Linux terminal.
-                        </p>
+                          <h4>
+                              <a href="linux/oracleLinuxInstall.php">Creating an Oracle Linux 7.4 Virtual Machine using VMWare WorkStation Pro 14</a>
+                          </h4>
+                          <p>
+                            A screenshot walkthrough of installing Oracle Linux 7.4 onto a Virtual Machine.  Oracle Linux is from the RedHat/Cent 0S family of Linux.
+                          </p>
                       </li>
                       <li class="list-group-item">
                           <h4>

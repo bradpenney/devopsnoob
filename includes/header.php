@@ -27,21 +27,21 @@
 
     <body>
         <div id="wrap">
-            <nav class="navbar navbar-inverse navbar-fixed-top">
+            <nav class="navbar navbar-fixed-top">
               <div class="container-fluid">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
+                    <span  class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="<?= $siteRoot; ?>index.php">DevOpsNoob.com</a>
+                  <a class="navbar-brand" id="logo" href="<?= $siteRoot; ?>index.php">DevOpsNoob.com</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="<?= $siteRoot; ?>index.php">Home</a></li>
+                  <ul class="nav navbar-default navbar-nav">
+                    <li><a class="topbar" href="<?= $siteRoot; ?>index.php">Home</a></li>
                     <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programming<span class="caret"></span></a>
+                      <a class="dropdown-toggle topbar" data-toggle="dropdown" href="#">Programming<span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="<?= $siteRoot; ?>programming/python.php">Python</a></li>
                         <li><a href="<?= $siteRoot; ?>programming/java.php">Java</a></li>
@@ -51,7 +51,7 @@
                       </ul>
                     </li>
                     <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Systems Admin<span class="caret"></span></a>
+                      <a class="dropdown-toggle topbar" data-toggle="dropdown" href="#">Systems Admin<span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="<?= $siteRoot; ?>sysAdmin/linux.php">Linux</a></li>
                         <li><a href="<?= $siteRoot; ?>sysAdmin/windows.php">Windows</a></li>
@@ -59,17 +59,36 @@
                       </ul>
                     </li>
                     <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Database Admin<span class="caret"></span></a>
+                      <a class="dropdown-toggle topbar" data-toggle="dropdown" href="#">Databases<span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="<?= $siteRoot; ?>database/dbAdmin.php">DB Admin Theory</a></li>
-                        <li><a href="<?= $siteRoot; ?>database/dbDev.php">DB Development</a></li>
+                        <li><a href="<?= $siteRoot; ?>database/dbManagement.php">Database Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>database/dbDev.php">Database Development</a></li>
                         <li><a href="<?= $siteRoot; ?>database/SQL.php">SQL</a></li>
                         <li><a href="<?= $siteRoot; ?>db.php">Resources</a></li>
                       </ul>
                     </li>
-                    <li><a href="<?= $siteRoot; ?>hardware.php">Hardware</a></li>
-                    <li><a href="<?= $siteRoot; ?>networking.php">Networking</a></li>
-                    <li><a href="<?= $siteRoot; ?>security.php">Security</a></li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle topbar" data-toggle="dropdown" href="#">Project Management<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="<?= $siteRoot; ?>projectManagement/intro.php">Introduction</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/organizationalInfluencesLifeCycle.php">Organizational Influences and Project Life Cycle</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/managementProcesses.php">Management Processes</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/integrationManagement.php">Integration Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/scopeManagement.php">Scope Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/timeManagement.php">Time Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/costManagement.php">Cost Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/qualityManagement.php">Quality Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/humanResourceManagement.php">Human Resource Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/communicationsManagement.php">Communications Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/riskManagement.php">Risk Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/procurementManagement.php">Procurement Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement/stakeholderManagement.php">Stakeholder Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>projectManagement.php">Project Management Resources</a></li>
+                      </ul>
+                    </li>
+                    <!--<li><a class="topbar" href="<?= $siteRoot; ?>hardware.php">Hardware</a></li>-->
+                    <li><a class="topbar" href="<?= $siteRoot; ?>networking.php">Networking</a></li>
+                    <!--<li><a class="topbar" href="<?= $siteRoot; ?>security.php">Security</a></li>-->
                   </ul>
                 </div>
               </div>

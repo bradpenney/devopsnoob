@@ -1,0 +1,5 @@
+Dark Blue -> 39587F
+Medium Grey -> 606E7F
+Light Blue -> 73B0FF
+Really Light Blue -> BFDBFF
+Light Grey -> 99AFCC
