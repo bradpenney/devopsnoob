@@ -17,6 +17,14 @@
                     </ol>
                     <ul class="list-group">
                       <li class="list-group-item">
+                          <h4>
+                              <a href="oracle11GInstall.php">Install Oracle 11G on an Oracle Linux 7.4 Virtual Machine</a>
+                          </h4>
+                          <p>
+                            A screenshot walkthrough of installing Oracle 11G Database on a Oracle Linux 7.4 Virtual Machine.  This is meant as an Activity Log to show how this works.
+                          </p>
+                      </li>
+                      <li class="list-group-item">
                         <h4><a href="<?= $siteRoot; ?>database/selectingNoSQL.php">Selecting a NoSQL Database</a></h4>
                         <p>
                           A quick article outlining the strengths and weaknesses of the four main types of NoSQL databases.
