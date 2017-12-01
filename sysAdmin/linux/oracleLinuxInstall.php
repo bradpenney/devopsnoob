@@ -18,7 +18,10 @@
                         </ol>
                         <h2>Creating an Oracle Linux 7.4 Virtual Machine using VMWare WorkStation Pro 14</h2>
                         <p>
-                            Oracle Linux is a widely-used Enterprise Linux distribution.  As far as Enterprise Linux distributions, its main competion is RedHat.  Oracle Linux is used mainly to host Oracle databases, and a true Oracle-shop will consider nothing else as an option for their database server.  Below is a guide to installing Oracle Linux 7.4 on a Virtual Machine (VM).  If you're using a different hypervisor (say Oracle Virtualbox or Microsoft Hyper-V), the steps will be in a different order but will be very similar.  The steps inside the VM will match exactly.
+                            Oracle Linux is a widely-used Enterprise Linux distribution.  As far as Enterprise Linux distributions, its main competition is RedHat.  Oracle Linux is used mainly to host Oracle databases, and a true Oracle-shop will consider nothing else as an option for their database server.  Below is a guide to installing Oracle Linux 7.4 on a Virtual Machine (VM).  If you're using a different hypervisor (say Oracle Virtualbox or Microsoft Hyper-V), the steps will be in a different order but will be very similar.  The steps inside the VM will match exactly.
+                        </p>
+                        <p>
+                          Oracle Linux is often used to host a Oracle database <span class="glyphicon glyphicon-arrow-right"></span>  <strong><a href="<?= $siteRoot; ?>database/oracle11GInstall.php">Guide to Installing Oracle 11G on Oracle Linux 7.4</a></strong>.
                         </p>
                         <p>
                             The software required to follow this process will be:
@@ -87,7 +90,7 @@
                                   <figcaption>Specify Disk Capacity</figcaption>
                                 </figure>
                                 <p>
-                                  After installation, I learned that my system specifications asked for 100GB of hard disk space.  Learn from my mistake again!
+                                  After installation, I learned that my system specifications asked for 100GB of hard disk space.  Again, learn from my mistakes!
                                 </p>
                                 <p>
                                   After specifying the hard disk space, you're almost done.  However, I like to increase the RAM in my VMs, as this makes it run faster and smoother.  Plus, the system specifications I am following recommend 8GB of RAM, as this VM is going to be a database server.
@@ -97,7 +100,7 @@
                                   <figcaption>Customize Hardware</figcaption>
                                 </figure>
                                 <p>
-                                  After clicking "Custmoize Hardware", increase RAM to 8GB.  Note - only do this if your computer can support it!  16GB of RAM on the computer is recommended.
+                                  After clicking "Custmoize Hardware", increase RAM to 8GB.  Note - only do this if your computer can support it!  16GB of RAM on the host computer is recommended in order to use 8GB on the VM.
                                 </p>
                                 <figure>
                                   <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/oracleLinuxInstall/08-AddedRAM.png">
