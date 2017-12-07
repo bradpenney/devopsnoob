@@ -70,6 +70,7 @@
                     <li class="dropdown">
                       <a class="dropdown-toggle topbar" data-toggle="dropdown" href="#">Project Management<span class="caret"></span></a>
                       <ul class="dropdown-menu">
+                        <li><a href="<?= $siteRoot; ?>projectManagement/videoIntro.php">Video Introduction</a></li>
                         <li><a href="<?= $siteRoot; ?>projectManagement/intro.php">Introduction</a></li>
                         <li><a href="<?= $siteRoot; ?>projectManagement/organizationalInfluencesLifeCycle.php">Organizational Influences and Project Life Cycle</a></li>
                         <li><a href="<?= $siteRoot; ?>projectManagement/managementProcesses.php">Management Processes</a></li>

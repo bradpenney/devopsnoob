@@ -21,6 +21,11 @@
                   <ul class="list-group">
                       <li class="list-group-item">
                         <h4>
+                          <a href="projectManagement/videoIntro.php">Video Introduction to Project Management</a>
+                        </h4>
+                      </li>
+                      <li class="list-group-item">
+                        <h4>
                           <a href="projectManagement/intro.php">Introduction to Project Management</a>
                         </h4>
                       </li>
