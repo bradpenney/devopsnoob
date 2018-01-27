@@ -12,7 +12,8 @@
                     <div class="col-md-8">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>index.php">Home</a></li>
-                            <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>database.php">Learn Databases</a></li>
+                            <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>db.php">Learn Databases</a></li>
+                            <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>database/dbManagement.php">Database Management</a></li>
                             <li class="breadcrumb-item active">Install Oracle 11G on Oracle Linux</li>
                         </ol>
                         <h2>Install Oracle 11G on an Oracle Linux 7.4 Virtual Machine</h2>
@@ -20,7 +21,7 @@
                           Oracle 11G is an enterprise-level relational database system that is widely used throughout the IT industry.  This is a walk-through of installing a basic Oracle 11G Database. It will be installed on an Oracle Linux 7.4 Virtual Machine.  Navigation and familiarity with Linux are assumed.
                         </p>
                         <p>
-                          <span class="glyphicon glyphicon-arrow-right"></span> <a href="<?= $siteRoot; ?>/sysAdmin/linux/oracleLinuxInstall.php">Guide to Create an Oracle Linux 7.4 Virtual Machine</a>.
+                          <span class="glyphicon glyphicon-arrow-right"></span> <a href="<?= $siteRoot; ?>sysAdmin/linux/oracleLinuxInstall.php">Guide to Create an Oracle Linux 7.4 Virtual Machine</a>.
                         </p>
                         <p>
                           Two of the website sources used in during process include:
@@ -48,7 +49,7 @@
                                 </figure>
                                 <p>
                                   All of the defaults within the pre-install options are fine:
-                                </p>
+                                </p>13-ImportScript
                                 <figure>
                                   <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/oracle11G/02-AcceptPreinstallDefaults.png">
                                   <figcaption>Accept Preinstall Defaults</figcaption>
@@ -107,7 +108,7 @@
                                 </p>
                                 <figure>
                                   <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/oracle11G/10-BashOracleSettings.png">
-                                  <figcaption>.bash_profile Oracle Settings</figcaption>
+                              13-ImportScript    <figcaption>.bash_profile Oracle Settings</figcaption>
                                 </figure>
                               </div>
                               <h4><strong>Step 2: Installing Oracle 11G Software</strong></h4>
@@ -253,4 +254,4 @@
                     <div class="col-md-2">
                     </div>
                 </div>
-<?php include '../../includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>

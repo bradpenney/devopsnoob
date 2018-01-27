@@ -16,6 +16,22 @@
                         <li class="breadcrumb-item active">Database Management</li>
                     </ol>
                     <ul class="list-group">
+
+                      <li class="list-group-item">
+                        <h4>Video:  Online Analytical Processing - A Brief Introduction</h4>
+                        <iframe class="wideVideo" src="https://www.youtube.com/embed/v5kct2IhpcE" allowfullscreen></iframe>
+                        <p>
+                          Online Analytical Processing (OLAP) is a decision support system (DSS) that uses multidimensional data analysis techniques.  OLAP creates an advanced data analysis environment that supports decision making, business modeling, and operations research.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                          <h4>
+                              <a href="oracle11Gbackup.php">Oracle 11G Schema Backup Using Data Pump</a>
+                          </h4>
+                          <p>
+                            A screenshot walkthrough of backing up a schema to another instance using Data Pump.  This is meant as an Activity Log to show how this works.
+                          </p>
+                      </li>
                       <li class="list-group-item">
                           <h4>
                               <a href="oracle11GInstall.php">Install Oracle 11G on an Oracle Linux 7.4 Virtual Machine</a>
