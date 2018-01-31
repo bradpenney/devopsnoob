@@ -16,7 +16,15 @@
                         <li class="breadcrumb-item active">Database Management</li>
                     </ol>
                     <ul class="list-group">
-
+                      <li class="list-group-item">
+                        <h4>
+                          <a href="<?= $siteRoot; ?>database/oracle11GcontrolFileBackup.php">Oracle 11G Control File Backup Using Custom Scripts</a>
+                        </h4>
+                        <iframe class="wideVideo" src="https://www.youtube.com/embed/v5kct2IhpcE" allowfullscreen></iframe>
+                        <p>
+                          Backing up a database is more than simply backing up the raw data.  The structure of the database is also critical to its functioning.  In this series of scripts, the control files, spfiles and a couple of .ora files are backed up.
+                        </p>
+                      </li>
                       <li class="list-group-item">
                         <h4>Video:  Online Analytical Processing - A Brief Introduction</h4>
                         <iframe class="wideVideo" src="https://www.youtube.com/embed/v5kct2IhpcE" allowfullscreen></iframe>
@@ -26,7 +34,7 @@
                       </li>
                       <li class="list-group-item">
                           <h4>
-                              <a href="oracle11Gbackup.php">Oracle 11G Schema Backup Using Data Pump</a>
+                              <a href="<?= $siteRoot; ?>database/oracle11Gbackup.php">Oracle 11G Schema Backup Using Data Pump</a>
                           </h4>
                           <p>
                             A screenshot walkthrough of backing up a schema to another instance using Data Pump.  This is meant as an Activity Log to show how this works.
