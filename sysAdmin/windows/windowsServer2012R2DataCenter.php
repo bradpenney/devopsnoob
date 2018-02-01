@@ -113,6 +113,9 @@
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/09VMCreated.png">
                                 <figcaption>Click "Edit this Virtual Machine to point it at an .iso</figcaption>
                             </figure>
+                            <p>
+                              MORE CONTENT COMING SOON...
+                            </p>
                           </div>
                         </div>
                         <br />

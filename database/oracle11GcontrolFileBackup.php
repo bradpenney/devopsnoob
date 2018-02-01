@@ -81,10 +81,13 @@
                             <h4><strong>Step 4: Backup Listener and TNSName Files</strong></h4>
                             <div>
                               <p>
-                                Unlike control files and spfiles, some of the .ora files which need to be backed up can be done through simple BASH scripting.  Here's an example of backing up listener.ora and tnsnames.ora
+                                Unlike control files and spfiles, some of the .ora files which need to be backed up can be done through simple BASH scripting.  Here's an example of backing up listener.ora and tnsnames.ora:
                               </p>
                               <figure>
-                                
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/managingControlFiles/07backupListnerTNSNames.png">
+                                <figcaption>BASH Script to Make a Backup Copy of Listener.ora and TNSNames.ora Files<br>
+                                <a href="https://github.com/bradpenney/oracleScripts/blob/master/backupListenerTsnames.sh" target="_blank">Link To Script on GitHub</a>
+                                </figcaption>
                               </figure>
                             </div>
                         </div>
