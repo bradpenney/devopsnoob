@@ -36,13 +36,13 @@
                           </ul>
                         </p>
                         <div id="accordion">
-                          <h4><small><strong>Step 1: Download the .iso file of Windows Server 2012 R2 Datacenter</strong></small></h4>
+                          <h4><strong>Step 1: Download the .iso file of Windows Server 2012 R2 Datacenter</strong></h4>
                           <div>
                             <p>
                                 Unfortunately, this software isn't available to the general public without a significant investment.  Here's the link: <a href="https://www.microsoft.com/en-ca/Licensing/product-licensing/windows-server-2012-r2.aspx#tab=2" target="_blank">Windows Server 2012 R2 Datacenter</a> but be prepared for a hefty pricetag.  This software is available to me through my workplace.
                             </p>
                           </div>
-                          <h4><small><strong>Step 2: Create a NEW Virtual Machine in VMWare</strong></small></h4>
+                          <h4><strong>Step 2: Create a NEW Virtual Machine in VMWare</strong></h4>
                           <div>
                             <p>
                                 If you don't have VMWare Workstation Pro 12, you can download it here: <a href="http://www.vmware.com/products/workstation/workstation-evaluation.html" target="_blank">VMWare Workstation Pro 12.5 (Free Trial Available)</a>.  Once you've downloaded and installed it, you can open it and be presented with a screen like this.  Click on "Create a New Virtual Machine":
@@ -104,21 +104,143 @@
                               Once this is done, click "Close" and then "Finish".  Your VM is ready!
                             </p>
                           </div>
-                          <h4><small><strong>Step 3: Install Windows Server 2012 R2</strong></small></h4>
+                          <h4><strong>Step 3: Install Windows Server 2012 R2</strong></h4>
                           <div>
                             <p>
                               Before firing up your VM, you'll need to point it at an .iso file.  Click "Edit this Virtual Machine":
                             </p>
                             <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/09VMCreated.png">
-                                <figcaption>Click "Edit this Virtual Machine to point it at an .iso</figcaption>
+                                <figcaption>Click "Edit this Virtual Machine" to point it at an .iso</figcaption>
                             </figure>
                             <p>
-                              MORE CONTENT COMING SOON...
+                              Point the VMWare BIOS at the .iso.  Once this is complete, click "Ok" and then "Power On This Virtual Machine":
                             </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/10AddISO.png">
+                                <figcaption>Click "Edit this Virtual Machine" to point it at an .iso</figcaption>
+                            </figure>
+                            <p>
+                              Your VM should start up and immediately find the Windows .iso file.  You'll see some Windows logos, and the VM will stop for input at this screen:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/11WindowsSetup.png">
+                                <figcaption>Windows Setup: Language, Time Zone, Input Method</figcaption>
+                            </figure>
+                            <p>
+                              Once you've selected your desired parameters, click "Next".  The next stop is "Install Now":
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/12InstallNow.png">
+                                <figcaption>Install Windows Server 2012 R2 Datacenter Now!</figcaption>
+                            </figure>
+                            <p>
+                              Windows Server 2012 R2 comes in two flavors: Core and Standard.  Core is command line only, and Standard has a GUI.  In this particular instance, we're going to use this server as an Exchange server, so the GUI is absolutely necessary.  Select this option and click "Next":
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/13SelectOS.png">
+                                <figcaption>Select "Standard with GUI" Option</figcaption>
+                            </figure>
+                            <p>
+                              You'll be prompted for your product key on the next page.  I've skipped this page (for obvious reasons!).  After the product key page, you'll need to accept the license terms:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/14LicenseAgreement.png">
+                                <figcaption>Windows Server 2012 R2 Standard License Agreement</figcaption>
+                            </figure>
+                            <p>
+                              The next screen is a little confusing (thanks Microsoft).  It seems to indicate that you have the option to upgrade this machine to Windows Server 2012 R2, even though this is a fresh machine that does not have any operating system on it at all....  In any case, choose "Custom: Install Windows Only":
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/15TypeOfInstall.png">
+                                <figcaption>Choose "Custom: Install Windows Only" for a Fresh Install</figcaption>
+                            </figure>
+                            <p>
+                              You'll need to pick a partition to install this operating system onto now.  If the hard drive doesn't have any partitions yet, click "New".  In this case, we're going to select the entire hard drive as one partition.  Adjust this to your needs:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/16DiskPartition.png">
+                                <figcaption>Create &amp; Select a New Disk Partition</figcaption>
+                            </figure>
+                            <p>
+                              Once you've figured out your disk partitions and click "Next", your installation will begin:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/17InstallInProgress.png">
+                                <figcaption>Windows Server 2012 R2 Standard Installation In Progress...</figcaption>
+                            </figure>
+                            <p>
+                              During the install, Windows Server 2012 R2 will ask you for an administrator password.  <strong>Be sure to take note of this password</strong> - its really important!  Don't forget it:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/18SettingAdminPassword.png">
+                                <figcaption>Setting Administrator Password</figcaption>
+                            </figure>
+                            <p>
+                              After this, your Windows Server 2012 R2 Standard (GUI) is complete!
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/19GUIComplete.png">
+                                <figcaption>Windows Server 2012 R2 Standard (GUI) Install Complete!</figcaption>
+                            </figure>
                           </div>
+                          <h4><strong>Step 4: Basic Configuration of Windows Server 2012 R2</strong></h4>
+                          <div>
+                            <p>
+                              In this section, we'll go over some basic configuration steps to set up your new Windows Server 2012 R2 Datacenter installation.  The first step will be to configure the IP address.  This is entirely dependent on your setup - I've pictured sample that is custom to my needs.  It is possible that leaving the default DHCP settings will suffice for your needs.  In order to get to this screen you need to find the following settings: Network and Sharing Center -> View Adapter Settings -> Choose Adapter -> Right-click to Properties -> IPv4 "Properties":
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/20AssignIPAddress.png">
+                                <figcaption>Assign an IP Address Based On Your Needs</figcaption>
+                            </figure>
+                            <p>
+                              As with any operating system install, you'll need to update it after installation.  Simply go to Windows Update center, and check for updates.  Install all the recommended updates at least.  Beware - this could take a long time (possibly more than an hour!):
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/21CheckForUpdates.png">
+                                <figcaption>Windows Server 2012 R2 Check for Updates</figcaption>
+                            </figure>
+                            <p>
+                              If you need to join this server to a Domain (a server with Active Directory installed and active), this is done through System -> Change Name/Domain:
+                            </p>
+                            <figure>
+                              <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/22JoinDomain.png">
+                              <figcaption>Joining A Domain</figcaption>
+                            </figure>
+                            <p>
+                              Another really common task is disabling Internet Explorer Enhanced Security Configuration for administrators, which makes navigating around a little easier for admins:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/23EnhancedSecurityOffForAdmins.png">
+                                <figcaption>Internet Explorer Enhanced Security Configuation Off for Administrators</figcaption>
+                            </figure>
+                            <p>
+                              Setting the update frequency for a server is also a critical initial setup task - the last thing you want is your server updating itself during the middle of a work day!  Those settings can be found through running <kbd>gpedit.msc</kbd> in the command prompt.  Then find Windows Update (Computer Configurations -> Windows Settings -> Windows Update) and make sure the server will only update when you want it to!
+                            </p>
+                            <p>
+                            If you need to join this server to a Domain (a server with Active Directory installed and active), this is done through System -> Change Name/Domain:
+                          </p>
+                          <figure>
+                              <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/22JoinDomain.png">
+                              <figcaption>Joining A Domain</figcaption>
+                          </figure>
+                          <p>
+                              Another really common task is disabling Internet Explorer Enhanced Security Configuration for administrators, which makes navigating around a little easier for admins:
+                          </p>
+                          <figure>
+                            <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/24SetServerUpdateFrequency.png">
+                            <figcaption>Set Server Update Frequency</figcaption>
+                          </figure>
+                          <p>
+                            The final setup task we'll discuss here is creating a directory to keep any custom scripts that you'll be running in your server.  This directory should be easily accessible via terminals (commmand or PowerShell) so putting it directly on the C:\ drive is a good idea:
+                          </p>
+                          <figure>
+                            <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/25CreateScripts.png">
+                            <figcaption>Create a Scripts Direcory Directly on C:\</figcaption>
+                          </figure>
                         </div>
-                        <br />
+                      </div>
+                      <br />
                     </div>
                     <div class="col-md-2">
                     </div>
