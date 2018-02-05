@@ -39,7 +39,13 @@
                           <h4><strong>Step 1: Download the .iso file of Windows Server 2012 R2 Datacenter</strong></h4>
                           <div>
                             <p>
-                                Unfortunately, this software isn't available to the general public without a significant investment.  Here's the link: <a href="https://www.microsoft.com/en-ca/Licensing/product-licensing/windows-server-2012-r2.aspx#tab=2" target="_blank">Windows Server 2012 R2 Datacenter</a> but be prepared for a hefty pricetag.  This software is available to me through my workplace.
+                              Unfortunately, this software isn't available to the general public without a significant investment.
+                            </p>
+                            <p>
+                              Here's the link <i class="fas fa-arrow-right"></i> <a href="https://www.microsoft.com/en-ca/Licensing/product-licensing/windows-server-2012-r2.aspx#tab=2" target="_blank">Windows Server 2012 R2 Datacenter</a>
+                            </p>
+                            <p>
+                              Be prepared for a hefty pricetag.  Luckily, this software is available to me through my workplace.
                             </p>
                           </div>
                           <h4><strong>Step 2: Create a NEW Virtual Machine in VMWare</strong></h4>
@@ -73,14 +79,14 @@
                                 <figcaption>Select Type of Guest Operating System</figcaption>
                             </figure>
                             <p>
-                              Naming your Virtual Machine is the step.  In this case, we're going to be using this system as an Exchange Server in the future, so we'll name it accordingly.  By the way, this setting is easily changeable within VMWare later.  Also, be sure to select an appropriate file location for this VM. If its created on the local computer, it won't be portable.  In this example, I'm installing in on an external hard drive so I can move from host machine to host machine:
+                              Naming your Virtual Machine is the next step.  In this case, we're going to be using this system as an Exchange 2013 server in the future, so we'll name it accordingly.  By the way, this setting is easily changeable within VMWare later.  Also, be sure to select an appropriate file location for this VM. If its created on the local computer, it won't be portable (without a long copy/paste session!).  In this example, I'm installing in on an external hard drive so I can move from host machine to host machine:
                             </p>
                             <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/04NameVM.png">
                                 <figcaption>Name the Virtual Machine &amp; Pick File Location</figcaption>
                             </figure>
                             <p>
-                              Next, specify the disk capacity you'd like your VM to have.  In our case, 60GB is plenty.  Be sure to pick a number that makes sense for you.  Further, if you're running on a modern file system, then you can make the VM as one file.  However, if you're running on FAT32, be sure to split the VM into multiple files:
+                              Next, specify the disk capacity you'd like your VM to have.  In this case, 60GB is plenty.  Be sure to pick a number that makes sense for you.  Further, if you're running on a modern file system, then you can make the VM as one file.  However, if you're running on FAT32, be sure to split the VM into multiple files:
                             </p>
                             <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/05DiskCapacity.png">
@@ -107,11 +113,11 @@
                           <h4><strong>Step 3: Install Windows Server 2012 R2</strong></h4>
                           <div>
                             <p>
-                              Before firing up your VM, you'll need to point it at an .iso file.  Click "Edit this Virtual Machine":
+                              Before firing up your VM, you'll need to point it at an .iso file.  Click "Edit Virtual Machine Settings":
                             </p>
                             <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/09VMCreated.png">
-                                <figcaption>Click "Edit this Virtual Machine" to point it at an .iso</figcaption>
+                                <figcaption>Click "Edit Virtual Machine Settings" to point it at an .iso</figcaption>
                             </figure>
                             <p>
                               Point the VMWare BIOS at the .iso.  Once this is complete, click "Ok" and then "Power On This Virtual Machine":
@@ -173,7 +179,7 @@
                               During the install, Windows Server 2012 R2 will ask you for an administrator password.  <strong>Be sure to take note of this password</strong> - its really important!  Don't forget it:
                             </p>
                             <figure>
-                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/18SettingAdminPassword.png">
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/18SettingAdminPasswd.png">
                                 <figcaption>Setting Administrator Password</figcaption>
                             </figure>
                             <p>
@@ -187,7 +193,7 @@
                           <h4><strong>Step 4: Basic Configuration of Windows Server 2012 R2</strong></h4>
                           <div>
                             <p>
-                              In this section, we'll go over some basic configuration steps to set up your new Windows Server 2012 R2 Datacenter installation.  The first step will be to configure the IP address.  This is entirely dependent on your setup - I've pictured sample that is custom to my needs.  It is possible that leaving the default DHCP settings will suffice for your needs.  In order to get to this screen you need to find the following settings: Network and Sharing Center -> View Adapter Settings -> Choose Adapter -> Right-click to Properties -> IPv4 "Properties":
+                              In this section, we'll go over some basic configuration steps to set up your new Windows Server 2012 R2 Datacenter installation.  The first step will be to configure the IP address.  This is entirely dependent on your setup - I've pictured a sample that is custom to my needs.  It is possible that leaving the default DHCP settings will suffice for your needs.  In order to get to this screen you need to find the following settings: Network and Sharing Center -> View Adapter Settings -> Choose Adapter -> Right-click to Properties -> IPv4 "Properties":
                             </p>
                             <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/20AssignIPAddress.png">
@@ -201,7 +207,7 @@
                                 <figcaption>Windows Server 2012 R2 Check for Updates</figcaption>
                             </figure>
                             <p>
-                              If you need to join this server to a Domain (a server with Active Directory installed and active), this is done through System -> Change Name/Domain:
+                              If you need to join this server to a Domain (a server with Active Directory installed and active), this is done through System -> Change Name/Domain.  You'll need the user name and password for a domain administrator (or domain user that is allowed to add computers):
                             </p>
                             <figure>
                               <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/22JoinDomain.png">
@@ -217,29 +223,22 @@
                             <p>
                               Setting the update frequency for a server is also a critical initial setup task - the last thing you want is your server updating itself during the middle of a work day!  Those settings can be found through running <kbd>gpedit.msc</kbd> in the command prompt.  Then find Windows Update (Computer Configurations -> Windows Settings -> Windows Update) and make sure the server will only update when you want it to!
                             </p>
+                            <figure>
+                              <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/24SetServerUpdateFrequency.png">
+                              <figcaption>Create a Scripts Directory Directly on C:\</figcaption>
+                            </figure>
                             <p>
-                            If you need to join this server to a Domain (a server with Active Directory installed and active), this is done through System -> Change Name/Domain:
-                          </p>
-                          <figure>
-                              <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/22JoinDomain.png">
-                              <figcaption>Joining A Domain</figcaption>
-                          </figure>
-                          <p>
-                              Another really common task is disabling Internet Explorer Enhanced Security Configuration for administrators, which makes navigating around a little easier for admins:
-                          </p>
-                          <figure>
-                            <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/24SetServerUpdateFrequency.png">
-                            <figcaption>Set Server Update Frequency</figcaption>
-                          </figure>
-                          <p>
-                            The final setup task we'll discuss here is creating a directory to keep any custom scripts that you'll be running in your server.  This directory should be easily accessible via terminals (commmand or PowerShell) so putting it directly on the C:\ drive is a good idea:
-                          </p>
-                          <figure>
-                            <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/25CreateScripts.png">
-                            <figcaption>Create a Scripts Direcory Directly on C:\</figcaption>
-                          </figure>
+                              The final setup task we'll discuss here is creating a directory to keep any custom scripts that you'll be running in your server.  This directory should be easily accessible via terminals (commmand or PowerShell) so putting it directly on the C:\ drive is a good idea:
+                            </p>
+                            <figure>
+                              <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/windows/windowsServer2012R2Datacenter/25CreateScripts.png">
+                              <figcaption>Create a Scripts Directory Directly on C:\</figcaption>
+                            </figure>
+                            <p>
+                              So at this point, you've installed Windows Server 2012 R2 Datacenter on a Virtual Machine, and even set up some basic configurations.  Congratulations!
+                            </p>
+                          </div>
                         </div>
-                      </div>
                       <br />
                     </div>
                     <div class="col-md-2">

@@ -20,7 +20,7 @@
               </div>
               <div class="col-md-4">
                   <p>
-                      A DevOps professional straddles the realms of Programming, Information Technology and Quality Assurance.  DevOps professionals are incredibly useful assets for organizations, because they speak the language of programmers, system administrators, and digital security specialists.  DevOps is a wide category, and a vast amount of knowledge is needed to excel.
+                      A DevOps professional straddles the realms of Programming, Operations and Quality Assurance.  DevOps professionals are incredibly useful assets for organizations, because they speak the language of programmers, system administrators, and digital security specialists.  DevOps is a wide category, and a vast amount of knowledge is needed to excel.
                   </p>
                   <hr />
                   <p>
@@ -44,10 +44,11 @@
                 </div>
                 <div class="col-md-8">
                     <h2>About DevOpsNoob.com</h2>
-                    <p>DevOpsNoob.com is the learning journal an aspiring DevOps practitioner.  Its an ever-evolving, ever-expanding commentary detailing videos, books, projects, and other resources I've used and worked with as I become a DevOps practitioner.  This as a method of measuring learning progress over time and hopefully it will inspire and/or aide others in their learning goals.</p>
+                    <p>DevOpsNoob.com is the learning journal an aspiring DevOps practitioner.  Its an ever-evolving, ever-expanding commentary detailing projects completed and resources I've utilized in my growth as a DevOps professional.  This website started as a method of recording and measuring my learning progress over time and hopefully it will inspire and/or aide others.</p>
                 </div>
                 <div class="col-md-2">
                 </div>
             </div>
+            <br />
           </div>
 <?php include './includes/footer.php'; ?>

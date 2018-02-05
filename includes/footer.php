@@ -2,7 +2,7 @@
         </div>
         <nav class="container-fluid navbar navbar-inverse">
             <footer class="container-fluid text-center">
-                <p> &copy; 2017 DevOpsNoob.com</p>
+                <p> &copy; 2018 DevOpsNoob.com</p>
             </footer>
         </nav>
 

@@ -19,6 +19,7 @@
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 		    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="<?= $siteRoot; ?>js/main.js"></script>
 
