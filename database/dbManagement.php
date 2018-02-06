@@ -18,6 +18,14 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                         <h4>
+                          <a href="<?= $siteRoot; ?>database/oracle11GworkingWithRedoLogs.php">Working with Redo Logs in Oracle 11g</a>
+                        </h4>
+                        <p>
+                          ADD Description!
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <h4>
                           <a href="<?= $siteRoot; ?>database/oracle11GgatheringServerStatistics.php">Gathering Server Statistics on Oracle 11g</a>
                         </h4>
                         <p>
