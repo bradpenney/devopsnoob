@@ -18,7 +18,7 @@
                         </ol>
                         <h2>Working with Redo Logs in Oracle 11g</h2>
                         <p>
-                          Oracle 11G is an enterprise-level relational database system that is widely used throughout the IT industry.  Gathering server statistics allows a conscientious Database Administrator to fine tune the performance of a database.  This is a walk-through of gathering basic statistics about server performance on Oracle 11g database server.  For more information about gathering statistics of Linux performance, visit <a href="https://www.thegeekstuff.com/2011/03/linux-performance-monitoring-intro/" target="_blank">Linux Performance Monitoring and Tuning Introduction from <em>The Geek Stuff</em></a>.
+                          Oracle 11G is an enterprise-level relational database system that is widely used throughout the IT industry.  ADD DESCRIPTION!
                         </p>
                         <div id="accordion">
                             <h4><strong>Step 1: Determine the Location of the Current Redo Logs</strong></h4>
@@ -27,19 +27,52 @@
 
                               </p>
                               <figure>
-                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/gatheringServerStatistics/01LocationOfCurrentRedoLogs.png">
-                                <figcaption>Examine Imput/Output Statistics</figcaption>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/01LocationOfCurrentRedoLogs.png">
+                                <figcaption>Location of Current Redo Logs</figcaption>
                               </figure>
                             </div>
                             <h4><strong>Step 2: Turn On Archiving</strong></h4>
                             <div>
                               <p>
                               </p>
+                              <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/02ShutdownImmediate.png">
+                                <figcaption>Shutdown The Database</figcaption>
+                              </figure>
+                              <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/03StartupMount.png">
+                                <figcaption>Startup Database using <kbd>startup mount</kbd></figcaption>
+                              </figure>
+                              <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/04AlterDatabaseArchivelog.png">
+                                <figcaption> </figcaption>
+                              </figure>
+                              <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/05AlterDatabaseOpen.png">
+                                <figcaption>Startup Database Completely</figcaption>
+                              </figure>
+                              <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/06ConfirmArchivingOn.png">
+                                <figcaption>Confirm that Archiving is Enabled</figcaption>
+                              </figure>
                             </div>
                             <h4><strong>Step 3: Create Group of Redo Logs</strong></h4>
                             <div>
                               <p>
                               </p>
+                              <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/07CreateDirectoryForRedoLogs.png">
+                                <figcaption>Create File System Directory for Redo Logs</figcaption>
+                              </figure><figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/08DropLogFile3.png">
+                                <figcaption>Dropping Current Group 3</figcaption>
+                              </figure><figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/09AddLogfile.png">
+                                <figcaption>Adding Log Files</figcaption>
+                              </figure><figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithRedoLogs/10ConfirmRedoLogsCreated.png">
+                                <figcaption>Confirm that Redo Logs Were Created</figcaption>
+                              </figure>
                             </div>
                           </div>
                         <br />
