@@ -18,7 +18,7 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                         <h4>
-                          <a href="<?= $siteRoot; ?>database/oracle11GgatheringServerStatistics.php">Gathering Server Statistics on Oracle 11g</a>
+                          <a href="<?= $siteRoot; ?>database/oracle11GgatheringServerStatistics.php">Gathering Server Statistics on Oracle Linux &amp; Oracle 11g</a>
                         </h4>
                         <p>
                           Fine-tuning the performance of a database requires gathering basic statistics about the server performance.  This tutorial walks through some of the basic tools available to gather statistics about server performance.

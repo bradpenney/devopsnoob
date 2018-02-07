@@ -1,4 +1,4 @@
-<?php $title = 'Gathering Server Statistics on Oracle 11g - DevOpsNoob.com'; ?>
+<?php $title = 'Gathering Server Statistics on Oracle Linux &amp; Oracle 11g - DevOpsNoob.com'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
@@ -14,14 +14,14 @@
                           <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>index.php">Home</a></li>
                           <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>db.php">Learn Databases</a></li>
                           <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>database/dbManagement.php">Database Management</a></li>
-                            <li class="breadcrumb-item active">Gathering Server Statistics on Oracle 11g</li>
+                            <li class="breadcrumb-item active">Gathering Server Statistics on Oracle Linux &amp; Oracle 11g</li>
                         </ol>
-                        <h2>Gathering Server Statistics on Oracle 11g</h2>
+                        <h2>Gathering Server Statistics on Oracle Linux &amp; Oracle 11g</h2>
                         <p>
                           Oracle 11G is an enterprise-level relational database system that is widely used throughout the IT industry.  Gathering server statistics allows a conscientious Database Administrator to fine tune the performance of a database.  This is a walk-through of gathering basic statistics about server performance on Oracle 11g database server.  For more information about gathering statistics of Linux performance, visit <a href="https://www.thegeekstuff.com/2011/03/linux-performance-monitoring-intro/" target="_blank">Linux Performance Monitoring and Tuning Introduction from <em>The Geek Stuff</em></a>.
                         </p>
                         <div id="accordion">
-                            <h4><strong>Step 1: Examine Input/Output Statistics</strong></h4>
+                            <h4><strong>Tool #1: Examine Input/Output Statistics</strong></h4>
                             <div>
                               <p>
                                 The first step in performance tuning any database is to measure the inputs &amp; outputs of the server. This shows how long the CPU waits for input or output.  If these numbers are high, it indicates a problem with the server.  Below is a screenshot of running the <code>iostat</code> command with the flags <code>-xtc 10 5</code>, which will show the input / output stats for the CPU every 10 seconds, 5 times.  This allows the user to get a sense for the averages of how much the CPU is waiting:
@@ -34,17 +34,20 @@
                                 If disk read/write times are consistently high, the amount of time the disk is busy is greater than 50%, or the average service time is more than 30 milliseconds, you may have a problem which will require addressing.
                               </p>
                             </div>
-                            <h4><strong>Step 2: Examine Virtual Memory Statistics</strong></h4>
+                            <h4><strong>Tool #2: Examine Virtual Memory Statistics</strong></h4>
                             <div>
                               <p>
-                                Monitoring how much virtual memory is being accessed is another great indicator of server performance.  the <code>vmstat</code> command indicates how often virtual memory is being swapped in and out.  The <code>si</code>, swap in, and <code>so</code>, swap out columns show how often virtual memory is being used.  Ideally this number should be zero, but it should definitely not enter double digits.  Below is an example of running <code>vmstat</code>:
+                                Monitoring how much virtual memory is being accessed is another great indicator of server performance.  The <code>vmstat</code> command indicates how often virtual memory is being swapped in and out.  The <code>si</code> (swap in) and <code>so</code> (swap out) columns show how often virtual memory is being used.  Ideally this number should be zero, but it should definitely not enter double digits.  Below is an example of running <code>vmstat</code>:
                               </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/gatheringServerStatistics/02vmstat.png">
                                 <figcaption>Examine Virtual Memory Statistics</figcaption>
                               </figure>
+                              <p>
+                                In the example pictured above, it would be worth investigating why the <code>so</code> column value is so high.
+                              </p>
                             </div>
-                            <h4><strong>Step 3: Kill a (Hanging) Process in Oracle 11g</strong></h4>
+                            <h4><strong>Tool #3: Kill a (Hanging) Process in Oracle 11g</strong></h4>
                             <div>
                               <p>
                                 Another activity that is vital to performance tuning a database is being able to kill any processes that are hanging (stalled) and causing system performance issues.  For this example, a non-DBA user has run the following SQL query:
@@ -68,14 +71,14 @@
                                 <figcaption>Find the Offending Process - SID 17, SERIAL #10</figcaption>
                               </figure>
                               <p>
-                                Once the offending process is found, it can be killed from within the SQLPLUS prompt (logged in as system or sysdba) using <kbd>ALTER SYSTEM KILL SESSION '&lt;SID&gt;,&lt;SERIAL#&gt;');</kbd>.  The result of this command in our current example is illustrated below:
+                                Once the offending process is found, it can be killed from within the SQLPLUS prompt (logged in as system or sysdba) using: <blockquote class="blockquote"><kbd>ALTER SYSTEM KILL SESSION '&lt;SID&gt;,&lt;SERIAL#&gt;');</kbd></blockquote> The result of this command in our current example is illustrated below:
                               </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/gatheringServerStatistics/06AlterDBKillProcess.png">
                                 <figcaption>Kill a Process From Inside Oracle 11g</figcaption>
                               </figure>
                               <p>
-                                Rerunning <kbd>SELECT s.sid, s.serial#, s.username, s.osuser, s.machine, s.program, s.status FROM V$SESSION; </kbd> confirms the kill (just to be sure!):
+                                Rerunning the query from above confirms the kill (just to be sure!):
                               </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/gatheringServerStatistics/07ProcessKilled.png">
