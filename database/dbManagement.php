@@ -18,7 +18,15 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                         <h4>
-                          <a href="<?= $siteRoot; ?>database/oracle11GgatheringServerStatistics.php">Gathering Server Statistics on Oracle Linux &amp; Oracle 11g</a>
+                          <a href="<?= $siteRoot; ?>database/oracle11GworkingWithRedoLogs.php">Working with Redo Logs in Oracle 11g</a>
+                        </h4>
+                        <p>
+                          Redo Logs are crucial files that record the history of all transactions in the database (both DML and DDL).  Best practice is that redo logs are split into at least two groups, with two files in each group.  More groups and more files (within reason) are recommended. This step-by-step guide will illustrate some of the basics about working with redo logs.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <h4>
+                          <a href="<?= $siteRoot; ?>database/oracle11GgatheringServerStatistics.php">Gathering Server Statistics on Oracle 11g</a>
                         </h4>
                         <p>
                           Fine-tuning the performance of a database requires gathering basic statistics about the server performance.  This tutorial walks through some of the basic tools available to gather statistics about server performance.
