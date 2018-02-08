@@ -65,32 +65,18 @@
                         <li><a href="<?= $siteRoot; ?>database/dbManagement.php">Database Management</a></li>
                         <li><a href="<?= $siteRoot; ?>database/dbDev.php">Database Development</a></li>
                         <li><a href="<?= $siteRoot; ?>database/SQL.php">SQL</a></li>
-                        <li><a href="<?= $siteRoot; ?>db.php">Resources</a></li>
                       </ul>
                     </li>
-                    <li class="dropdown">
-                      <a class="dropdown-toggle topbar" data-toggle="dropdown" href="#">Project Management<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="<?= $siteRoot; ?>projectManagement/videoIntro.php">Video Introduction</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/intro.php">Introduction</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/organizationalInfluencesLifeCycle.php">Organizational Influences and Project Life Cycle</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/managementProcesses.php">Management Processes</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/integrationManagement.php">Integration Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/scopeManagement.php">Scope Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/timeManagement.php">Time Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/costManagement.php">Cost Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/qualityManagement.php">Quality Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/humanResourceManagement.php">Human Resource Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/communicationsManagement.php">Communications Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/riskManagement.php">Risk Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/procurementManagement.php">Procurement Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement/stakeholderManagement.php">Stakeholder Management</a></li>
-                        <li><a href="<?= $siteRoot; ?>projectManagement.php">Project Management Resources</a></li>
-                      </ul>
-                    </li>
-                    <!--<li><a class="topbar" href="<?= $siteRoot; ?>hardware.php">Hardware</a></li>-->
                     <li><a class="topbar" href="<?= $siteRoot; ?>networking.php">Networking</a></li>
-                    <!--<li><a class="topbar" href="<?= $siteRoot; ?>security.php">Security</a></li>-->
+                    <li><a class="topbar" href="<?= $siteRoot; ?>security.php">Security</a></li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle topbar" data-toggle="dropdown" href="#">Other<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="<?= $siteRoot; ?>projectManagement/videoIntro.php">Introduction to Project Management</a></li>
+                        <li><a href="<?= $siteRoot; ?>hardware.php">Computer Hardware</a></li>
+                      </ul>
+                    </li>
+
                   </ul>
                 </div>
               </div>

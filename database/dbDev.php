@@ -17,9 +17,21 @@
                     </ol>
                     <ul class="list-group">
                       <li class="list-group-item">
+                        <h4>Video:  Online Analytical Processing - A Brief Introduction</h4>
+                        <iframe class="wideVideo" src="https://www.youtube.com/embed/v5kct2IhpcE" allowfullscreen></iframe>
+                        <p>
+                          Online Analytical Processing (OLAP) is a decision support system (DSS) that uses multidimensional data analysis techniques.  OLAP creates an advanced data analysis environment that supports decision making, business modeling, and operations research.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
                         <h4>Video:  Intro to Databases 3 Development Process</h4>
                         <iframe class="wideVideo" src="https://www.youtube.com/embed/mLWZ2Y10pBA" allowfullscreen></iframe>
+                      </li>
+                      <li class="list-group-item">
+                        <h4>Video: NoSQL vs SQL: a Database Tutorial - Differences and advantages of NoSQL and SQL </h4>
+                        <iframe class="wideVideo" src="https://www.youtube.com/embed/Jt_w2swkXAk" allowfullscreen></iframe>
                         <p>
+                          For beginners who are learning the two major categories of databases, this video is a gentle introduction.  Relational databases are still mainly used by traditional organizations who require a structured database, but truly large databases (Facebook, Google) use NoSQL.  This video will help you decide which is most appropriate for your project!
                         </p>
                       </li>
                       <li class="list-group-item">

@@ -1,4 +1,4 @@
-<?php $title = 'Learn Project Management @ DevOpsNoob.com'; ?>
+<?php $title = 'Introduction to Project Management @ DevOpsNoob.com'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
@@ -13,10 +13,10 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>index.php">Home</a></li>
                         <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>projectManagement.php">Learn Project Management</a></li>
-                        <li class="breadcrumb-item active">Video Introduction</li>
+                        <li class="breadcrumb-item active">Introduction to Project Management</li>
                     </ol>
                     <div class="text-left">
-                      <h2>Video Introduction to Project Management</h2>
+                      <h2>Introduction to Project Management</h2>
                       <iframe class="wideVideo" src="https://www.youtube.com/embed/kFeJkrFmMv4"  allowfullscreen></iframe>
                       <h3>Project Management Fundamentals</h3>
                       <p>
