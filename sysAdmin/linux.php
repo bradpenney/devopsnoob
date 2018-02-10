@@ -21,6 +21,22 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                           <h4>
+                              <a href="<?= $siteRoot; ?>sysAdmin/linux/parrotSecurityOSInstall.php">Create a Parrot Security OS 3.11 Virtual Machine using VMWare Workstation 14</a>
+                          </h4>
+                          <p>
+                            A screenshot walkthrough of installing Parrot Security OS 3.11.  Parrot Security OS is a Debian-based distribtion of Linux with a focus on defensive security and development.
+                          </p>
+                      </li>
+                      <li class="list-group-item">
+                          <h4>
+                              <a href="<?= $siteRoot; ?>sysAdmin/linux/kaliInstall.php">Create a Kali Linux Virtual Machine using VMWare Workstation 14</a>
+                          </h4>
+                          <p>
+                            A screenshot walkthrough of installing Kali Linux, a Debian-based distribtion of Linux with a focus on offensive security.
+                          </p>
+                      </li>
+                      <li class="list-group-item">
+                          <h4>
                               <a href="linux/oracleLinuxInstall.php">Creating an Oracle Linux 7.4 Virtual Machine using VMWare WorkStation Pro 14</a>
                           </h4>
                           <p>
