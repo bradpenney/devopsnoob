@@ -123,6 +123,10 @@ td {
   border-radius: 0;
 }
 
+.inTextLink {
+  text-decoration: underline;
+}
+
 .centered {
     margin: auto;
 }
