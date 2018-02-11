@@ -55,6 +55,7 @@
                       <a class="dropdown-toggle topbar" data-toggle="dropdown" href="#">Systems Admin<span class="caret"></span></a>
                       <ul class="dropdown-menu">
                         <li><a href="<?= $siteRoot; ?>sysAdmin/linux.php">Linux</a></li>
+                        <li><a href="<?= $siteRoot; ?>sysAdmin/docker.php">Docker</a></li>
                         <li><a href="<?= $siteRoot; ?>sysAdmin/windows.php">Windows</a></li>
                         <li><a href="<?= $siteRoot; ?>sysAdmin.php">Resources</a></li>
                       </ul>

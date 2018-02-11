@@ -21,92 +21,92 @@
                             For anyone interested in cybersecurity, Kali Linux is a great place to start.  It has a full suite of offensive security tools, ready for deployment.  If you'd rather a more defensive/development security distribution of Linux, check out <a class="inTextLink" href="<?= $siteRoot; ?>sysAdmin/linux/parrotSecurityOSInstall.php">Parrot Security OS</a>.
                         </p>
                         <div id="accordion">
-                            <h4><strong>Step 1: Download the .iso file of Kali Linux</strong></h4>
-                            <div>
-                                <p>
-                                    Download the <a class="inTextLink" href="https://www.kali.org/downloads/" target="_blank">Kalix Linux .iso File</a>:
-                                </p>
-                                <figure>
-                                    <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/01downloadISO.png">
-                                    <figcaption>Download Kali Linux .iso</figcaption>
-                                </figure>
-                                <p>
-                                  Place it wherever you're planning to place the virtual machine (VM).  In my case, I setup a directory in which to house the VM called <em>Kali Linux</em>, simply to make maintenance of the VM easier.
-                                </p>
-                                <figure>
-                                    <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/02chooseDownloadLocation.png">
-                                    <figcaption>Choose Download Location</figcaption>
-                                </figure>
-                            </div>
-                            <h4><strong>Step 2: Create a NEW Virtual Machine in VMWare</strong></h4>
-                            <div>
+                          <h4><strong>Step 1: Download the .iso file of Kali Linux</strong></h4>
+                          <div>
                               <p>
-                                  If you don't have VMWare Workstation Pro 14, you can download it here: <a class="inTextLink" href="https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/14_0" target="_blank">VMWare Workstation Pro 14.1 (Free Trial Available)</a>.  Once you've downloaded and installed it, you're ready to begn.
-                              </p>
-                              <p>
-                                  Click on "Create a New Virtual Machine":
+                                  Download the <a class="inTextLink" href="https://www.kali.org/downloads/" target="_blank">Kalix Linux .iso File</a>:
                               </p>
                               <figure>
-                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/03CreateVM.png">
-                                  <figcaption>Create New Virtual Machine</figcaption>
+                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/01downloadISO.png">
+                                  <figcaption>Download Kali Linux .iso</figcaption>
                               </figure>
                               <p>
-                                You'll begin with the "New Machine Wizard," where you can select a "Typical" setup:
+                                Place it wherever you're planning to place the virtual machine (VM).  In my case, I setup a directory in which to house the VM called <em>Kali Linux</em>, simply to make maintenance of the VM easier.
                               </p>
                               <figure>
-                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/04NewVirtualMachineWizard.png">
-                                  <figcaption>New Machine Wizard - Typical Setup</figcaption>
+                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/02chooseDownloadLocation.png">
+                                  <figcaption>Choose Download Location</figcaption>
                               </figure>
-                              <p>
-                                Instead of selecting an .iso file here, we'll add it later.  This way, VMWare won't try to autopopulate any defaults that you might not want:
-                              </p>
-                              <figure>
-                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/05GuestOperatingSystemSelection.png">
-                                  <figcaption>Select "Typical" Install</figcaption>
-                              </figure>
-                              <p>
-                                Kali Linux isn't one of the standard options, so simply choose "Other Linux Kernel 4.0"
-                              </p>
-                              <figure>
-                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/06OtherLinuxKernel.png">
-                                  <figcaption>Choose "Other Linux Kernel 4...</figcaption>
-                              </figure>
-                              <p>
-                                Next, choose a name and a location for your virtual machine.  The location is particularly crucial, if you'd like your VM to be portable, you'll need to place it in an external hard drive.  Choose carefully:
-                              </p>
-                              <figure>
-                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/07NameLocationVM.png">
-                                  <figcaption>Choose a Name and File Location for the Virtual
-                                  Machine </figcaption>
-                              </figure>
-                              <p>
-                                Specifying the disk capacity of your VM is another important consideration - its rare to use less than 50GB for a virtual machine.  Choose as large as you can based on how much storage space you have available.  In this example, I've selected 500G - remember this is dynamically allocated and will only be used if necessary.  Also, choose a single file if you're not using FAT32 (old!):
-                              </p>
-                              <figure>
-                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/08SpecifyDiskCapacity.png">
-                                  <figcaption>Specify hwo large the hard drive of the VM will be</figcaption>
-                              </figure>
-                              <p>
-                                It may look like you're done here, but choose "Customize Hardware" and add some RAM - VMWare suggests  that you'll only need 768MB for this Linux machine - I think that may be a little low!
-                              </p>
-                              <figure>
-                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/09CustomizeHardware.png">
-                                  <figcaption>Select "Customize Hardware"</figcaption>
-                              </figure>
-                              <p>
-                                Again, choosing how much RAM your VM will have is dependent on your host computer.  The more the better.  In this case, I'm choosing 8GB.  As a general rule, I choose half of the RAM that the host computer has, but there are always exceptions:
-                              </p>
-                              <figure>
-                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/10AddRAM.png">
-                                  <figcaption>Add as much RAM as can be spared</figcaption>
-                              </figure>
-                              <p>
-                                After clicking "Close" on the previous screen, you're ready to create your VM!  This only takes a second.  At this point you've created a guest computer (virtual machine), and are ready to install the operating system on it.
-                              </p>
-                              <figure>
-                                  <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/11ReadyToCreateVM.png">
-                                  <figcaption>Create Your Guest Computer (Virtual Machine)</figcaption>
-                              </figure>
+                          </div>
+                          <h4><strong>Step 2: Create a NEW Virtual Machine in VMWare</strong></h4>
+                          <div>
+                            <p>
+                                If you don't have VMWare Workstation Pro 14, you can download it here: <a class="inTextLink" href="https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/14_0" target="_blank">VMWare Workstation Pro 14.1 (Free Trial Available)</a>.  Once you've downloaded and installed it, you're ready to begn.
+                            </p>
+                            <p>
+                                Click on "Create a New Virtual Machine":
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/03CreateVM.png">
+                                <figcaption>Create New Virtual Machine</figcaption>
+                            </figure>
+                            <p>
+                              You'll begin with the "New Machine Wizard," where you can select a "Typical" setup:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/04NewVirtualMachineWizard.png">
+                                <figcaption>New Machine Wizard - Typical Setup</figcaption>
+                            </figure>
+                            <p>
+                              Instead of selecting an .iso file here, we'll add it later.  This way, VMWare won't try to autopopulate any defaults that you might not want:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/05GuestOperatingSystemSelection.png">
+                                <figcaption>Select "Typical" Install</figcaption>
+                            </figure>
+                            <p>
+                              Kali Linux isn't one of the standard options, so simply choose "Other Linux Kernel 4.0"
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/06OtherLinuxKernel.png">
+                                <figcaption>Choose "Other Linux Kernel 4...</figcaption>
+                            </figure>
+                            <p>
+                              Next, choose a name and a location for your virtual machine.  The location is particularly crucial, if you'd like your VM to be portable, you'll need to place it in an external hard drive.  Choose carefully:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/07NameLocationVM.png">
+                                <figcaption>Choose a Name and File Location for the Virtual
+                                Machine </figcaption>
+                            </figure>
+                            <p>
+                              Specifying the disk capacity of your VM is another important consideration - its rare to use less than 50GB for a virtual machine.  Choose as large as you can based on how much storage space you have available.  In this example, I've selected 500G - remember this is dynamically allocated and will only be used if necessary.  Also, choose a single file if you're not using FAT32 (old!):
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/08SpecifyDiskCapacity.png">
+                                <figcaption>Specify hwo large the hard drive of the VM will be</figcaption>
+                            </figure>
+                            <p>
+                              It may look like you're done here, but choose "Customize Hardware" and add some RAM - VMWare suggests  that you'll only need 768MB for this Linux machine - that's not enough to enjoy your computing experience:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/09CustomizeHardware.png">
+                                <figcaption>Select "Customize Hardware"</figcaption>
+                            </figure>
+                            <p>
+                              Similar to the hard drive, choosing how much RAM your VM will have is dependent on your host computer.  The more the better.  In this case, I'm choosing 8GB.  As a general rule, I choose half of the RAM that the host computer has, but there are always exceptions:
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/10AddRAM.png">
+                                <figcaption>Add as much RAM as can be spared</figcaption>
+                            </figure>
+                            <p>
+                              After clicking "Close" on the previous screen, you're ready to create your VM!  This only takes a second.  At this point you've created a guest computer (virtual machine), and are ready to install the operating system on it.
+                            </p>
+                            <figure>
+                                <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/kaliInstall/11ReadyToCreateVM.png">
+                                <figcaption>Create Your Guest Computer (Virtual Machine)</figcaption>
+                            </figure>
                           </div>
                           <h4><strong>Step 3: Install Kali Linux on Virtual Machine</strong></h4>
                           <div>

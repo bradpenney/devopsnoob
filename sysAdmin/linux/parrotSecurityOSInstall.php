@@ -24,7 +24,7 @@
                             <h4><strong>Step 1: Download the .iso file of Parrot Security OS</strong></h4>
                             <div>
                                 <p>
-                                    Using the following link, <a href="https://www.parrotsec.org/download-full.fx" target="_blank">Parrot Security OS</a>, download the .iso file:
+                                    <a class="inTextLink" href="https://www.parrotsec.org/download-full.fx" target="_blank">Download Parrot Security OS</a> to get started:
                                 </p>
                                 <figure>
                                     <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/parrotSecurityOSInstall/01downloadISO.png">
@@ -41,10 +41,10 @@
                             <h4><strong>Step 2: Create a NEW Virtual Machine in VMWare</strong></h4>
                             <div>
                               <p>
-                                  If you don't have VMWare Workstation Pro 14, you can download it here: <a href="https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/14_0" target="_blank">VMWare Workstation Pro 14.1 (Free Trial Available)</a>.  Once you've downloaded and installed it, you're ready to begn.
+                                  If you don't have VMWare Workstation Pro 14, you can download it here: <a class="inTextLink" href="https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/14_0" target="_blank">VMWare Workstation Pro 14.1 (Free Trial Available)</a>.  Download and install it and you're ready to begin!
                               </p>
                               <p>
-                                  Once you've opened up VMWare, click on "Create a New Virtual Machine":
+                                  Open up VMWare and click on "Create a New Virtual Machine":
                               </p>
                               <figure>
                                   <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/parrotSecurityOSInstall/03CreateVM.png">
@@ -93,7 +93,7 @@
                                   <figcaption>Click "Customize Hardware"</figcaption>
                               </figure>
                               <p>
-                                Exactly how much RAM you give your VM is completely dependent on the host computer.  A good rule of thumb is half - so if you have 16GB, then 8GB to the VM.  This is exactly my situation, and what I've chosen:
+                                Exactly how much RAM you give your VM is completely dependent on the host computer.  A good rule of thumb is to give the VM half of your host computer's RAM - so if you have 16GB, then give the VM 8GB.  This is exactly my situation, and what I've chosen:
                               </p>
                               <figure>
                                   <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/parrotSecurityOSInstall/10AddingRAM.png">
