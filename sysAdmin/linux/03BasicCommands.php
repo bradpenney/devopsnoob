@@ -124,6 +124,7 @@
                           <li class="previous"><a href="<?= $siteRoot; ?>sysAdmin/linux/02YourFirst5Minutes.php">Previous</a></li>
                           <li class="next"><a href="<?= $siteRoot; ?>sysAdmin/linux/04MoreBasicCommands.php">Next</a></li>
                         </ul>
+                        <?php include '../../includes/disqus.php'; ?>
                     </div>
                     <div class="col-md-2">
                     </div>

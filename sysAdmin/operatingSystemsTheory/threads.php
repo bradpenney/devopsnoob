@@ -81,10 +81,11 @@
 					</p>
 					<h3>Further Resources</h3>
 					<p>
-						<a href="http://www.cs.iit.edu/~cs561/cs450/ChilkuriDineshThreads/dinesh's%20files/User%20and%20Kernel%20Level%20Threads.html" target="_blank">User and Kernel Level Threads</a>
+						<a class="inTextLink" href="http://www.cs.iit.edu/~cs561/cs450/ChilkuriDineshThreads/dinesh's%20files/User%20and%20Kernel%20Level%20Threads.html" target="_blank">User and Kernel Level Threads</a>
 					</p>
 				</article>
         <br />
+        <?php include '../../includes/disqus.php'; ?>
 			</div>
 			<div class="col-md-2">
 			</div>

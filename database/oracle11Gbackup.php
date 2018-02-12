@@ -164,6 +164,7 @@
                             </div>
                         </div>
                         <br />
+                        <?php include '../includes/disqus.php'; ?>
                     </div>
                     <div class="col-md-2">
                     </div>

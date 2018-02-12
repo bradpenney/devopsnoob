@@ -22,37 +22,37 @@
                       <ul class="list-group">
                           <li class="list-group-item">
                             <h4>
-                              <a href="operatingSystemsTheory/structures.php">Article: Operating System Structures</a>
+                              <a class="inTextLink" href="operatingSystemsTheory/structures.php">Operating System Structures</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/processManagement.php">Article: Process Management</a>
+                              <a class="inTextLink" href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/processManagement.php">Process Management</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/cpuScheduling.php">Article: CPU Scheduling</a>
+                              <a class="inTextLink" href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/cpuScheduling.php">CPU Scheduling</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/threads.php">Article: Threads</a>
+                              <a class="inTextLink" href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/threads.php">Threads</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/memoryManagement.php">Article: Memory Management</a>
+                              <a class="inTextLink" href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/memoryManagement.php">Memory Management</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/paging.php">Article: Paging and Segmentation</a>
+                              <a class="inTextLink" href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/paging.php">Paging and Segmentation</a>
                             </h4>
                           </li>
                           <li class="list-group-item">
                             <h4>
-                              <a href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/massStorage.php">Article: Mass Storage and Disk Scheduling</a>
+                              <a class="inTextLink" href="<?= $siteRoot; ?>/sysAdmin/operatingSystemsTheory/massStorage.php">Mass Storage and Disk Scheduling</a>
                             </h4>
                           </li>
                       </ul>

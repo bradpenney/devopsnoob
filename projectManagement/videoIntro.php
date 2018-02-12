@@ -94,8 +94,9 @@
                       <p>
                         Project management adds significant business value to an organization.  It is a framework of techniques and strategies that are applied to the creation of a unique product.  This video has offered only the briefest of introductions to project management - for more information, check out these resources.  Thank you.
                       </p>
-                    </br>
+                    <br />
                     </div>
+                    <?php include '../includes/disqus.php'; ?>
                   </div>
                   <div class="col-md-2">
                   </div>

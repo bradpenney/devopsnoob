@@ -126,6 +126,7 @@
                           <li class="previous disabled"><a href="#">Previous</a></li>
                           <li class="next"><a href="<?= $siteRoot; ?>sysAdmin/linux/01SettingUpLinuxVM.php">Next</a></li>
                         </ul>
+                        <?php include '../../includes/disqus.php'; ?>
                     </div>
                     <div class="col-md-2">
                     </div>

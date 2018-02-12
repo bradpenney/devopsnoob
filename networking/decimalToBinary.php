@@ -28,6 +28,7 @@
                          <img class="img-responsive centered" src="<?= $siteRoot; ?>images/networking/binaryToDecimalChart.png">
                          <figcaption>Converting From Binary to Decimal</figcaption>
                      </figure>
+                     <?php include '../includes/disqus.php'; ?>
                   </div>
                   <div class="col-md-2">
                   </div>

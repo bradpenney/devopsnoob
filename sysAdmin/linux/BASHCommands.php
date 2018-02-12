@@ -207,6 +207,7 @@
                       <p>
                         Other flags (aka switches) that can be used with <kbd>find</kbd> include <kbd>-mtime 0</kbd>, which searches for when the file was modified, in this case today.  Another is <kbd>-ctime</kbd> which tests for the time when the file was created.  The final one to be discussed here is the <kbd>-size 0</kbd>, which searches for files based on size.  The default block size is 512 bytes, but you can search by kilobytes (<kbd>-size 10k</kbd>), megabytes (<kbd>-size 10M</kbd>), or even gigabytes (<kbd>-size 10G</kbd>).
                       </p>
+                      <?php include '../../includes/disqus.php'; ?>
                     </div>
                     <div class="col-md-2">
                     </div>

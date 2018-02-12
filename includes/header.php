@@ -75,6 +75,7 @@
                       <ul class="dropdown-menu">
                         <li><a href="<?= $siteRoot; ?>projectManagement/videoIntro.php">Introduction to Project Management</a></li>
                         <li><a href="<?= $siteRoot; ?>hardware.php">Computer Hardware</a></li>
+                        <li><a href="<?= $siteRoot; ?>contact.php">Contact DevOpsNoob.com</a></li>
                       </ul>
                     </li>
 

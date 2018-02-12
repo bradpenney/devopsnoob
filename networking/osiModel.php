@@ -33,6 +33,7 @@
                      <p>
                          However, while the Transport and Network layers are interesting, for physical networking the real magic happens in the Data Link layer, which takes those packets, data which an individual computer understands, and prepares it to be converted into bits in the Physical Layer.  In essence, packets enter the Data  Link layer as data, and exit it in pulses of electricity which are either "ON" or "OFF", the proverbial 1's and 0's that computers communicate with.  In reality, its more that the wire that connects the two computers is blinking "ON" (meaning electrical current, 5V) or "OFF" (no current) at incredibly rapid rates.
                      </p>
+                     <?php include '../includes/disqus.php'; ?>
                   </div>
                   <div class="col-md-2">
                   </div>

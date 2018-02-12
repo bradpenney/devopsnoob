@@ -117,6 +117,7 @@
               </p>
               <iframe class="wideVideo" src="https://www.youtube.com/embed/-R6gsPo6LEQ" allowfullscreen></iframe>
           </article>
+          <?php include '../includes/disqus.php'; ?>
 			</div>
 			<div class="col-md-2">
 			</div>

@@ -82,6 +82,7 @@
                             <li class="previous"><a href="<?= $siteRoot; ?>sysAdmin/linux/05WhatsHappening.php">Previous</a></li>
                             <li class="next"><a href="<?= $siteRoot; ?>sysAdmin/linux/07PipesAndRedirection.php">Next</a></li>
                         </ul>
+                        <?php include '../../includes/disqus.php'; ?>
                     </div>
                     <div class="col-md-2">
                     </div>

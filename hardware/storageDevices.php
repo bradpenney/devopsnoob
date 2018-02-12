@@ -96,6 +96,7 @@
                   Wikipedia <a class="inTextLink" href="https://en.wikipedia.org/wiki/Hard_disk_drive">Hard Disk Drive</a>, <a href="https://en.wikipedia.org/wiki/Solid-state_drive">Solid-State Drive</a>, <a href="https://en.wikipedia.org/wiki/Hybrid_drive">Hybrid Drive</a>, <a href="https://en.wikipedia.org/wiki/Optical_disc_drive">Optical Disc Drive</a>, <a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB Flash Drive</a>, <a href="https://en.wikipedia.org/wiki/Tape_drive">Tape Drive</a>
               </p>
           </article>
+          <?php include '../includes/disqus.php'; ?>
 			</div>
 			<div class="col-md-2">
 			</div>

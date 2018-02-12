@@ -123,7 +123,7 @@
               <iframe class="wideVideo" src="https://www.youtube.com/embed/bDKCSvmlPuc" allowfullscreen></iframe>
               <iframe class="wideVideo" src="https://www.youtube.com/embed/Fk9LkGhyH-0" allowfullscreen></iframe>
           </article>
-			</div>
+          <?php include '../includes/disqus.php'; ?>
 			<div class="col-md-2">
 			</div>
 		</div>

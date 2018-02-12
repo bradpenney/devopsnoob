@@ -150,6 +150,7 @@
               <iframe class="wideVideo" src="https://www.youtube.com/embed/WzKUVZdIr10" allowfullscreen></iframe>
               <iframe class="wideVideo" src="https://www.youtube.com/embed/bmRMRlDXph0" allowfullscreen></iframe>
           </article>
+          <?php include '../includes/disqus.php'; ?>
 			</div>
 			<div class="col-md-2">
 			</div>

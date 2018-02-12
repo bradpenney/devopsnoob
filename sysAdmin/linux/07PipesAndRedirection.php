@@ -74,12 +74,13 @@
                         </figure>
                         <p>
                           One last quick note - in this video, Dave tried to send an email in the command line and it failed.  The video was getting long, so I'm sure he didn't want to take the time to set it up.  There's a great guide on how to set it up here:
-                          <a href="http://rianjs.net/2013/08/send-email-from-linux-server-using-gmail-and-ubuntu-two-factor-authentication" target="_blank">Configure a Linux server to send email</a>.  I followed this guide and it worked right away!
+                          <a class="inTextLink" href="http://rianjs.net/2013/08/send-email-from-linux-server-using-gmail-and-ubuntu-two-factor-authentication" target="_blank">Configure a Linux server to send email</a>.  I followed this guide and it worked right away!
                         </p>
                         <ul class="pager">
                             <li class="previous"><a href="<?= $siteRoot; ?>sysAdmin/linux/06TextEditors.php">Previous</a></li>
                             <li class="next disabled"><a href="#">Next</a></li>
                         </ul>
+                        <?php include '../../includes/disqus.php'; ?>
                     </div>
                     <div class="col-md-2">
                     </div>

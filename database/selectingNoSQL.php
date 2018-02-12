@@ -100,6 +100,7 @@
                         <sup id="fn6">6. What is a Key-Value Store? (n.d.). Retrieved October 29, 2017, from <a href="https://www.aerospike.com/what-is-a-key-value-store/" target="_blank">https://www.aerospike.com/what-is-a-key-value-store/</a>.<a href="#ref6" title="Jump back to footnote 6 in the text.">↩</a></sup><br />
                       <br />
                     </div>
+                    <?php include '../includes/disqus.php'; ?>
                   </div>
                   <div class="col-md-2">
                   </div>
