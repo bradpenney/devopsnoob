@@ -21,14 +21,14 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                           <h4>
-                              <a href="database/oracle11GInstall.php">Install Oracle 11G On Oracle Linux 7.4</a>
+                              <a class="inTextLink" href="database/oracle11GInstall.php">Install Oracle 11G On Oracle Linux 7.4</a>
                           </h4>
                           <p>
                             A screenshot walkthrough of installing Oracle 11G Database on a Oracle Linux 7.4 Virtual Machine.  This is meant as an Activity Log to show how this works.
                           </p>
                       </li>
                       <li class="list-group-item">
-                        <h4><a href="<?= $siteRoot; ?>database/selectingNoSQL.php">Selecting a NoSQL Database</a></h4>
+                        <h4><a class="inTextLink" href="<?= $siteRoot; ?>database/selectingNoSQL.php">Selecting a NoSQL Database</a></h4>
                         <p>
                           A quick article outlining the strengths and weaknesses of the four main types of NoSQL databases.
                         </p>
@@ -48,10 +48,10 @@
                         </p>
                       </li>
                       <li class="list-group-item">
-                        <h4><a href="https://github.com/bradpenney/dataDropDatabasePublic" target="_blank">Data Drop Database</a></h4>
+                        <h4><a class="inTextLink" href="https://github.com/bradpenney/dataDropDatabasePublic" target="_blank">Data Drop Database</a></h4>
                         <a href="https://github.com/bradpenney/dataDropDatabasePublic" target="_blank"><img class="thumbnail centered img-responsive" src="images/programming/dataDropDatabaseScreenshot.png"></a>
                         <p>
-                          I've created a simple network drop database tool that is essentially a MySQL database that runs off a PHP website.  In essence, a website queries a simple database that holds information about data drops in a building.  Users can search by data drop number, VLAN, room number, rack, switch, and other parameters.  Users can also insert, update and delete information within the GUI.  This is all published under an open-source software license (<a href="https://choosealicense.com/licenses/gpl-3.0/" target="_blank">GPL v3.0</a>), so anyone can freely use it as long as they share any improvements they make!
+                          I've created a simple network drop database tool that is essentially a MySQL database that runs off a PHP website.  In essence, a website queries a simple database that holds information about data drops in a building.  Users can search by data drop number, VLAN, room number, rack, switch, and other parameters.  Users can also insert, update and delete information within the GUI.  This is all published under an open-source software license (<a class="inTextLink" href="https://choosealicense.com/licenses/gpl-3.0/" target="_blank">GPL v3.0</a>), so anyone can freely use it as long as they share any improvements they make!
                         </p>
                       </li>
                     </ul>

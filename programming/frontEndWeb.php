@@ -27,7 +27,7 @@
                           I'd like to offer thanks to Brad Traversy at Traversy Media, his videos are absolutely wonderful.  I even used this tutorial to create my personal portfolio website (scroll down to see the effect):
                         </p>
                         <ul class="noDecoration">
-                          <li><a href="http://www.bradpenney.ca" target="_blank">BradPenney.ca</a></li>
+                          <li><a class="inTextLink" href="http://www.bradpenney.ca" target="_blank">BradPenney.ca</a></li>
                         </ul>
                       </li>
                       <li class="list-group-item">
@@ -35,13 +35,13 @@
                               On the subject of Front-End Web Development, one of the most informative YouTube channel's currently is DevTips, hosted by Travis Nielson, who is an employee of Google and formerly of Tubular Labs.  Travis describes himself as a designer who is also a developer, almost a 50/50 mix.  He has a rare gift and passion for passing on his knowledge - his work is stellar.  Here's a link to his YouTub channel:
                           </p>
                           <p>
-                              <a href="https://www.youtube.com/user/DevTipsForDesigners" target="_blank">Travis Neilson's DevTips YouTube Channel</a>
+                              <a class="inTextLink" href="https://www.youtube.com/user/DevTipsForDesigners" target="_blank">Travis Neilson's DevTips YouTube Channel</a>
                           </p>
                           <p>
                               I personally learned a lot from Travis' Bootstrap Series:
                           </p>
                           <p>
-                              <a href="https://www.youtube.com/watch?v=0QlecDOWHmY&list=PLqGj3iMvMa4IPwMW-sSXn1Q_pVu5tUMCw" target="_blank">Travis Neilson's DevTips Bootstrap Playlist</a>
+                              <a class="inTextLink" href="https://www.youtube.com/watch?v=0QlecDOWHmY&list=PLqGj3iMvMa4IPwMW-sSXn1Q_pVu5tUMCw" target="_blank">Travis Neilson's DevTips Bootstrap Playlist</a>
                           </p>
                       </li>
                       <li class="list-group-item">
@@ -49,11 +49,11 @@
                               Another great resource that I've used extensively is the W3Schools.com website.  They have tutorials on several web development technologies, the front-end ones I've used quite a lot both as learning tools and reference guides include:
                           </p>
                           <p>
-                              <a href="http://www.w3schools.com/html/default.asp" target="_blank">HTML5 Tutorial</a> |
-                              <a href="http://www.w3schools.com/css/default.asp" target="_blank">CSS3 Tutorial</a> |
-                              <a href="http://www.w3schools.com/js/default.asp" target="_blank">JavaScript Tutorial</a> |
-                              <a href="http://www.w3schools.com/bootstrap/default.asp" target="_blank">Bootstrap Tutorial</a> |
-                              <a href="http://www.w3schools.com/jquery/default.asp" target="_blank">jQuery Tutorial</a>
+                              <a class="inTextLink" href="http://www.w3schools.com/html/default.asp" target="_blank">HTML5 Tutorial</a> |
+                              <a class="inTextLink" href="http://www.w3schools.com/css/default.asp" target="_blank">CSS3 Tutorial</a> |
+                              <a class="inTextLink" href="http://www.w3schools.com/js/default.asp" target="_blank">JavaScript Tutorial</a> |
+                              <a class="inTextLink" href="http://www.w3schools.com/bootstrap/default.asp" target="_blank">Bootstrap Tutorial</a> |
+                              <a class="inTextLink" href="http://www.w3schools.com/jquery/default.asp" target="_blank">jQuery Tutorial</a>
                           </p>
                       </li>
                     </ul>

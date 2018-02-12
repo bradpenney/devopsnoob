@@ -36,22 +36,22 @@
                       </li>
                       <li class="list-group-item">
                         <h4>
-                          <a href="hardware/storageDevices.php">Article: Introduction to Storage Devices</a>
+                          <a class="inTextLink" href="hardware/storageDevices.php">Introduction to Storage Devices</a>
                         </h4>
                       </li>
                       <li class="list-group-item">
                         <h4>
-                          <a href="hardware/memoryTypes.php">Article: Introduction to Memory Types</a>
+                          <a class="inTextLink" href="hardware/memoryTypes.php">Introduction to Memory Types</a>
                         </h4>
                       </li>
                       <li class="list-group-item">
                         <h4>
-                          <a href="hardware/introToMotherboards.php">Article: Introduction to Motherboards</a>
+                          <a class="inTextLink" href="hardware/introToMotherboards.php">Introduction to Motherboards</a>
                         </h4>
                       </li>
                       <li class="list-group-item">
                         <h4>
-                          <a href="hardware/motherboardExpansionSlots.php">Article: Motherboard Expansion Slots</a>
+                          <a class="inTextLink" href="hardware/motherboardExpansionSlots.php">Motherboard Expansion Slots</a>
                         </h4>
                       </li>
                     </ul>

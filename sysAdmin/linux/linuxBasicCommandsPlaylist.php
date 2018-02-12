@@ -23,7 +23,6 @@
                 <ul class="list-group">
                   <li class="list-group-item">
                     <h4>whoami - Linux Terminal Command</h4>
-
                     <iframe class="wideVideo" src="https://www.youtube.com/embed/SJL99XvFwR0" allowfullscreen></iframe>
                     <p>
                       The <kbd>whoami</kbd> command returns the username that called the command.  Particularly useful during scripting.

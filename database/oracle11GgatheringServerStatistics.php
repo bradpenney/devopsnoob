@@ -18,7 +18,7 @@
                         </ol>
                         <h2>Gathering Server Statistics on Oracle Linux &amp; Oracle 11g</h2>
                         <p>
-                          Oracle 11G is an enterprise-level relational database system that is widely used throughout the IT industry.  Gathering server statistics allows a conscientious Database Administrator to fine tune the performance of a database.  This is a walk-through of gathering basic statistics about server performance on Oracle 11g database server.  For more information about gathering statistics of Linux performance, visit <a href="https://www.thegeekstuff.com/2011/03/linux-performance-monitoring-intro/" target="_blank">Linux Performance Monitoring and Tuning Introduction from <em>The Geek Stuff</em></a>.
+                          Oracle 11G is an enterprise-level relational database system that is widely used throughout the IT industry.  Gathering server statistics allows a conscientious Database Administrator to fine tune the performance of a database.  This is a walk-through of gathering basic statistics about server performance on Oracle 11g database server.  For more information about gathering statistics of Linux performance, visit <a class="inTextLink" href="https://www.thegeekstuff.com/2011/03/linux-performance-monitoring-intro/" target="_blank">Linux Performance Monitoring and Tuning Introduction from <em>The Geek Stuff</em></a>.
                         </p>
                         <div id="accordion">
                             <h4><strong>Tool #1: Examine Input/Output Statistics</strong></h4>

@@ -21,7 +21,7 @@
                       <ul class="list-group">
                         <li class="list-group-item">
                           <p>
-                            <a href="https://nbviewer.jupyter.org/github/bradpenney/jupyterNotebooks/blob/master/Introduction%20to%20Python%20-%20Jupyter%20Notebook.ipynb" target="_blank">Jupyter Notebook - Introduction to Python</a>
+                            <a class="inTextLink" href="https://nbviewer.jupyter.org/github/bradpenney/jupyterNotebooks/blob/master/Introduction%20to%20Python%20-%20Jupyter%20Notebook.ipynb" target="_blank">Jupyter Notebook - Introduction to Python</a>
                           </p>
                           <p>
                             Check out my Jupyter notebook which introduces Python.  It's an evergrowing resource for the absolute beginner to Python.
@@ -34,8 +34,8 @@
                             An excellent tips-n-tricks video from Sebastiaan Mathot which outlines several ways to solve common Python problems in clever, efficient ways.
                           </p>
                           <ul class="noDecoration">
-            								<li><a href="https://github.com/bradpenney/learningPython/blob/master/7SimpleTricks/7SimpleTricks.py" target="_blank">Source Code (via GitHub)</a></li>
-            								<li><a href="https://github.com/bradpenney/learningPython/blob/master/7SimpleTricks/pimpin_aint_easy.txt" target="_blank">Associated Text File (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/bradpenney/learningPython/blob/master/7SimpleTricks/7SimpleTricks.py" target="_blank">Source Code (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/bradpenney/learningPython/blob/master/7SimpleTricks/pimpin_aint_easy.txt" target="_blank">Associated Text File (via GitHub)</a></li>
             							</ul>
                         </li>
                         <li class="list-group-item">
@@ -45,24 +45,24 @@
                             This is an excellent beginner tutorial series on how to create a simple Django project.  As always, Bucky is concise and to the point about what needs to be done.  A word of caution: Bucky assumes you know the basics of Python and Bootstrap in this series.
                           </p>
                           <ul class="noDecoration">
-            								<li><a href="https://github.com/buckyroberts/Viberr" target="_blank">Bucky's Source Code (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/buckyroberts/Viberr" target="_blank">Bucky's Source Code (via GitHub)</a></li>
             							</ul>
                         </li>
                         <li class="list-group-item">
-                            <h4><a href="https://docs.python.org/3/" target="_blank">Python 3.6 Official Documentation</a></h4>
+                            <h4><a class="inTextLink" href="https://docs.python.org/3/" target="_blank">Python 3.6 Official Documentation</a></h4>
                         </li>
             						<li class="list-group-item">
                                       <h4>
                                           Introductory Programs
                                       </h4>
             							<ul class="noDecoration">
-            								<li><a href="https://github.com/bradpenney/learningPython/blob/master/HelloWorld.py" target="_blank">Obligatory First Program: Hello World (via GitHub)</a></li>
-            								<li><a href="https://github.com/bradpenney/learningPython/blob/master/MadLib.py" target="_blank">The Inevitable MadLib (via GitHub)</a></li>
-            								<li><a href="https://github.com/bradpenney/learningPython/blob/master/NiceHexSpiral.py" target="_blank">Turtle-Based Hex Spiral (via GitHub)</a></li>
-            								<li><a href="https://github.com/bradpenney/learningPython/blob/master/SquareSpiral1.py" target="_blank">Turtle-Based Square Spiral (via GitHub)</a></li>
-            								<li><a href="https://github.com/bradpenney/learningPython/blob/master/PaintCalculator.py" target="_blank">Paint Calculator (via GitHub)</a></li>
-            								<li><a href="https://github.com/bradpenney/learningPython/blob/master/WageCalc.py" target="_blank">Wage Calculator (via GitHub)</a></li>
-            								<li><a href="https://github.com/bradpenney/learningPython/blob/master/IsOdd.py" target="_blank">Function: IsOdd Calc (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/bradpenney/learningPython/blob/master/HelloWorld.py" target="_blank">Obligatory First Program: Hello World (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/bradpenney/learningPython/blob/master/MadLib.py" target="_blank">The Inevitable MadLib (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/bradpenney/learningPython/blob/master/NiceHexSpiral.py" target="_blank">Turtle-Based Hex Spiral (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/bradpenney/learningPython/blob/master/SquareSpiral1.py" target="_blank">Turtle-Based Square Spiral (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/bradpenney/learningPython/blob/master/PaintCalculator.py" target="_blank">Paint Calculator (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/bradpenney/learningPython/blob/master/WageCalc.py" target="_blank">Wage Calculator (via GitHub)</a></li>
+            								<li><a class="inTextLink" href="https://github.com/bradpenney/learningPython/blob/master/IsOdd.py" target="_blank">Function: IsOdd Calc (via GitHub)</a></li>
             							</ul>
           						</li>
           					</ul>

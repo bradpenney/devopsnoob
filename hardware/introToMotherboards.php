@@ -21,10 +21,10 @@
                   In this article:
               </p>
               <ol>
-                  <li><a href="#motherboard">What is a Motherboard?</a></li>
-                  <li><a href="#cpuSockets">CPU Sockets</a></li>
-                  <li><a href="#ramSlots">RAM Slots</a></li>
-                  <li><a href="#motherboardChipsets">Motherboard Chipsets</a></li>
+                  <li><a class="inTextLink" href="#motherboard">What is a Motherboard?</a></li>
+                  <li><a class="inTextLink" href="#cpuSockets">CPU Sockets</a></li>
+                  <li><a class="inTextLink" href="#ramSlots">RAM Slots</a></li>
+                  <li><a class="inTextLink" href="#motherboardChipsets">Motherboard Chipsets</a></li>
               </ol>
               <h3 id="motherboard">What is a Motherboard?</h3>
               <p>
@@ -34,9 +34,9 @@
                   Some of the most common motherboard form factors include:
               </p>
               <ul>
-                  <li><a href="#ATX">ATX</a></li>
-                  <li><a href="#microATX">Micro-ATX</a></li>
-                  <li><a href="#ITX">ITX</a></li>
+                  <li><a class="inTextLink" href="#ATX">ATX</a></li>
+                  <li><a class="inTextLink" href="#microATX">Micro-ATX</a></li>
+                  <li><a class="inTextLink" href="#ITX">ITX</a></li>
               </ul>
               <h3 id="ATX">ATX</h3>
               <figure>
@@ -110,13 +110,13 @@
               </p>
               <h3>Further Resources</h3>
               <p>
-                  Mike Meyers.  <a href="http://www.amazon.ca/gp/product/125958951X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=125958951X&amp;linkCode=as2&amp;tag=19thcentuhist-20"><em>CompTIA A+ Certification All-in-One Exam Guide, Ninth Edition (Exams 220-901 &amp; 220-902)</em></a>.  pp. 227 - 240.
+                  Mike Meyers.  <a class="inTextLink" href="http://www.amazon.ca/gp/product/125958951X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=125958951X&amp;linkCode=as2&amp;tag=19thcentuhist-20"><em>CompTIA A+ Certification All-in-One Exam Guide, Ninth Edition (Exams 220-901 &amp; 220-902)</em></a>.  pp. 227 - 240.
               </p>
               <p>
-                  Wikipedia - <a href="https://en.wikipedia.org/wiki/Motherboard">Motherboard</a>, <a href="https://en.wikipedia.org/wiki/CPU_socket">CPU Socket</a>, <a href="https://en.wikipedia.org/wiki/Northbridge_(computing)">Northbridge</a>, <a href="https://en.wikipedia.org/wiki/Southbridge_(computing)">Southbridge</a>
+                  Wikipedia - <a class="inTextLink" href="https://en.wikipedia.org/wiki/Motherboard">Motherboard</a>, <a href="https://en.wikipedia.org/wiki/CPU_socket">CPU Socket</a>, <a href="https://en.wikipedia.org/wiki/Northbridge_(computing)">Northbridge</a>, <a href="https://en.wikipedia.org/wiki/Southbridge_(computing)">Southbridge</a>
               </p>
               <p>
-                  <a href="http://www.computerhope.com/jargon/m/memoslot.htm">Computer Hope: Memory Slot</a>
+                  <a class="inTextLink" href="http://www.computerhope.com/jargon/m/memoslot.htm">Computer Hope: Memory Slot</a>
               </p>
               <iframe class="wideVideo" src="https://www.youtube.com/embed/Q7A9z33Qj7M" allowfullscreen></iframe>
               <iframe class="wideVideo" src="https://www.youtube.com/embed/BTq2b5_1EGI" allowfullscreen></iframe>

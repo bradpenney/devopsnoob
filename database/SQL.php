@@ -18,7 +18,7 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                         <p>
-                          <a href="https://www.w3schools.com/sql/default.asp" target="_blank">W3Schools.com SQL Tutorial</a>
+                          <a class="inTextLink" href="https://www.w3schools.com/sql/default.asp" target="_blank">W3Schools.com SQL Tutorial</a>
                         </p>
                         <p>
                           The W3Schools SQL tutorial is super useful and a go-to resource for anyone wishing to become a competent Database Administrator.

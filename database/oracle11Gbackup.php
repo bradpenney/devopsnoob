@@ -24,7 +24,7 @@
                           Sources used in during process include:
                           <ul>
                             <li>
-                              <a href="https://oracle-base.com/articles/10g/oracle-data-pump-10g" target="_blank">Oracle Data Pump (expdp, impdp) in Oracle Database 10g, 11g, 12c</a>
+                              <a class="inTextLink" href="https://oracle-base.com/articles/10g/oracle-data-pump-10g" target="_blank">Oracle Data Pump (expdp, impdp) in Oracle Database 10g, 11g, 12c</a>
                             </li>
                           </ul>
                         </p>
@@ -86,10 +86,10 @@
                               </p>
                               <ul>
                                 <li>
-                                  <strong><a href="<?= $siteRoot; ?>sysAdmin/linux/oracleLinuxInstall.php">Guide to Create an Oracle Linux 7.4 Virtual Machine</a></strong>
+                                  <strong><a class="inTextLink" href="<?= $siteRoot; ?>sysAdmin/linux/oracleLinuxInstall.php">Guide to Create an Oracle Linux 7.4 Virtual Machine</a></strong>
                                 </li>
                                 <li>
-                                  <strong><a href="<?= $siteRoot; ?>database/oracle11GInstall.php">Guide to Installing Oracle 11G on Oracle Linux 7.4</a></strong>.
+                                  <strong><a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11GInstall.php">Guide to Installing Oracle 11G on Oracle Linux 7.4</a></strong>.
                                 </li>
                               </ul>
                               <p>

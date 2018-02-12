@@ -38,10 +38,10 @@
                   There are many different kinds of expansion slots that allow different components to be added to the motherboard.  The most common of these expansion slots include:
               </p>
               <ul>
-                  <li><a href="#PCI">PCI</a></li>
-                  <li><a href="#AGP">AGP</a></li>
-                  <li><a href="#pcix">PCI-X</a></li>
-                  <li><a href="#pcie">PCIe</a></li>
+                  <li><a class="inTextLink" href="#PCI">PCI</a></li>
+                  <li><a class="inTextLink" href="#AGP">AGP</a></li>
+                  <li><a class="inTextLink" href="#pcix">PCI-X</a></li>
+                  <li><a class="inTextLink" href="#pcie">PCIe</a></li>
               </ul>
               <h3 id="PCI">PCI</h3>
               <figure>
@@ -107,10 +107,10 @@
               </figure>
               <h3>Further Resources</h3>
               <p>
-                  Mike Meyers.  <a href="http://www.amazon.ca/gp/product/125958951X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=125958951X&amp;linkCode=as2&amp;tag=19thcentuhist-20"><em>CompTIA A+ Certification All-in-One Exam Guide, Ninth Edition (Exams 220-901 &amp; 220-902)</em></a>.  pp. 240-271.
+                  Mike Meyers.  <a class="inTextLink" href="http://www.amazon.ca/gp/product/125958951X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=125958951X&amp;linkCode=as2&amp;tag=19thcentuhist-20"><em>CompTIA A+ Certification All-in-One Exam Guide, Ninth Edition (Exams 220-901 &amp; 220-902)</em></a>.  pp. 240-271.
               </p>
               <p>
-                  Wikipedia - <a href="https://en.wikipedia.org/wiki/Bus_(computing)">Bus</a>, <a href="https://en.wikipedia.org/wiki/Conventional_PCI">PCI</a>, <a href="https://en.wikipedia.org/wiki/Accelerated_Graphics_Port">AGP</a>, <a href="https://en.wikipedia.org/wiki/PCI-X">PCI-X</a>, <a href="https://en.wikipedia.org/wiki/PCI_Express">PCI Express</a>
+                  Wikipedia - <a class="inTextLink" href="https://en.wikipedia.org/wiki/Bus_(computing)">Bus</a>, <a href="https://en.wikipedia.org/wiki/Conventional_PCI">PCI</a>, <a href="https://en.wikipedia.org/wiki/Accelerated_Graphics_Port">AGP</a>, <a href="https://en.wikipedia.org/wiki/PCI-X">PCI-X</a>, <a href="https://en.wikipedia.org/wiki/PCI_Express">PCI Express</a>
               </p>
               <p>
                   YouTube:

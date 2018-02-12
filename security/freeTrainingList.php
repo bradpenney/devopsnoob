@@ -21,16 +21,16 @@
                       </p>
                       <ul class="list-group">
                           <li class="list-group-item">
-                              <a href="https://www.cybrary.it/" target="_blank">Cybrary</a>
+                              <a class="inTextLink" href="https://www.cybrary.it/" target="_blank">Cybrary</a>
                           </li>
                           <li class="list-group-item">
-                              <a href="https://www.offensive-security.com/metasploit-unleashed/" target="_blank">Metasploit Unleashed by Offensive Security</a>
+                              <a class="inTextLink" href="https://www.offensive-security.com/metasploit-unleashed/" target="_blank">Metasploit Unleashed by Offensive Security</a>
                           </li>
                           <li class="list-group-item">
-                              <a href="http://resources.infosecinstitute.com/mini-course/cryptography-cissp-training/" target="_blank">CISSP Cryptography Mini Tutorial by InfoSEC Institute</a>
+                              <a class="inTextLink" href="http://resources.infosecinstitute.com/mini-course/cryptography-cissp-training/" target="_blank">CISSP Cryptography Mini Tutorial by InfoSEC Institute</a>
                           </li>
                           <li class="list-group-item">
-                              <a href="https://tutorials.cyberaces.org/tutorials" target="_blank">SANS Cyber Aces Online Tutorials</a>
+                              <a class="inTextLink" href="https://tutorials.cyberaces.org/tutorials" target="_blank">SANS Cyber Aces Online Tutorials</a>
                           </li>
                       </ul>
                   </div>

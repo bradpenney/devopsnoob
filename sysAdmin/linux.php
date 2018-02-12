@@ -21,7 +21,7 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                           <h4>
-                              <a href="<?= $siteRoot; ?>sysAdmin/linux/parrotSecurityOSInstall.php">Create a Parrot Security OS 3.11 Virtual Machine using VMWare Workstation 14</a>
+                              <a class="inTextLink" href="<?= $siteRoot; ?>sysAdmin/linux/parrotSecurityOSInstall.php">Create a Parrot Security OS 3.11 Virtual Machine using VMWare Workstation 14</a>
                           </h4>
                           <p>
                             A screenshot walkthrough of installing Parrot Security OS 3.11.  Parrot Security OS is a Debian-based distribtion of Linux with a focus on defensive security and development.
@@ -29,7 +29,7 @@
                       </li>
                       <li class="list-group-item">
                           <h4>
-                              <a href="<?= $siteRoot; ?>sysAdmin/linux/kaliInstall.php">Create a Kali Linux Virtual Machine using VMWare Workstation 14</a>
+                              <a class="inTextLink" href="<?= $siteRoot; ?>sysAdmin/linux/kaliInstall.php">Create a Kali Linux Virtual Machine using VMWare Workstation 14</a>
                           </h4>
                           <p>
                             A screenshot walkthrough of installing Kali Linux, a Debian-based distribtion of Linux with a focus on offensive security.
@@ -37,7 +37,7 @@
                       </li>
                       <li class="list-group-item">
                           <h4>
-                              <a href="linux/oracleLinuxInstall.php">Creating an Oracle Linux 7.4 Virtual Machine using VMWare WorkStation Pro 14</a>
+                              <a class="inTextLink" href="linux/oracleLinuxInstall.php">Creating an Oracle Linux 7.4 Virtual Machine using VMWare WorkStation Pro 14</a>
                           </h4>
                           <p>
                             A screenshot walkthrough of installing Oracle Linux 7.4 onto a Virtual Machine.  Oracle Linux is from the RedHat/Cent 0S family of Linux.
@@ -45,7 +45,7 @@
                       </li>
                       <li class="list-group-item">
                           <h4>
-                            <a href="linux/courseIntroduction.php">Linux SysAdmin Course from tutoriaLinux via YouTube</a>
+                            <a class="inTextLink" href="linux/courseIntroduction.php">Linux SysAdmin Course from tutoriaLinux via YouTube</a>
                           </h4>
                           <p>
                             Many thanks to Dave who created this series.  His work is definitely appreciated by those of us trying to learn System Administration using Linux.
@@ -53,7 +53,7 @@
                       </li>
                       <li class="list-group-item">
                           <h4>
-                              <a href="linux/openSUSEInstall.php">Creating an openSUSE 13.2 Virtual Machine using VMWare WorkStation Pro 12</a>
+                              <a class="inTextLink" href="linux/openSUSEInstall.php">Creating an openSUSE 13.2 Virtual Machine using VMWare WorkStation Pro 12</a>
                           </h4>
                           <p>
                             A screenshot walkthrough of installing Linux openSUSE 13.2 onto a Virtual Machine.  openSUSE is from the RedHat/Cent 0S family of Linux.
@@ -61,7 +61,7 @@
                       </li>
                       <li class="list-group-item">
                           <h4>
-                              <a href="linux/mint18Install.php">Creating a Mint 18.0 Virtual Machine using VMWare WorkStation Pro 12</a>
+                              <a class="inTextLink" href="linux/mint18Install.php">Creating a Mint 18.0 Virtual Machine using VMWare WorkStation Pro 12</a>
                           </h4>
                           <p>
                             A screenshot walkthrough of installing Linux Mint 18.0 onto a Virtual Machine.  Mint is from the Debian family of Linux.
@@ -69,7 +69,7 @@
                       </li>
                       <li class="list-group-item">
                         <h4>
-                          <a href="linux/BASHCommands.php">Basic BASH Commands</a>
+                          <a class="inTextLink" href="linux/BASHCommands.php">Basic BASH Commands</a>
                         </h4>
                         <p>
                           A quick (and ever-growing) reference list of BASH commands used in the Linux terminal.
@@ -77,7 +77,7 @@
                       </li>
                       <li class="list-group-item">
                         <h4>
-                          <a href="http://www.opsschool.org/en/latest/unix_101.html" target="_blank">Unix Fundamentals 101</a>
+                          <a class="inTextLink" href="http://www.opsschool.org/en/latest/unix_101.html" target="_blank">Unix Fundamentals 101</a>
                         </h4>
                         <p>
                           An absolutely wonderful (text-heavy) resource for budding Linux (Unix) admins. This curriculum starts at the absolute basics and works its way into how to maintain and administer Linux (Unix) systems.

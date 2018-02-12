@@ -18,7 +18,15 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                         <h4>
-                          <a href="<?= $siteRoot; ?>database/oracle11GworkingWithRedoLogs.php">Working with Redo Logs in Oracle 11g</a>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gAdjustingMemoryParameters.php">Adjusting Memory Parameters in Oracle 11g</a>
+                        </h4>
+                        <p>
+                          Determining how much memory is available to the database is another crucial aspect to database tuning and performance.  Having more memory available than will ever be used is a poor use of resources, however, not allocating enough memory to a database can cause a signficant reduction in performance.  This walk-through shows how to change memory parameters to suit your needs within Oracle 11g.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <h4>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11GworkingWithRedoLogs.php">Working with Redo Logs in Oracle 11g</a>
                         </h4>
                         <p>
                           Redo Logs are crucial files that record the history of all transactions in the database (both DML and DDL).  Best practice is that redo logs are split into at least two groups, with two files in each group.  More groups and more files (within reason) are recommended. This step-by-step guide will illustrate some of the basics about working with redo logs.
@@ -26,7 +34,7 @@
                       </li>
                       <li class="list-group-item">
                         <h4>
-                          <a href="<?= $siteRoot; ?>database/oracle11GgatheringServerStatistics.php">Gathering Server Statistics on Oracle 11g</a>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11GgatheringServerStatistics.php">Gathering Server Statistics on Oracle 11g</a>
                         </h4>
                         <p>
                           Fine-tuning the performance of a database requires gathering basic statistics about the server performance.  This tutorial walks through some of the basic tools available to gather statistics about server performance.
@@ -34,7 +42,7 @@
                       </li>
                       <li class="list-group-item">
                         <h4>
-                          <a href="<?= $siteRoot; ?>database/oracle11GcontrolFileBackup.php">Oracle 11G Control File Backup Using Custom Scripts</a>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11GcontrolFileBackup.php">Oracle 11G Control File Backup Using Custom Scripts</a>
                         </h4>
                         <p>
                           Backing up a database is more than simply backing up the raw data.  The structure of the database is also critical to its functioning.  In this series of scripts, the control files, spfiles and a couple of .ora files are backed up.
@@ -49,7 +57,7 @@
                       </li>
                       <li class="list-group-item">
                           <h4>
-                              <a href="<?= $siteRoot; ?>database/oracle11Gbackup.php">Oracle 11G Schema Backup Using Data Pump</a>
+                              <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11Gbackup.php">Oracle 11G Schema Backup Using Data Pump</a>
                           </h4>
                           <p>
                             A screenshot walkthrough of backing up a schema to another instance using Data Pump.  This is meant as an Activity Log to show how this works.
@@ -57,14 +65,14 @@
                       </li>
                       <li class="list-group-item">
                           <h4>
-                              <a href="oracle11GInstall.php">Install Oracle 11G on an Oracle Linux 7.4 Virtual Machine</a>
+                              <a class="inTextLink" href="oracle11GInstall.php">Install Oracle 11G on an Oracle Linux 7.4 Virtual Machine</a>
                           </h4>
                           <p>
                             A screenshot walkthrough of installing Oracle 11G Database on a Oracle Linux 7.4 Virtual Machine.  This is meant as an Activity Log to show how this works.
                           </p>
                       </li>
                       <li class="list-group-item">
-                        <h4><a href="<?= $siteRoot; ?>database/selectingNoSQL.php">Selecting a NoSQL Database</a></h4>
+                        <h4><a class="inTextLink" href="<?= $siteRoot; ?>database/selectingNoSQL.php">Selecting a NoSQL Database</a></h4>
                         <p>
                           A quick article outlining the strengths and weaknesses of the four main types of NoSQL databases.
                         </p>

@@ -21,19 +21,19 @@
                             Oracle Linux is a widely-used Enterprise Linux distribution.  As far as Enterprise Linux distributions, its main competition is RedHat.  Oracle Linux is used mainly to host Oracle databases, and a true Oracle-shop will consider nothing else as an option for their database server.  Below is a guide to installing Oracle Linux 7.4 on a Virtual Machine (VM).  If you're using a different hypervisor (say Oracle Virtualbox or Microsoft Hyper-V), the steps will be in a different order but will be very similar.  The steps inside the VM will match exactly.
                         </p>
                         <p>
-                          Oracle Linux is often used to host a Oracle database <span class="glyphicon glyphicon-arrow-right"></span>  <strong><a href="<?= $siteRoot; ?>database/oracle11GInstall.php">Guide to Installing Oracle 11G on Oracle Linux 7.4</a></strong>.
+                          Oracle Linux is often used to host a Oracle database <span class="glyphicon glyphicon-arrow-right"></span>  <strong><a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11GInstall.php">Guide to Installing Oracle 11G on Oracle Linux 7.4</a></strong>.
                         </p>
                         <p>
                             The software required to follow this process will be:
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <p>
-                                        <a href="https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/14_0" target="_blank">VMWare Workstation Pro 14 (Free Trial Available)</a>
+                                        <a class="inTextLink" href="https://my.vmware.com/en/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation_pro/14_0" target="_blank">VMWare Workstation Pro 14 (Free Trial Available)</a>
                                     </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p>
-                                        An Oracle Linux 7.4 .iso file will be required.  This can be downloaded (for free) directly from Oracle (<a href="http://www.oracle.com" target="_blank">http://www.oracle.com</a>) but creation of a free account is required.  Please sign up for an account and then download the Oracle Linux 7.4 .iso file from Oracle's Software Delivery Cloud.
+                                        An Oracle Linux 7.4 .iso file will be required.  This can be downloaded (for free) directly from <a class="inTextLink" href="http://www.oracle.com" target="_blank">Oracle</a> but creation of a free account is required.  Please sign up for an account and then download the Oracle Linux 7.4 .iso file from Oracle's Software Delivery Cloud.
                                     </p>
                                     <p>
                                       The required file is <strong>V921569-01.iso, Oracle Linux Release 7 Update 4 for x86 (64 bit), 4.6 GB</strong>

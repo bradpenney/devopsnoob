@@ -19,7 +19,7 @@
                          Converting Decimal to Binary
                      </h2>
                      <p>
-                         Binary is a 2-base numbering system.  Decimal is a 10-base numbering system.  Computer speak to each other using binary numbers, but humans (except extreme nerds perhaps), use the decimal system.  Converting between the two is actually a fairly simple process.
+                         Binary is a 2-base numbering system.  Decimal is a 10-base numbering system.  Computers speak to each other using binary numbers, but humans (except extreme nerds perhaps), use the decimal system.  Converting between the two is actually a fairly simple process.
                      </p>
                      <p>
                          It may seem a little confusing to the beginner that a binary number <code>10110010</code> equals 178 in decimal.  Here's a chart of how:

@@ -25,12 +25,12 @@
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <p>
-                                        <a href="http://www.vmware.com/products/workstation/workstation-evaluation.html" target="_blank">VMWare Workstation Pro 12.5 (Free Trial Available)</a>
+                                        <a class="inTextLink" href="http://www.vmware.com/products/workstation/workstation-evaluation.html" target="_blank">VMWare Workstation Pro 12.5 (Free Trial Available)</a>
                                     </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p>
-                                        <a href="https://www.linuxmint.com/edition.php?id=217" target="_blank">Linux Mint 18.0 "Sarah" Cinnamon</a>
+                                        <a class="inTextLink" href="https://www.linuxmint.com/edition.php?id=217" target="_blank">Linux Mint 18.0 "Sarah" Cinnamon</a>
                                     </p>
                                 </li>
                             </ul>
@@ -39,13 +39,13 @@
                             <h4><strong>Step 1: Download the .iso file of Mint 18.0 "Sarah"</strong></h4>
                             <div>
                                 <p>
-                                    Using the following link, <a href="https://www.linuxmint.com/edition.php?id=217" target="_blank">Mint 18.0 "Sarah"</a>, download the .iso file and place it wherever you're planning to place the virtual machine (VM).  In my case, I setup a directory in which to house the VM called <em>Mint</em>, simply to make maintenance of the VM easier.  Mint is <strong>1.6GB</strong> so plan accordingly - ensure you've got enough time, bandwidth and data availablity to complete this download.  It shouldn't take more than a few minutes if you have a decent Internet connection.
+                                    Using the following link, <a class="inTextLink" href="https://www.linuxmint.com/edition.php?id=217" target="_blank">Mint 18.0 "Sarah"</a>, download the .iso file and place it wherever you're planning to place the virtual machine (VM).  In my case, I setup a directory in which to house the VM called <em>Mint</em>, simply to make maintenance of the VM easier.  Mint is <strong>1.6GB</strong> so plan accordingly - ensure you've got enough time, bandwidth and data availablity to complete this download.  It shouldn't take more than a few minutes if you have a decent Internet connection.
                                 </p>
                             </div>
                             <h4><strong>Step 2: Create a NEW Virtual Machine in VMWare</strong></h4>
                             <div>
                                 <p>
-                                    If you don't have VMWare Workstation Pro 12, you can download it here: <a href="http://www.vmware.com/products/workstation/workstation-evaluation.html" target="_blank">VMWare Workstation Pro 12.5 (Free Trial Available)</a>.  Once you've downloaded and installed it, you can open it and be presented with a screen like this:
+                                    If you don't have VMWare Workstation Pro 12, you can download it here: <a class="inTextLink" href="http://www.vmware.com/products/workstation/workstation-evaluation.html" target="_blank">VMWare Workstation Pro 12.5 (Free Trial Available)</a>.  Once you've downloaded and installed it, you can open it and be presented with a screen like this:
                                 </p>
                                 <figure>
                                     <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/openSUSEInstall/vmware.png">

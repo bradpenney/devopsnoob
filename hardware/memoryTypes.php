@@ -24,15 +24,15 @@
                   This article will introduce:
               </p>
               <ol>
-                  <li><a href="#rom">Read-Only Memory (ROM)</a></li>
-                  <li><a href="#sram">Static Random-Access-Memory (SRAM)</a></li>
-                  <li><a href="#dram">Dynamic Random-Access-Memory (DRAM)</a></li>
-                  <li><a href="#sdrSdram">Synchronous DRAM (SDRAM)</a></li>
-                  <li><a href="#ddr">Double Data Rate (DDR) SDRAM</a></li>
-                  <li><a href="#ddr2">Double Data Rate 2 (DDR2) SDRAM</a></li>
-                  <li><a href="#ddr3">Double Data Rate 3 (DDR3) SDRAM</a></li>
-                  <li><a href="#ddr4">Double Data Rate 4 (DDR4) SDRAM</a></li>
-                  <li><a href="#specialty">Specialty RAM</a></li>
+                  <li><a class="inTextLink" href="#rom">Read-Only Memory (ROM)</a></li>
+                  <li><a class="inTextLink" href="#sram">Static Random-Access-Memory (SRAM)</a></li>
+                  <li><a class="inTextLink" href="#dram">Dynamic Random-Access-Memory (DRAM)</a></li>
+                  <li><a class="inTextLink" href="#sdrSdram">Synchronous DRAM (SDRAM)</a></li>
+                  <li><a class="inTextLink" href="#ddr">Double Data Rate (DDR) SDRAM</a></li>
+                  <li><a class="inTextLink" href="#ddr2">Double Data Rate 2 (DDR2) SDRAM</a></li>
+                  <li><a class="inTextLink" href="#ddr3">Double Data Rate 3 (DDR3) SDRAM</a></li>
+                  <li><a class="inTextLink" href="#ddr4">Double Data Rate 4 (DDR4) SDRAM</a></li>
+                  <li><a class="inTextLink" href="#specialty">Specialty RAM</a></li>
               </ol>
               <h3 id="rom">Read Only Memory (ROM)</h3>
               <p>
@@ -128,21 +128,21 @@
               </p>
               <h3>Further Resources</h3>
               <p>
-                  Mike Meyers.  <a href="http://www.amazon.ca/gp/product/125958951X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=125958951X&amp;linkCode=as2&amp;tag=19thcentuhist-20" target="_blank">CompTIA A+ Certification All-in-One Exam Guide, Ninth Edition (Exams 220-901 &amp; 220-902)</a>.  pp. 147-181.
+                  Mike Meyers.  <a class="inTextLink" href="http://www.amazon.ca/gp/product/125958951X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=125958951X&amp;linkCode=as2&amp;tag=19thcentuhist-20" target="_blank">CompTIA A+ Certification All-in-One Exam Guide, Ninth Edition (Exams 220-901 &amp; 220-902)</a>.  pp. 147-181.
               </p>
               <p>
                   Wikipedia:
               </p>
               <ul>
-                  <li><a href="https://en.wikipedia.org/wiki/Static_random-access_memory" target="_blank">SRAM</a></li>
-                  <li><a href="https://en.wikipedia.org/wiki/Dynamic_random-access_memory" target="_blank">DRAM</a></li>
-                  <li><a href="https://en.wikipedia.org/wiki/Synchronous_dynamic_random-access_memory" target="_blank">SDRAM</a></li>
-                  <li><a href="https://en.wikipedia.org/wiki/DDR2_SDRAM" target="_blank">DDR2</a></li>
-                  <li><a href="https://en.wikipedia.org/wiki/DDR3_SDRAM" target="_blank">DDR3</a></li>
-                  <li><a href="https://en.wikipedia.org/wiki/DDR4_SDRAM" target="_blank">DDR4</a></li>
-                  <li><a href="https://en.wikipedia.org/wiki/RAM_parity" target="_blank">RAM Parity</a></li>
-                  <li><a href="https://en.wikipedia.org/wiki/Registered_memory" target="_blank">Registered Memory</a></li>
-                  <li><a href="https://en.wikipedia.org/wiki/Multi-channel_memory_architecture" target="_blank">Multi-channel Memory</a></li>
+                  <li><a class="inTextLink" href="https://en.wikipedia.org/wiki/Static_random-access_memory" target="_blank">SRAM</a></li>
+                  <li><a class="inTextLink" href="https://en.wikipedia.org/wiki/Dynamic_random-access_memory" target="_blank">DRAM</a></li>
+                  <li><a class="inTextLink" href="https://en.wikipedia.org/wiki/Synchronous_dynamic_random-access_memory" target="_blank">SDRAM</a></li>
+                  <li><a class="inTextLink" href="https://en.wikipedia.org/wiki/DDR2_SDRAM" target="_blank">DDR2</a></li>
+                  <li><a class="inTextLink" href="https://en.wikipedia.org/wiki/DDR3_SDRAM" target="_blank">DDR3</a></li>
+                  <li><a class="inTextLink" href="https://en.wikipedia.org/wiki/DDR4_SDRAM" target="_blank">DDR4</a></li>
+                  <li><a class="inTextLink" href="https://en.wikipedia.org/wiki/RAM_parity" target="_blank">RAM Parity</a></li>
+                  <li><a class="inTextLink" href="https://en.wikipedia.org/wiki/Registered_memory" target="_blank">Registered Memory</a></li>
+                  <li><a class="inTextLink" href="https://en.wikipedia.org/wiki/Multi-channel_memory_architecture" target="_blank">Multi-channel Memory</a></li>
               </ul>
               <p>
                   YouTube:

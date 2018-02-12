@@ -21,22 +21,22 @@
                       </p>
                       <ul class="list-group">
                           <li class="list-group-item">
-                              <a href="https://nakedsecurity.sophos.com/" target="_blank">Naked Security by Sophos</a>
+                              <a class="inTextLink" href="https://nakedsecurity.sophos.com/" target="_blank">Naked Security by Sophos</a>
                           </li>
                           <li class="list-group-item">
-                              <a href="https://krebsonsecurity.com/" target="_blank">Krebs on Security</a>
+                              <a class="inTextLink" href="https://krebsonsecurity.com/" target="_blank">Krebs on Security</a>
                           </li>
                           <li class="list-group-item">
-                              <a href="http://www.darkreading.com/" target="_blank">Dark Reading</a>
+                              <a class="inTextLink" href="http://www.darkreading.com/" target="_blank">Dark Reading</a>
                           </li>
                           <li class="list-group-item">
-                              <a href="https://www.wired.com/category/security/threatlevel/" target="_blank">Threat Level by Wired Magazine</a>
+                              <a class="inTextLink" href="https://www.wired.com/category/security/threatlevel/" target="_blank">Threat Level by Wired Magazine</a>
                           </li>
                           <li class="list-group-item">
-                              <a href="https://threatpost.com/" target="_blank">Threat Post</a>
+                              <a class="inTextLink" href="https://threatpost.com/" target="_blank">Threat Post</a>
                           </li>
                           <li class="list-group-item">
-                              <a href="http://www.infosecurity-magazine.com/" target="_blank">Infosecurity Magazine</a>
+                              <a class="inTextLink" href="http://www.infosecurity-magazine.com/" target="_blank">Infosecurity Magazine</a>
                           </li>
                       </ul>
                   </div>

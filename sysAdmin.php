@@ -21,7 +21,7 @@
                   <ul class="list-group">
                     <li class="list-group-item">
                       <h4>
-                        <a href="http://www.opsschool.org/en/latest/" target="_blank">Ops School</a>
+                        <a class="inTextLink" href="http://www.opsschool.org/en/latest/" target="_blank">Ops School</a>
                       </h4>
                       <p>
                         One of the most powerful tools I've yet discovered for learning about how System Administrators do their job.  This website has a whole curriculum and weeks of learning for any new SysAdmin (or any new DevOps professional!).
@@ -29,7 +29,7 @@
                     </li>
                     <li class="list-group-item">
                       <h4>
-                        <a href="<?= $siteRoot; ?>sysAdmin/operatingSystemsTheory.php">Operating Systems Theory</a>
+                        <a class="inTextLink" href="<?= $siteRoot; ?>sysAdmin/operatingSystemsTheory.php">Operating Systems Theory</a>
                       </h4>
                       <p>
                         This is a series of articles I wrote as I watched Computer Science 377 - Operating Systems Introduction (<a href="https://www.youtube.com/playlist?list=PLacuG5pysFbDQU8kKxbUh4K5c1iL5_k7k" target="_blank">YouTube Playlist</a>) from the University of Massachusetts.  The lecturer is Sean Barker, and this is a phenomenal series about the lower level workings of an operating system.

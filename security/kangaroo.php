@@ -24,13 +24,13 @@
                           Below are some articles I found about Kangaroo Ransomware:
                           <ul class="list-group">
                               <li class="list-group-item">
-                                  <a href="https://www.bleepingcomputer.com/news/security/the-kangaroo-ransomware-not-only-encrypts-your-data-but-tries-to-lock-you-out-of-windows/" target="_blank">The Kangaroo Ransomware not only Encrypts your Data but tries to Lock you out of Windows</a>
+                                  <a class="inTextLink" href="https://www.bleepingcomputer.com/news/security/the-kangaroo-ransomware-not-only-encrypts-your-data-but-tries-to-lock-you-out-of-windows/" target="_blank">The Kangaroo Ransomware not only Encrypts your Data but tries to Lock you out of Windows</a>
                               </li>
                               <li class="list-group-item">
-                                  <a href="http://www.securityspyware.com/kangaroo-ransomware-vairus-removal/" target="_blank">What we have to know about Kangaroo ransomware? How to remove Kangaroo ransomware?</a>
+                                  <a class="inTextLink" href="http://www.securityspyware.com/kangaroo-ransomware-vairus-removal/" target="_blank">What we have to know about Kangaroo ransomware? How to remove Kangaroo ransomware?</a>
                               </li>
                               <li class="list-group-item">
-                                  <a href="http://sensorstechforum.com/remove-kangaroo-ransomware-restore-crypted_file-data/" target="_blank">Remove Kangaroo Ransomware and Restore .crypted_file Data</a>
+                                  <a class="inTextLink" href="http://sensorstechforum.com/remove-kangaroo-ransomware-restore-crypted_file-data/" target="_blank">Remove Kangaroo Ransomware and Restore .crypted_file Data</a>
                               </li>
                           </ul>
                       </p>

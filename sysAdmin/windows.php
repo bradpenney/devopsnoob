@@ -18,7 +18,7 @@
                   <ul class="list-group">
                     <li class="list-group-item">
                         <h4>
-                            <a href="https://web.sas.upenn.edu/jasonrw/2016/03/01/how-to-create-a-windows-image-for-mass-deployment/" target="_blank">How to Create a Windows Image for Mass Deployment</a>
+                            <a class="inTextLink" href="https://web.sas.upenn.edu/jasonrw/2016/03/01/how-to-create-a-windows-image-for-mass-deployment/" target="_blank">How to Create a Windows Image for Mass Deployment</a>
                         </h4>
                         <p>
                           The need to clone and deploy a specific Windows configuration is critical to System Administration.  Check out this exceptional article (above) for a useful overview of the process.
@@ -26,7 +26,7 @@
                     </li>
                       <li class="list-group-item">
                           <h4>
-                              <a href="windows/windowsServer2012R2DataCenter.php">Creating an Windows Server 2012 R2 Datacenter Virtual Machine using VMWare WorkStation Pro 12</a>
+                              <a class="inTextLink" href="windows/windowsServer2012R2DataCenter.php">Creating an Windows Server 2012 R2 Datacenter Virtual Machine using VMWare WorkStation Pro 12</a>
                           </h4>
                       </li>
                       <li class="list-group-item">

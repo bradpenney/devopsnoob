@@ -29,7 +29,7 @@
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/managingControlFiles/01manageControlFiles.png">
                                 <figcaption>Script to Manage Control Files<br>
-                                <a href="https://github.com/bradpenney/oracleScripts/blob/master/manageControlFiles.sql" target="_blank">Link To Script on GitHub</a>
+                                <a class="inTextLink" href="https://github.com/bradpenney/oracleScripts/blob/master/manageControlFiles.sql" target="_blank">Link To Script on GitHub</a>
                                 </figcaption>
                               </figure>
                               <p>
@@ -48,7 +48,7 @@
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/managingControlFiles/03controlFileBackupScript.png">
                                 <figcaption>Script to Backup Control Files<br>
-                                <a href="https://github.com/bradpenney/oracleScripts/blob/master/createControlFileBackup.sql" target="_blank">Link To Script on GitHub</a>
+                                <a class="inTextLink" href="https://github.com/bradpenney/oracleScripts/blob/master/createControlFileBackup.sql" target="_blank">Link To Script on GitHub</a>
                                 </figcaption>
                               </figure>
                               <p>
@@ -67,7 +67,7 @@
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/managingControlFiles/05spfileBackupScript.png">
                                 <figcaption>Script to Backup Control Files<br>
-                                <a href="https://github.com/bradpenney/oracleScripts/blob/master/backupSPfiles.sql" target="_blank">Link To Script on GitHub</a>
+                                <a class="inTextLink" href="https://github.com/bradpenney/oracleScripts/blob/master/backupSPfiles.sql" target="_blank">Link To Script on GitHub</a>
                                 </figcaption>
                               </figure>
                               <p>
@@ -86,7 +86,7 @@
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/managingControlFiles/07backupListnerTNSNames.png">
                                 <figcaption>BASH Script to Make a Backup Copy of Listener.ora and TNSNames.ora Files<br>
-                                <a href="https://github.com/bradpenney/oracleScripts/blob/master/backupListenerTsnames.sh" target="_blank">Link To Script on GitHub</a>
+                                <a class="inTextLink" href="https://github.com/bradpenney/oracleScripts/blob/master/backupListenerTsnames.sh" target="_blank">Link To Script on GitHub</a>
                                 </figcaption>
                               </figure>
                             </div>

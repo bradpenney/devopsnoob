@@ -21,16 +21,16 @@
                           Oracle 11G is an enterprise-level relational database system that is widely used throughout the IT industry.  This is a walk-through of installing a basic Oracle 11G Database. It will be installed on an Oracle Linux 7.4 Virtual Machine.  Navigation and familiarity with Linux are assumed.
                         </p>
                         <p>
-                          <span class="glyphicon glyphicon-arrow-right"></span> <a href="<?= $siteRoot; ?>sysAdmin/linux/oracleLinuxInstall.php">Guide to Create an Oracle Linux 7.4 Virtual Machine</a>.
+                          <span class="glyphicon glyphicon-arrow-right"></span> <a class="inTextLink" href="<?= $siteRoot; ?>sysAdmin/linux/oracleLinuxInstall.php">Guide to Create an Oracle Linux 7.4 Virtual Machine</a>.
                         </p>
                         <p>
                           Two of the website sources used in during process include:
                           <ul>
                             <li>
-                              <a href="https://oracle-base.com/articles/11g/oracle-db-11gr2-installation-on-oracle-linux-7" target="_blank">Oracle Database 11g Release 2 (11.2) Installation On Oracle Linux 7 (OL7)</a>
+                              <a class="inTextLink" href="https://oracle-base.com/articles/11g/oracle-db-11gr2-installation-on-oracle-linux-7" target="_blank">Oracle Database 11g Release 2 (11.2) Installation On Oracle Linux 7 (OL7)</a>
                             </li>
                             <li>
-                              <a href="http://it-solutions-blog.blogspot.ca/2015/11/how-to-install-oracle-database-11gr2-on.html" target="_blank">How to Install Oracle Database 11gR2 on Oracle Linux 7 VMware Workstation</a>
+                              <a class="inTextLink" href="http://it-solutions-blog.blogspot.ca/2015/11/how-to-install-oracle-database-11gr2-on.html" target="_blank">How to Install Oracle Database 11gR2 on Oracle Linux 7 VMware Workstation</a>
                             </li>
                           </ul>
                         </p>

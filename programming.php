@@ -20,16 +20,16 @@
                   <ul class="list-group">
                       <h3>Programming Languages</h3>
                       <li class="list-group-item">
-                          <a href="<?= $siteRoot; ?>programming/python.php">Python</a>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>programming/python.php">Python</a>
                       </li>
                       <li class="list-group-item">
-                          <a href="<?= $siteRoot; ?>programming/java.php">Java</a>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>programming/java.php">Java</a>
                       </li>
                       <li class="list-group-item">
-                          <a href="<?= $siteRoot; ?>programming/php.php">PHP</a>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>programming/php.php">PHP</a>
                       </li>
                       <li class="list-group-item">
-                          <a href="<?= $siteRoot; ?>programming/frontEndWeb.php">Front-End Web Development</a>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>programming/frontEndWeb.php">Front-End Web Development</a>
                       </li>
                   </ul>
                 </div>

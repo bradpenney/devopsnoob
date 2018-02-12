@@ -24,12 +24,12 @@
                   This brief article will cover:
               </p>
               <ol>
-                  <li><a href="#hdd">Hard Disk Drive</a></li>
-                  <li><a href="#ssd">Solid-State Drive (SSD)</a></li>
-                  <li><a href="#sshd">Solid-State Hard Drive (SSHD)</a></li>
-                  <li><a href="#opticalMedia">Optical Media</a></li>
-                  <li><a href="#usb">USB Flash Drive</a></li>
-                  <li><a href="#tapeDrive">Tape Drive</a></li>
+                  <li><a class="inTextLink" href="#hdd">Hard Disk Drive</a></li>
+                  <li><a class="inTextLink" href="#ssd">Solid-State Drive (SSD)</a></li>
+                  <li><a class="inTextLink" href="#sshd">Solid-State Hard Drive (SSHD)</a></li>
+                  <li><a class="inTextLink" href="#opticalMedia">Optical Media</a></li>
+                  <li><a class="inTextLink" href="#usb">USB Flash Drive</a></li>
+                  <li><a class="inTextLink" href="#tapeDrive">Tape Drive</a></li>
               </ol>
               <h3 id="hdd">Hard Disk Drive</h3>
               <figure>
@@ -90,10 +90,10 @@
               </p>
               <h3>Further Resources</h3>
               <p>
-                  Mike Meyers.  <a href="http://www.amazon.ca/gp/product/125958951X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=125958951X&amp;linkCode=as2&amp;tag=19thcentuhist-20"><em>CompTIA A+ Certification All-in-One Exam Guide, Ninth Edition (Exams 220-901 &amp; 220-902)</em></a>.  pp. 313 - 341.
+                  Mike Meyers.  <a class="inTextLink" href="http://www.amazon.ca/gp/product/125958951X/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=125958951X&amp;linkCode=as2&amp;tag=19thcentuhist-20"><em>CompTIA A+ Certification All-in-One Exam Guide, Ninth Edition (Exams 220-901 &amp; 220-902)</em></a>.  pp. 313 - 341.
               </p>
               <p>
-                  Wikipedia <a href="https://en.wikipedia.org/wiki/Hard_disk_drive">Hard Disk Drive</a>, <a href="https://en.wikipedia.org/wiki/Solid-state_drive">Solid-State Drive</a>, <a href="https://en.wikipedia.org/wiki/Hybrid_drive">Hybrid Drive</a>, <a href="https://en.wikipedia.org/wiki/Optical_disc_drive">Optical Disc Drive</a>, <a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB Flash Drive</a>, <a href="https://en.wikipedia.org/wiki/Tape_drive">Tape Drive</a>
+                  Wikipedia <a class="inTextLink" href="https://en.wikipedia.org/wiki/Hard_disk_drive">Hard Disk Drive</a>, <a href="https://en.wikipedia.org/wiki/Solid-state_drive">Solid-State Drive</a>, <a href="https://en.wikipedia.org/wiki/Hybrid_drive">Hybrid Drive</a>, <a href="https://en.wikipedia.org/wiki/Optical_disc_drive">Optical Disc Drive</a>, <a href="https://en.wikipedia.org/wiki/USB_flash_drive">USB Flash Drive</a>, <a href="https://en.wikipedia.org/wiki/Tape_drive">Tape Drive</a>
               </p>
           </article>
 			</div>

@@ -25,12 +25,12 @@
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <p>
-                                        <a href="http://www.vmware.com/products/workstation/workstation-evaluation.html" target="_blank">VMWare Workstation Pro 12.5 (Free Trial Available)</a>
+                                        <a class="inTextLink" href="http://www.vmware.com/products/workstation/workstation-evaluation.html" target="_blank">VMWare Workstation Pro 12.5 (Free Trial Available)</a>
                                     </p>
                                 </li>
                                 <li class="list-group-item">
                                     <p>
-                                        <a href="https://software.opensuse.org/132/en" target="_blank">openSUSE 13.2 (Open Source, Gratis)</a>
+                                        <a class="inTextLink" href="https://software.opensuse.org/132/en" target="_blank">openSUSE 13.2 (Open Source, Gratis)</a>
                                     </p>
                                 </li>
                             </ul>
@@ -39,13 +39,13 @@
                             <h4><strong>Step 1: Download the .iso file of openSUSE 13.2</strong></h4>
                             <div>
                                 <p>
-                                    Using the following link, <a href="https://software.opensuse.org/132/en" target="_blank">openSUSE 13.2</a>, download the .iso file and place it wherever you're planning to place the virtual machine (VM).  In my case, I setup a directory in which to house the VM called <em>openSUSE</em>, simply to make maintenance of the VM easier.  openSUSE 13.2 is <strong>4.5GB</strong> so plan accordingly - ensure you've got enough time, bandwidth and data availablity to complete this download.  It can take a while!
+                                    Using the following link, <a class="inTextLink" href="https://software.opensuse.org/132/en" target="_blank">openSUSE 13.2</a>, download the .iso file and place it wherever you're planning to place the virtual machine (VM).  In my case, I setup a directory in which to house the VM called <em>openSUSE</em>, simply to make maintenance of the VM easier.  openSUSE 13.2 is <strong>4.5GB</strong> so plan accordingly - ensure you've got enough time, bandwidth and data availablity to complete this download.  It can take a while!
                                 </p>
                             </div>
                             <h4><strong>Step 2: Create a NEW Virtual Machine in VMWare</strong></h4>
                             <div>
                                 <p>
-                                    If you don't have VMWare Workstation Pro 12, you can download it here: <a href="http://www.vmware.com/products/workstation/workstation-evaluation.html" target="_blank">VMWare Workstation Pro 12.5 (Free Trial Available)</a>.  Once you've downloaded and installed it, you can open it and be presented with a screen like this:
+                                    If you don't have VMWare Workstation Pro 12, you can download it here: <a class="inTextLink" href="http://www.vmware.com/products/workstation/workstation-evaluation.html" target="_blank">VMWare Workstation Pro 12.5 (Free Trial Available)</a>.  Once you've downloaded and installed it, you can open it and be presented with a screen like this:
                                 </p>
                                 <figure>
                                     <img class="img-responsive centered" src="<?= $siteRoot; ?>images/sysAdmin/linux/openSUSEInstall/vmware.png">

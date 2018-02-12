@@ -36,7 +36,7 @@
                       </li>
                       <li class="list-group-item">
                         <p>
-                          <a href="https://en.wikipedia.org/wiki/Systems_development_life_cycle" target="_blank">Systems Development Life Cycle</a>
+                          <a class="inTextLink" href="https://en.wikipedia.org/wiki/Systems_development_life_cycle" target="_blank">Systems Development Life Cycle</a>
                         </p>
                         <p>
                           An excellent article from Wikipedia that explains how developing any systems software project is a cyclical event including planning, analysis, design, implementation and maintenance.
