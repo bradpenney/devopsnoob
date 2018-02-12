@@ -18,6 +18,14 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                         <h4>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gWorkingWithTableSpaces.php">Working with Tablespaces in Oracle 11g</a>
+                        </h4>
+                        <p>
+                          Tablespaces are the logical holding containers of a schema within a database.  Tablespaces are stored in datafiles (.dbf) in the phyiscal file system.  This walk-through shows how to view the tablespaces that exist in your database, create tablespaces with multiple datafiles, and drop tablespaces suit your needs within Oracle 11g.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <h4>
                           <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gAdjustingMemoryParameters.php">Adjusting Memory Parameters in Oracle 11g</a>
                         </h4>
                         <p>

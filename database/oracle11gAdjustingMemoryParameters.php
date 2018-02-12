@@ -21,7 +21,7 @@
                           Oracle 11g is an enterprise-level relational database system that is widely used throughout the IT industry.  Determining how much memory is available to the database is another crucial aspect to database tuning and performance.  Having more memory available than will ever be used is a poor use of resources, however, not allocating enough memory to a database can cause a signficant reduction in performance.  This walk-through shows how to change memory parameters to suit your needs within Oracle 11g.
                         </p>
                         <div id="accordion">
-                            <h4><strong>Section #1: Resources Utilized</strong></h4>
+                            <h4><strong>Section 1: Resources Utilized</strong></h4>
                             <div>
                               <p>
                                 Burleson Consulting offers some really excellent resources for Oracle 11g administrators.  In preparation for the task of adjusting memory parameters, read <a class="inTextLink" href="http://www.dba-oracle.com/tips_oracle_spfile_example.htm" target="_blank">Oracle Spfile Example</a>, which demonstrates the importance of backing up the parameter files of a database before adjusting the parameters.
@@ -41,7 +41,7 @@
                                 </figcaption>
                               </figure>
                             </div>
-                            <h4><strong>Section #2: Backups & Gathering Information</strong></h4>
+                            <h4><strong>Section 2: Backups &amp; Gathering Information</strong></h4>
                             <div>
                               <p>
                                 Before we get started adjusting the memory parameters, let's have a look at where they currently stand.  To do this, we'll peform a <kbd>startup mount</kbd>, which will allow us to see the memory parameters and adjust them without damaging the database:
@@ -79,7 +79,7 @@
                                 <figcaption>Current Memory Parameters</figcaption>
                               </figure>
                             </div>
-                            <h4><strong>Section #3: Adjusting Memory Parameters</strong></h4>
+                            <h4><strong>Section 3: Adjusting Memory Parameters</strong></h4>
                             <div>
                               <p>
                                 So now we're ready to actually adjust the memory parameters.  This is done with the following commands:
@@ -117,7 +117,7 @@
                                 <figcaption>Memory Parameters Successfully Changed</figcaption>
                               </figure>
                               <p>
-                                Success!  Remember, the parameters were changed in this exercise to an arbitrary 500MB.  Adjust your memory parameters to suit your needs, and monitor the resulting performance changes.  You may need to adjust these several times to get the performance and tuning you want from your database. 
+                                Success!  Remember, the parameters were changed in this exercise to an arbitrary 500MB.  Adjust your memory parameters to suit your needs, and monitor the resulting performance changes.  You may need to adjust these several times to get the performance and tuning you want from your database.
                               </p>
                             </div>
                           </div>
