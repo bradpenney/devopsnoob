@@ -18,6 +18,14 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                         <h4>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gConfiguringRMAN.php">Configuring Recovery Manager in Oracle 11g</a>
+                        </h4>
+                        <p>
+                          Recovery Manager, RMAN.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <h4>
                           <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gWorkingWithTableSpaces.php">Working with Tablespaces in Oracle 11g</a>
                         </h4>
                         <p>
