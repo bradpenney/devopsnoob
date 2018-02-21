@@ -22,10 +22,9 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="<?= $siteRoot; ?>js/main.js"></script>
-
+        
         <title><?php echo $title; ?></title>
     </head>
-
     <body>
         <div id="wrap">
             <nav class="navbar navbar-fixed-top">

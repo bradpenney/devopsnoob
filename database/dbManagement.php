@@ -21,7 +21,7 @@
                           <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gConfiguringRMAN.php">Configuring Recovery Manager in Oracle 11g</a>
                         </h4>
                         <p>
-                          Recovery Manager, RMAN.
+                          Recovery Manager, RMAN, is the way that Oracle 11g protects its databases from data loss. This brief tutorial walks through implementing a basic RMAN configuration.
                         </p>
                       </li>
                       <li class="list-group-item">
