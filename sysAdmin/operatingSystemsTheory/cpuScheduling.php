@@ -1,8 +1,9 @@
 <?php $title = 'CPU Scheduling - Learn Operating System Theory - DevOpsNoob.com'; ?>
+<?php $description = 'Multiprogramming has come to be a given in modern computing.  The idea that you can open more than one program at a time (say a word processor, calculator, and web browser) is built-in to the way we see our computers.'; ?>
 <?php include '../../includes/header.php'; ?>
 <div class="jumbotron">
   <div class="container text-center">
-	<h1>Learn Operating Systems Theory @ DevOpsNoob.com</h1>
+	<h1>Learn Operating Systems Theory @ DevOpsNoob</h1>
   </div>
 </div>
 <div class="container-fluid bg-3 text-center">
@@ -193,6 +194,7 @@
         <?php include '../../includes/disqus.php'; ?>
 			</div>
 			<div class="col-md-2">
+        <?php include '../../includes/googleAdsSidebar.php'; ?>
 			</div>
 		</div>
 <?php include '../../includes/footer.php'; ?>

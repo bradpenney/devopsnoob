@@ -1,8 +1,9 @@
 <?php $title = 'Common Cisco Switch Commands @ DevOpsNoob.com'; ?>
+<?php $description = 'Setting up and maintaining Cisco switches is a really common task for DevOps professionals.  The Cisco Internetwork Operating System (IOS) Command-Line Interface (CLI) should be very comfortable for even beginning administrators.'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn Networking @ DevOpsNoob.com</h1>
+        		<h1>Learn Networking @ DevOpsNoob</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">
@@ -17,7 +18,7 @@
                 </ol>
                 <h2>Common Cisco Switch Commands</h2>
                 <p>
-                  Setting up and maintaining Cisco switches is a really common task for network administrators.  The Cisco Internetwork Operating System (IOS) Command-Line Interface (CLI) should be very comfortable for even beginning administrators.
+                  Setting up and maintaining Cisco switches is a really common task for DevOps professionals.  The Cisco Internetwork Operating System (IOS) Command-Line Interface (CLI) should be very comfortable for even beginning administrators.
                 </p>
                 <p>
                   <strong>NOTE: This is meant as a guide.  There is no guarantee these commands will work for every situation!</strong>
@@ -250,6 +251,7 @@
                     <?php include '../includes/disqus.php'; ?>
                   </div>
                   <div class="col-md-2">
+                    <?php include '../includes/googleAdsSidebar.php'; ?>
                   </div>
               </div>
 <?php include '../includes/footer.php'; ?>

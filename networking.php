@@ -1,8 +1,9 @@
 <?php $title = 'Learn Networking @ DevOpsNoob.com'; ?>
+<?php $description = 'Understanding how computers communicate with each other is such a critical skill for any IT professional.  For DevOps professionals it is just as important.  A thorough practical knowledge of the underlying fundamentals is what opens up the possibilities for effective security strategies, efficient data transfer, and many more.'; ?>
 <?php include './includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn Networking @ DevOpsNoob.com</h1>
+        		<h1>Learn Networking @ DevOpsNoob</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">
@@ -69,4 +70,5 @@
                   <div class="col-md-2">
                   </div>
               </div>
+
 <?php include './includes/footer.php'; ?>

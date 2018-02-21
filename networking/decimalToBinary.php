@@ -1,4 +1,5 @@
 <?php $title = 'Converting Decimal to Binary @ DevOpsNoob.com'; ?>
+<?php $description = 'Binary is a 2-base numbering system.  Decimal is a 10-base numbering system.  Computers speak to each other using binary numbers, but humans (except extreme nerds perhaps), use the decimal system.'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">

@@ -1,4 +1,5 @@
 <?php $title = 'Learn Databases @ DevOpsNoob.com'; ?>
+<?php $description = 'Databases are ubiquitous in computing.  From the behemoth databases of Facebook and Google, down to the tiny databases that a small business might maintain, users interact with databases on a daily basis.  DevOps professionals need a strong understadning of databases.'; ?>
 <?php include './includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
@@ -15,7 +16,7 @@
                         <li class="breadcrumb-item active">Learn Database</li>
                     </ol>
                     <p>
-                        Databases are ubiquitous in computing.  From the behemoth databases of Facebook and Google, down to the tiny databases that a small business might maintain, users interact with databases on a daily basis.  This page outlines some of the open-soucre database projects I've worked on, some of the resources I use and find to be excellent:
+                        Databases are ubiquitous in computing.  From the behemoth databases of Facebook and Google, down to the tiny databases that a small business might maintain, users interact with databases on a daily basis.  DevOps professionals need a strong understadning of databases.  This page outlines some of the open-soucre database projects I've worked on, some of the resources I use and find to be excellent:
                     </p>
                     <br />
                     <ul class="list-group">

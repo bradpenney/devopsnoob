@@ -1,8 +1,9 @@
 <?php $title = 'Learn Docker @ DevOpsNoob.com'; ?>
+<?php $description = 'Containers only have the parts of the operating system that are absolutely necessary for them to operate correctly.  This makes containers much more efficient.'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn Docker @ DevOpsNoob.com</h1>
+        		<h1>Learn Docker @ DevOpsNoob</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">
@@ -127,6 +128,7 @@
                         Finally, because containers are environment-agnostic, there will not be any need to develop multiple versions of the software.  There is no need to write software that will play nicely with various other software or hardware.  If the target machine has Docker, the container will run the same as everywhere else.
                       </p>
                     </div>
+                    <?php include '../includes/disqus.php'; ?>
                   </div>
                   <div class="col-md-2">
                   </div>

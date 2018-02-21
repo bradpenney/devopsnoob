@@ -1,4 +1,5 @@
 <?php $title = 'Learn Security @ DevOpsNoob.com'; ?>
+<?php $description = 'Security is a critical field in DevOps.  Enterprise networks house very valuable and sensitive information, and protecting that information from black hats is crucial.'; ?>
 <?php include './includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
@@ -15,7 +16,7 @@
                       <li class="breadcrumb-item active">Learn Security</li>
                   </ol>
                   <p>
-                      Security is a critical field in IT.  Enterprise networks house very valuable and sensitive information, and protecting that information from black hats is crucial.  A DevOps professional understands the importance of security and is able to implement it in basic ways throughout programs as well as systems.
+                      Security is a critical field in DevOps.  Enterprise networks house very valuable and sensitive information, and protecting that information from black hats is crucial.  A DevOps professional understands the importance of security and is able to implement it in basic ways throughout programs as well as systems.
                   </p>
                   <br />
                   <ul class="list-group">

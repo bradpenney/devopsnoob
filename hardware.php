@@ -1,8 +1,9 @@
 <?php $title = 'Learn Hardware @ DevOpsNoob.com'; ?>
+<?php $description = 'Hardware is the study of the physical components of a computer.  Learning how each piece fits into the system, and how the system is built, is a critical piece of understand for any IT professional, including a DevOps professional.'; ?>
 <?php include './includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn Hardware @ DevOpsNoob.com</h1>
+        		<h1>Learn Hardware @ DevOpsNoob</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">

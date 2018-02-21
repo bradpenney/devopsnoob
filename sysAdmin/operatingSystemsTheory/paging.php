@@ -1,8 +1,9 @@
 <?php $title = 'Paging and Segmentation - Learn Operating System Theory - DevOpsNoob.com'; ?>
+<?php $description = 'Paging is the process of dividing up processes into pages and assigning these pages to frames of physical memory.'; ?>
 <?php include '../../includes/header.php'; ?>
 <div class="jumbotron">
   <div class="container text-center">
-	<h1>Learn Operating Systems Theory @ DevOpsNoob.com</h1>
+	<h1>Learn Operating Systems Theory @ DevOpsNoob</h1>
   </div>
 </div>
 <div class="container-fluid bg-3 text-center">
@@ -111,6 +112,7 @@
         <?php include '../../includes/disqus.php'; ?>
 			</div>
 			<div class="col-md-2">
+        <?php include '../../includes/googleAdsSidebar.php'; ?>
 			</div>
 		</div>
 <?php include '../../includes/footer.php'; ?>

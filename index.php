@@ -1,8 +1,9 @@
 <?php $title = 'DevOpsNoob.com'; ?>
+<?php $description = 'A DevOps professional straddles the realms of Programming, Operations and Quality Assurance.  DevOps professionals are incredibly useful assets for organizations, because they speak the language of programmers, system administrators, and digital security specialists.'; ?>
 <?php include './includes/header.php'; ?>
         <div class="jumbotron">
         	<div class="container text-center">
-                <h1>DevOpsNoob.com</h1>
+                <h1>DevOpsNoob</h1>
         	</div>
       	</div>
       	<div class="container-fluid bg-3 text-center">
@@ -35,16 +36,6 @@
               <div class="col-md-4">
                     <a title="By Devops.png: Rajiv.Pant derivative work: Wylve (This file was derived from  Devops.png:) [CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ADevops.svg">
                         <img class="img-responsive centered noFigure" alt="Devops" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Devops.svg/512px-Devops.svg.png"/></a>
-                </div>
-                <div class="col-md-2">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-8">
-                    <h2>About DevOpsNoob.com</h2>
-                    <p>DevOpsNoob.com is the learning journal an aspiring DevOps practitioner.  Its an ever-evolving, ever-expanding commentary detailing projects completed and resources I've utilized in my growth as a DevOps professional.  This website started as a method of recording and measuring my learning progress over time and hopefully it will inspire and/or aide others.</p>
                 </div>
                 <div class="col-md-2">
                 </div>

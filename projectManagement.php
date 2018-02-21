@@ -1,4 +1,5 @@
 <?php $title = 'Learn Project Management @ DevOpsNoob.com'; ?>
+<?php $description = 'Project Management is a very wide field that is absolutely critical in DevOps.  Even non-project managers need to understand the processes, even if only to ensure all parties understand the same language.'; ?>
 <?php include './includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
@@ -15,7 +16,7 @@
                       <li class="breadcrumb-item active">Learn Project Management</li>
                   </ol>
                   <p>
-                      Project Management is a very wide field that is absolutely critical in Information Technology field.  Even non-project managers need to understand the processes, even if only to ensure all parties understand the same language.
+                      Project Management is a very wide field that is absolutely critical in DevOps.  Even non-project managers need to understand the processes, even if only to ensure all parties understand the same language.
                   </p>
                   <br />
                   <ul class="list-group">

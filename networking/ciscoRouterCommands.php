@@ -1,4 +1,5 @@
 <?php $title = 'Common Cisco Router Commands @ DevOpsNoob.com'; ?>
+<?php $description = 'Setting up and maintaining a Cisco router is a really common task for network administrators.  The Cisco Internetwork Operating System (IOS) Command-Line Interface (CLI) should be very comfortable for even beginning administrators.'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
@@ -156,6 +157,7 @@
                   <?php include '../includes/disqus.php'; ?>
                 </div>
                 <div class="col-md-2">
+                  <?php include '../../includes/googleAdsSidebar.php'; ?>
                 </div>
               </div>
 <?php include '../includes/footer.php'; ?>

@@ -1,4 +1,5 @@
 <?php $title = 'Introduction to the OSI Model @ DevOpsNoob.com'; ?>
+<?php $description = 'The Open Systems Interconnect (OSI) Model is a computer networking theoretical construct that allows humans to understand how computers are communicating with each other.  It is divided into seven different layers, each with its own purpose and protocols.'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">

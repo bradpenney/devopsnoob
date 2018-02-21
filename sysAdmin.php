@@ -1,4 +1,5 @@
 <?php $title = 'Learn System Administration - DevOpsNoob.com'; ?>
+<?php $description = 'The journey to becoming a DevOps professional requires a robust and in-depth knowledge of Systems Adminstration.  This section is offers resources dedicated to learning this complicated subject.'; ?>
 <?php include './includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">

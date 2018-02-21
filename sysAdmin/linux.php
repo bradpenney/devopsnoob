@@ -1,8 +1,9 @@
 <?php $title = 'Learn Linux @ DevOpsNoob.com'; ?>
+<?php $description = 'Learning the Linux Operating System is a key part of being a competent Systems Administrator.  Check out the articles and walk-throughs in this section to start your Linux journey!'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn Linux @ DevOpsNoob.com</h1>
+        		<h1>Learn Linux @ DevOpsNoob</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">
@@ -16,7 +17,7 @@
                         <li class="breadcrumb-item active">Learn Linux</li>
                     </ol>
                     <p>
-                        Learning the Linux Operating System is a key part of being a competent Systems Administrator.  Below is a list of resources that I've personally used to learn System Adminstration.  Each resource here is excellent (or I wouldn't recommend it!).
+                        Learning the Linux Operating System is a key part of being a competent Systems Administrator.  Below is a list of resources that I've personally used (or developed) to learn System Adminstration.  Each resource here is excellent (or I wouldn't recommend it!).
                     </p>
                     <ul class="list-group">
                       <li class="list-group-item">
@@ -86,6 +87,7 @@
                     </ul>
                   </div>
                   <div class="col-md-2">
+                    <?php include '../includes/googleAdsSidebar.php'; ?>
                   </div>
               </div>
 <?php include '../includes/footer.php'; ?>

@@ -1,8 +1,9 @@
 <?php $title = 'Mass Storage and Disk Scheduling - Learn Operating System Theory - DevOpsNoob.com'; ?>
+<?php $description = 'The mutual goal of any hard disk designer and any operating system designer is to minimize the seek time, rotational delay and transfer time of a hard disk.'; ?>
 <?php include '../../includes/header.php'; ?>
 <div class="jumbotron">
   <div class="container text-center">
-	<h1>Learn Operating Systems Theory @ DevOpsNoob.com</h1>
+	<h1>Learn Operating Systems Theory @ DevOpsNoob</h1>
   </div>
 </div>
 <div class="container-fluid bg-3 text-center">
@@ -111,6 +112,7 @@
         <?php include '../../includes/disqus.php'; ?>
 			</div>
 			<div class="col-md-2">
+        <?php include '../../includes/googleAdsSidebar.php'; ?>
 			</div>
 		</div>
 <?php include '../../includes/footer.php'; ?>

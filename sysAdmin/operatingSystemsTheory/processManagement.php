@@ -1,8 +1,9 @@
 <?php $title = 'Process Management - Learn Operating System Theory - DevOpsNoob.com'; ?>
+<?php $description = 'A process is the unit of execution (ie. of a program) in a computer. It is possible for several processes to run within the same program, each having its own distinct process with its own state.'; ?>
 <?php include '../../includes/header.php'; ?>
 <div class="jumbotron">
   <div class="container text-center">
-	<h1>Learn Operating Systems Theory @ DevOpsNoob.com</h1>
+	<h1>Learn Operating Systems Theory @ DevOpsNoob</h1>
   </div>
 </div>
 <div class="container-fluid bg-3 text-center">
@@ -140,6 +141,7 @@
         <?php include '../../includes/disqus.php'; ?>
 			</div>
 			<div class="col-md-2">
+        <?php include '../../includes/googleAdsSidebar.php'; ?>
 			</div>
 		</div>
 <?php include '../../includes/footer.php'; ?>

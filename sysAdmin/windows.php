@@ -1,8 +1,9 @@
 <?php $title = 'Learn Windows @ DevOpsNoob.com'; ?>
+<?php $description = 'Microsoft Windows is the most used desktop operating system across the IT industry.  It is absolutely crucial that a system administrator know the inner workings of Windows.  This page concentrates on the Microsoft Windows Servers, particularly Windows Server 2012 R2 and Windows 2016 (core and GUI).'; ?>
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn Windows @ DevOpsNoob.com</h1>
+        		<h1>Learn Windows @ DevOpsNoob</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">
@@ -15,6 +16,9 @@
                       <li class="breadcrumb-item"><a href="<?= $siteRoot; ?>sysAdmin.php">Learn Systems Administration</a></li>
                       <li class="breadcrumb-item active">Learn Windows</li>
                   </ol>
+                  <p>
+                    Microsoft Windows is the most used desktop operating system across the IT industry.  It is absolutely crucial that a system administrator know the inner workings of Windows.  This page concentrates on the Microsoft Windows Servers, particularly Windows Server 2012 R2 and Windows 2016 (core and GUI).
+                  </p>
                   <ul class="list-group">
                     <li class="list-group-item">
                         <h4>
@@ -40,6 +44,7 @@
                   </ul>
                 </div>
                 <div class="col-md-2">
+                  <?php include '../includes/googleAdsSidebar.php'; ?>
                 </div>
               </div>
 <?php include '../includes/footer.php'; ?>

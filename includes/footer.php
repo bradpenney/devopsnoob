@@ -3,7 +3,7 @@
         <nav class="container-fluid navbar navbar-inverse">
             <footer class="container-fluid text-center">
               <p>&copy; 2018 DevOpsNoob.com</p>
-              <p><small><a class="inTextLink" href="<?= $siteRoot; ?>contact.php">Contact DevOpsNoob.com</a></small></p>
+              <p><small><a class="inTextLink" href="<?= $siteRoot; ?>contact.php">Contact</a></small></p>
             </footer>
         </nav>
 

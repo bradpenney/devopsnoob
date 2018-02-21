@@ -1,8 +1,9 @@
 <?php $title = 'Learn Programming @ DevOpsNoob.com'; ?>
+<?php $description = 'A DevOps professional should have a solid grasp of several programming languages, and should be familar with data structures, common algorithms, and virtually all aspects of programming.  This section will concentrate on learning languages and algorithms.'; ?>
 <?php include './includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn Programming @ DevOpsNoob.com</h1>
+        		<h1>Learn Programming @ DevOpsNoob</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">
