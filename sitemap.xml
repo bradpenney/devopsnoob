@@ -4,282 +4,410 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>http://www.devopsnoob.com/</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/index.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/index.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/programming/python.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/programming/python.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/programming/java.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/programming/java.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/programming/php.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/programming/php.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/programming/javascript.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/programming/javascript.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/programming/frontEndWeb.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/programming/frontEndWeb.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/windows.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/docker.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/windows.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/database/dbManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/database/dbDev.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/database/dbManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/database/SQL.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/database/dbDev.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/db.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/database/SQL.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/projectManagement/videoIntro.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/networking.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/projectManagement/intro.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/security.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/projectManagement/organizationalInfluencesLifeCycle.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/projectManagement/videoIntro.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/projectManagement/managementProcesses.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/hardware.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/projectManagement/integrationManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/contact.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/projectManagement/scopeManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/projectManagement/timeManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/projectManagement/costManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/projectManagement/qualityManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/projectManagement/humanResourceManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/projectManagement/communicationsManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/projectManagement/riskManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/projectManagement/procurementManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/projectManagement/stakeholderManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/projectManagement.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/networking.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.devopsnoob.com/programming.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/programming.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/oracleLinuxInstall.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/parrotSecurityOSInstall.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/courseIntroduction.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/kaliInstall.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/openSUSEInstall.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/oracleLinuxInstall.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/mint18Install.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/courseIntroduction.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/BASHCommands.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/openSUSEInstall.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/windows/windowsServer2012R2DataCenter.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/mint18Install.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/windows/pdfs/activeDirectory.pdf</loc>
-  <lastmod>2018-01-27T13:31:18+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/BASHCommands.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/operatingSystemsTheory.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/windows/windowsServer2012R2DataCenter.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/database/oracle11GcontrolFileBackup.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/windows/pdfs/activeDirectory.pdf</loc>
+  <lastmod>2018-02-21T01:17:53+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/database/oracle11Gbackup.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/operatingSystemsTheory.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/database/oracle11GInstall.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/db.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/database/selectingNoSQL.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/database/oracle11gConfiguringRMAN.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/networking/ciscoSwitchCommands.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/database/oracle11gWorkingWithTableSpaces.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/networking/ciscoRouterCommands.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/database/oracle11gAdjustingMemoryParameters.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/networking/osiModel.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/database/oracle11GworkingWithRedoLogs.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/networking/decimalToBinary.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/database/oracle11GgatheringServerStatistics.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/01SettingUpLinuxVM.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/database/oracle11GcontrolFileBackup.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/database/oracle11Gbackup.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/database/oracle11GInstall.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/database/selectingNoSQL.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/networking/ciscoSwitchCommands.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/networking/ciscoRouterCommands.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/networking/osiModel.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/networking/decimalToBinary.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/security/freeTrainingList.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/security/blogList.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/security/kangaroo.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/hardware/PCAssemblyGuide.pdf</loc>
+  <lastmod>2018-02-21T01:15:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/hardware/thousandDollarGamingComputer.pdf</loc>
+  <lastmod>2018-02-21T01:15:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/hardware/storageDevices.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/hardware/memoryTypes.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/hardware/introToMotherboards.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/hardware/motherboardExpansionSlots.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/sysAdmin/linux/01SettingUpLinuxVM.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/operatingSystemsTheory/structures.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/operatingSystemsTheory/structures.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/02YourFirst5Minutes.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/operatingSystemsTheory/processManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/sysAdmin/operatingSystemsTheory/cpuScheduling.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/sysAdmin/operatingSystemsTheory/threads.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/sysAdmin/operatingSystemsTheory/memoryManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/sysAdmin/operatingSystemsTheory/paging.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/sysAdmin/operatingSystemsTheory/massStorage.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/intro.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/organizationalInfluencesLifeCycle.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/managementProcesses.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/integrationManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/scopeManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/timeManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/costManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/qualityManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/humanResourceManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/communicationsManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/riskManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/procurementManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/projectManagement/stakeholderManagement.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://devopsnoob.com/sysAdmin/linux/02YourFirst5Minutes.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/03BasicCommands.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/03BasicCommands.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/04MoreBasicCommands.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/04MoreBasicCommands.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/05WhatsHappening.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/05WhatsHappening.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/06TextEditors.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/06TextEditors.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
-  <loc>http://www.devopsnoob.com/sysAdmin/linux/07PipesAndRedirection.php</loc>
-  <lastmod>2018-02-01T09:43:27+00:00</lastmod>
+  <loc>http://devopsnoob.com/sysAdmin/linux/07PipesAndRedirection.php</loc>
+  <lastmod>2018-02-23T10:02:02+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 
