@@ -29,7 +29,7 @@
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithObjects/01ScriptToCacheTable.png">
                                 <figcaption>
-                                  Script to Cache a Table<br /> <a class="inTextLink" href="https://github.com/bradpenney/oracleScripts/blob/master/cacheTables.sql">This Script on GitHub</a>
+                                  Script to Cache a Table<br /> <a class="inTextLink" href="https://github.com/bradpenney/oracleScripts/blob/master/cacheTables.sql" target="_blank">This Script on GitHub</a>
                                 </figcaption>
                               </figure>
                               <p>
@@ -84,7 +84,7 @@
                                 </figcaption>
                               </figure>
                               <p>
-                                Successfully creating this partitioned table will result in a table that will look like this in SQL Developer:
+                                Note that its a good idea to add an other partition to catch any records that don't fall into the specified date.  This can be done by adding a <code>PARTITION invoicedateother VALUES LESS THAN (MAXVALUE)</code> clause to the end of the CREATE TABLE statement.   Successfully creating this partitioned table will result in a table that will look like this in SQL Developer:
                               </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithObjects/09PartitionedTableCreated.png">
@@ -134,18 +134,27 @@
                             </div>
                             <h4><strong>Section 3: Viewing Constraints</strong></h4>
                             <div>
+                              <p>
+                                Constraints, particularly primary and foreign keys, are what makes a relational database work.  Oracle 11g has several different ways to view constraints on different levels (all, DBA, user, etc.).  The primary and foreign key user constraints can be seen using the script below:
+                              </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithObjects/14ShowUserConstraints.png">
                                 <figcaption>
                                   Show User Constraints
                                 </figcaption>
                               </figure>
+                              <p>
+                                If you're interested in figuring out which table the foreign key comes from, add the field <code>r_constraint_name</code>:
+                              </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithObjects/15UserConstraintsKeys.png">
                                 <figcaption>
                                   User Constraint Primary and Foreign Keys
                                 </figcaption>
                               </figure>
+                              <p>
+                                The primary and foreign key constraints (and their parent tables) look like this for my sample database:
+                              </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithObjects/16UserConstraintKeysAndTablesLog.png">
                                 <figcaption>
@@ -155,12 +164,18 @@
                             </div>
                             <h4><strong>Section 4: Creating a Database View</strong></h4>
                             <div>
+                              <p>
+                                Database views are also important objects to work with in a database.  To create a view (using SQL Developer), the following DDL is used:
+                              </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithObjects/17CreateViewForInvoiceDetails.png">
                                 <figcaption>
                                   Create the <code>invoice_details</code> View
                                 </figcaption>
                               </figure>
+                              <p>
+                                The resulting view has the following columns:
+                              </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithObjects/18InvoiceDetailsViewColumns.png">
                                 <figcaption>
@@ -170,12 +185,18 @@
                             </div>
                             <h4><strong>Section 5: Creating an Index</strong></h4>
                             <div>
+                              <p>
+                                Indices speed up queries signficiantly because it allows the database to know exactly which record to consult (if the column included in the WHERE clause of the SQL statement is present in the index).  Creating an index (within the designated index tablespace) is a simple script:
+                              </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithObjects/19CreateCustomerIndex.png">
                                 <figcaption>
                                   Create Index for Customer Table
                                 </figcaption>
                               </figure>
+                              <p>
+                                Which results in the following index:
+                              </p>
                               <figure>
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/workingWithObjects/20CustomerIndex.png">
                                 <figcaption>
