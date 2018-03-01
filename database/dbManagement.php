@@ -2,7 +2,7 @@
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learn Database Management @ DevOpsNoob.com</h1>
+        		<h1>Learn Database Management @ DevOpsNoob</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">
@@ -16,6 +16,22 @@
                         <li class="breadcrumb-item active">Database Management</li>
                     </ol>
                     <ul class="list-group">
+                      <li class="list-group-item">
+                        <h4>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gMoveTablespaceWithRMAN.php">Moving Tablespaces with Recovery Manager in Oracle 11g</a>
+                        </h4>
+                        <p>
+                          Recovery Manager (RMAN) gives Database Administrators peace of mind that their data is safe and secure.  One of the basic tasks that RMAN makes easy is manipulating tablespaces.  In this short tutorial, we'll demonstrate just how easy it is to move tablespaces with RMAN.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <h4>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gImportingDataToStagingArea.php">Importing Data To a Staging Area in Oracle 11g</a>
+                        </h4>
+                        <p>
+                          Working with raw data is a large challenge for Database Administrators.  This brief article illustrates some to the techniques and challenges associated with importing raw data into a database.
+                        </p>
+                      </li>
                       <li class="list-group-item">
                         <h4>
                           <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gWorkingWithObjectsInTheDatabase.php">Working with Objects in the Database in Oracle 11g</a>

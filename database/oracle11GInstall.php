@@ -2,7 +2,7 @@
 <?php include '../includes/header.php'; ?>
         	<div class="jumbotron">
         	  <div class="container text-center">
-        		<h1>Learning Databases @ DevOpsNoob.com</h1>
+        		<h1>Learning Databases @ DevOpsNoob</h1>
         	  </div>
         	</div>
         	<div class="container-fluid bg-3 text-center">

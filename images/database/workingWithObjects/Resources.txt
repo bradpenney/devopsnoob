@@ -1,7 +1,0 @@
-Controversy over Caching improving performance - https://asktom.oracle.com/pls/apex/f?p=100:11:0::::P11_QUESTION_ID:253415112676
-
-How To Assign a Table to Cache - https://logicalread.com/oracle-11g-caching-table-in-memory-mc02/#.WpQjlMiGPcs
-
-Partition White Paper - http://www.oracle.com/technetwork/database/enterprise-edition/partitioning-11g-whitepaper-159443.pdf
-
-
