@@ -18,6 +18,14 @@
                     <ul class="list-group">
                       <li class="list-group-item">
                         <h4>
+                          <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gHotBackup.php">Hot Backup with Recovery Manager in Oracle 11g</a>
+                        </h4>
+                        <p>
+                          Backup &amp; Recovery of Databases is a major focus of the Database Adminstrator.  Systems that need high availablity (so called "five nines (99.999%)" availability systems) utilize hot backups (backups while the database is still running) on a regular schedule.  In this tutorial, we'll use Recovery Manager to perform &amp; schedule hot backups on an Oracle 11g database.
+                        </p>
+                      </li>
+                      <li class="list-group-item">
+                        <h4>
                           <a class="inTextLink" href="<?= $siteRoot; ?>database/oracle11gMoveTablespaceWithRMAN.php">Moving Tablespaces with Recovery Manager in Oracle 11g</a>
                         </h4>
                         <p>
