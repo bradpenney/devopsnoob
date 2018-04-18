@@ -132,13 +132,13 @@
                             </div>
                             <h4><strong>Section 3: Scheduling Recovery Manager Backups BASH Scripts with Crontab</strong></h4>
                             <div>
-                              <figure>
-                                <p>
-                                  In Linux, programs are scheduled to run in a program called CronTab.  In essence, you schedule a CronTab to run at a specific time (minute, hour, day, month, day of week), and then you tell it to run a BASH script you've written (or at least have reviewed &amp; understand).  Then, the system will run the job once the appropriate time has come.  CronTabs can also be setup to run on reboot, on start, on shutdown, etc.  This makes the automation of system jobs much more simple - for example, setting up a CronTab to run a BASH script to map a drive on startup means you'll never have to manually do it again.  CronTab is something every DevOps professional should be proficient with.
-                                </p>
-                                <p>
-                                  Installing CronTab on Fedora-based systems (Red Hat Enterprise Linux, Centos, Oracle Linux, etc.) is a relatively simple process.  The process for Cento 7 and Oracle Linux 7 is outlined in <a class="inTextLink" href="https://stackoverflow.com/questions/21802223/how-to-install-crontab-on-centos" target="_blank">How to install crontab on Centos</a>.  Once Crontab is installed, you'll need to start it and schedule the BASH scripts we created in Section 2 to run.  Start CronTab with <code>crontab -e</code> in terminal:
-                                </p>
+                              <p>
+                                In Linux, programs are scheduled to run in a program called CronTab.  In essence, you schedule a CronTab to run at a specific time (minute, hour, day, month, day of week), and then you tell it to run a BASH script you've written (or at least have reviewed &amp; understand).  Then, the system will run the job once the appropriate time has come.  CronTabs can also be setup to run on reboot, on start, on shutdown, etc.  This makes the automation of system jobs much more simple - for example, setting up a CronTab to run a BASH script to map a drive on startup means you'll never have to manually do it again.  CronTab is something every DevOps professional should be proficient with.
+                              </p>
+                              <p>
+                                Installing CronTab on Fedora-based systems (Red Hat Enterprise Linux, Centos, Oracle Linux, etc.) is a relatively simple process.  The process for Cento 7 and Oracle Linux 7 is outlined in <a class="inTextLink" href="https://stackoverflow.com/questions/21802223/how-to-install-crontab-on-centos" target="_blank">How to install crontab on Centos</a>.  Once Crontab is installed, you'll need to start it and schedule the BASH scripts we created in Section 2 to run.  Start CronTab with <code>crontab -e</code> in terminal:
+                              </p>
+                              <figure>                            
                                 <img class="img-responsive centered" src="<?= $siteRoot; ?>images/database/hotBackup/11StartCrontab.png">
                                 <figcaption>
                                   Starting Crontab
